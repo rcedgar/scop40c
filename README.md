@@ -39,9 +39,7 @@ cd bash
 
 **Folds b.68, b.69 and b.70** 
 
-<small>
-Domains with similarity in both structure and sequence which are classified to three different folds by SCOP. All three folds are beta-propellers, distinguished by the number of blades in the propeller: six in fold `b.68`, seven in `b.69` and eight in `b.68`. Two pair-wise BLASTP alignments are shown, both of which have 38\% sequence identity between different folds and highly significant E-values 4E-5 and 3E-4, respectively (E-values calculated assuming a database of SCOP40 size). The sequence motif `WSPDG` is well-conserved across all folds; the sequence logo shown here was obtained from a Muscle-3D multiple structure alignment for domains in all three folds. A conserved `P` is exposed at the turn in a beta hairpin which connects two blades in the propeller. These folds, and other folds having high-confidence homology, are removed from the curated reference SCOP40c.
-</small>
+Domains with similarity in both structure and sequence which are classified to three different folds by SCOP. All three folds are beta-propellers, distinguished by the number of blades in the propeller: six in fold `b.68`, seven in `b.69` and eight in `b.68`. Two pair-wise BLASTP alignments are shown, both of which have 38% sequence identity between different folds and highly significant E-values 4E-5 and 3E-4, respectively (E-values calculated assuming a database of SCOP40 size). The sequence motif `WSPDG` is well-conserved across all folds; the sequence logo shown here was obtained from a Muscle-3D multiple structure alignment for domains in all three folds. A conserved `P` is exposed at the turn in a beta hairpin which connects two blades in the propeller. These folds, and other folds having high-confidence homology, are removed from the curated reference SCOP40c.
 <br/>
 <br/>
 
