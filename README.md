@@ -35,7 +35,7 @@ cd bash
 
 ### Examples of different SCOP folds with clear homology
 
-[<img src="https://raw.githubusercontent.com/rcedgar/scop40c/refs/heads/main/manual_analysis_b68_b69_b70/b68_69_70_figure.svg" width="150">](manual_analysis_b68_b69_b70/b68_69_70_figure.svg)
+[<img width=600 height=600 src="https://raw.githubusercontent.com/rcedgar/scop40c/refs/heads/main/manual_analysis_b68_b69_b70/b68_69_70_figure.svg" width="150">](manual_analysis_b68_b69_b70/b68_69_70_figure.svg)
 
 **Folds b.68, b.69 and b.70** 
 
@@ -45,7 +45,7 @@ Domains with similarity in both structure and sequence which are classified to t
 <br/>
 <br/>
 
-[<img src="https://raw.githubusercontent.com/rcedgar/scop40c/refs/heads/main/manual_analysis_c.1_c.2_c.3/c.1_c.2_c.3_figure.svg" width="150">](manual_analysis_b68_b69_b70/b68_69_70_figure.svg)
+[<img width=600 height=600 src="https://raw.githubusercontent.com/rcedgar/scop40c/refs/heads/main/manual_analysis_c.1_c.2_c.3/c.1_c.2_c.3_figure.svg" width="150">](manual_analysis_b68_b69_b70/b68_69_70_figure.svg)
 
 **Folds c.1, c.2 and c.3**
 
