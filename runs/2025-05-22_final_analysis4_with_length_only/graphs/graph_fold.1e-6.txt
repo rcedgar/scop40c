@@ -1,0 +1,6 @@
+Cluster0	size=3	c.2	c.3	c.4
+hit	c.4	c.3	3.5e-13	build
+hit	c.4	c.2	1.1e-09	build
+hit	c.3	c.2	3.2e-06	add
+Cluster1	size=2	c.31	c.81
+hit	c.81	c.31	1.2e-07	build

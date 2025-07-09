@@ -1,0 +1,36 @@
+17 ('dali', 'tm', 'foldseek')
+38 ('tm', 'foldseek', 'reseek')
+18 ('dali', 'tm', 'foldseek', 'reseek')
+{'dali': 39, 'tm': 968, 'foldseek': 430, 'reseek': 106}
+73 records
+enclosed b.68. b.68.2.
+enclosed b.68. b.68.4.
+enclosed b.68. b.68.5.
+enclosed b.68. b.68.8.
+enclosed b.68. b.68.9.
+enclosed b.68. b.68.11.
+enclosed b.68. b.68.6.
+enclosed b.68. b.68.3.
+enclosed b.68. b.68.1.
+enclosed b.69. b.69.14.
+enclosed b.69. b.69.3.
+enclosed b.69. b.69.9.
+enclosed b.69. b.69.12.
+enclosed b.69. b.69.8.
+enclosed b.69. b.69.13.
+enclosed b.69. b.69.11.
+enclosed b.69. b.69.10.
+enclosed b.69. b.69.2.
+enclosed b.69. b.69.4.
+enclosed c.1. c.1.3.
+enclosed c.1. c.1.5.
+enclosed c.1. c.1.21.
+enclosed c.1. c.1.24.
+enclosed c.1. c.1.10.
+enclosed c.1. c.1.29.
+enclosed c.1. c.1.31.
+enclosed c.1. c.1.2.
+enclosed c.1. c.1.4.
+enclosed c.1. c.1.1.
+enclosed c.1. c.1.30.
+52 excludes ../top_fps/top_fps_excludes.1e-4.txt

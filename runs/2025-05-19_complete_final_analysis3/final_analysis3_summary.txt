@@ -1,0 +1,6 @@
+   7811 include
+   1437 discard_length
+    996 discard_consensus
+    842 discard_manual
+     95 short_domain
+     30 discard_hmm

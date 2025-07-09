@@ -1,0 +1,14 @@
+Sum	dali	tm	foldseek	reseek	SF1	SF2	SF/fold	Top hits
+1.365e-05	3.85e-06	9.47e-06	3.33e-07	.	b.69.3	b.69.11	SF	d1fwxa2,d1ri6a_
+1.303e-05	.	2.08e-06	1.8e-06	9.15e-06	b.68.9	b.68.6	SF	d1rwia_,d2p4oa1	d1rwia_,d1pjxa_
+1.268e-05	.	1.44e-06	2.27e-06	8.97e-06	c.1.3	c.1.2	SF	d1xi3a_,d3f4wa_	d1vc4a_,d2tpsa_	d1xi3a_,d3ovpa_
+1.194e-05	.	7.5e-06	2.37e-07	4.21e-06	c.1.5	c.1.4	SF	d1vcfa1,d1zfja1	d1zfja1,d2nlia_	d1p0ka_,d1zfja1
+1.001e-05	.	2.15e-07	2.59e-06	7.2e-06	c.1.3	c.1.10	SF	d1wa3a_,d1xi3a_
+6.961e-06	5.61e-06	9.76e-07	3.71e-07	.	b.69.4	b.69.11	SF	d1ri6a_,d1vyhc1	d1ri6a_,d3emha_	d1ri6a_,d1gxra_
+5.918e-06	.	4.07e-06	8.47e-07	1e-06	c.4.1	c.3.1	fold	d1fl2a1,d1gtea4	d1ve9a1,d1pj5a2
+4.066e-06	2.62e-06	2.79e-07	1.17e-06	.	b.69.2	b.69.10	SF	d1jofa_,d1l0qa2
+3.510e-06	1.4e-06	2.06e-06	5.04e-08	.	b.69.3	b.69.2	SF	d1fwxa2,d1l0qa2
+3.219e-06	.	1.04e-06	7.38e-07	1.44e-06	b.68.9	b.68.5	SF	d1npea_,d1rwia_	d1ijqa1,d1rwia_
+2.395e-06	1.84e-06	6e-08	2.86e-08	4.67e-07	b.69.4	b.69.2	SF	d1l0qa2,d3emha_	d1gxra_,d1l0qa2
+1.641e-06	9.25e-07	1.6e-08	0	7e-07	b.69.2	b.69.11	SF	d1l0qa2,d1ri6a_
+7.869e-07	5.09e-07	4.23e-08	1.26e-07	1.1e-07	b.69.11	b.69.10	SF	d1jofa_,d1ri6a_

@@ -1,0 +1,31 @@
+Cluster0	size=5	b.68.5	b.68.6	b.68.9	b.69.2	b.69.3
+hit	b.68.9	b.68.5	1.1e-15	build
+hit	b.69.2	b.68.6	5.6e-12	build
+hit	b.68.9	b.68.6	9e-10	build
+hit	b.69.3	b.69.2	3.5e-07	build
+hit	b.68.6	b.68.5	0.0051	add
+Cluster1	size=6	c.1.10	c.1.17	c.1.2	c.1.3	c.1.4	c.1.5
+hit	c.1.4	c.1.2	1.9e-10	build
+hit	c.1.4	c.1.10	3.8e-10	build
+hit	c.1.3	c.1.2	3.2e-09	build
+hit	c.1.5	c.1.4	6.7e-09	build
+hit	c.1.2	c.1.10	8.7e-08	build
+hit	c.1.2	c.1.17	6.7e-07	build
+hit	c.1.5	c.1.2	8.3e-07	build
+hit	c.1.4	c.1.3	1.4e-05	add
+hit	c.1.3	c.1.10	0.00046	add
+hit	c.1.3	c.1.17	0.0058	add
+hit	c.1.5	c.1.17	0.045	add
+hit	c.1.5	c.1.10	0.073	add
+Cluster2	size=2	b.3.7	d.68.3
+hit	d.68.3	b.3.7	9.5e-09	build
+Cluster3	size=2	c.10.2	c.10.3
+hit	c.10.3	c.10.2	1e-22	build
+Cluster4	size=2	c.31.1	c.81.1
+hit	c.81.1	c.31.1	1.2e-07	build
+Cluster5	size=2	a.60.2	a.60.4
+hit	a.60.4	a.60.2	2.5e-07	build
+Cluster6	size=3	c.2.1	c.3.1	c.4.1
+hit	c.4.1	c.3.1	3.5e-13	build
+hit	c.4.1	c.2.1	1.1e-09	build
+hit	c.3.1	c.2.1	3.2e-06	add

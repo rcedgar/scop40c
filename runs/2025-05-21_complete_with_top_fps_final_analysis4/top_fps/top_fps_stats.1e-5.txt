@@ -1,0 +1,6 @@
+6 ('tm', 'foldseek', 'reseek')
+4 ('dali', 'tm', 'foldseek')
+3 ('dali', 'tm', 'foldseek', 'reseek')
+{'dali': 8, 'tm': 142, 'foldseek': 78, 'reseek': 17}
+13 records
+15 excludes ../top_fps/top_fps_excludes.1e-5.txt

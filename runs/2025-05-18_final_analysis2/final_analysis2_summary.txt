@@ -1,0 +1,5 @@
+    107 discarded_short_domain
+    328 discarded_fold_cluster
+    476 discarded_superfamily_cluster
+   1399 discarded_short_superfamily
+   9705 unchanged

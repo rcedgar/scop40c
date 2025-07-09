@@ -1,0 +1,485 @@
+superfamily	d.230.4	median=52<80
+superfamily	d.9.1	median=67<80
+domain	d2h2za_/b.47.1.4	14	220	outlier
+domain	d1kk8a2/c.37.1.9	94	216	outlier
+superfamily	d.40.1	median=63<80
+superfamily	g.23.1	median=74<80
+domain	d2c3fa1/b.108.1.5	21	150	outlier
+domain	d1k28a2/b.108.1.2	46	150	outlier
+superfamily	f.23.31	median=37<80
+superfamily	g.8.1	median=59<80
+superfamily	a.8.1	median=61<80
+superfamily	g.40.1	median=40<80
+superfamily	a.193.1	median=58<80
+superfamily	b.34.17	median=77<80
+superfamily	a.10.1	median=40<80
+superfamily	g.93.1	median=56<80
+superfamily	a.76.1	median=76<80
+superfamily	f.23.12	median=56<80
+superfamily	d.100.1	median=52<80
+superfamily	f.23.15	median=53<80
+superfamily	g.3.6	median=35<80
+domain	d1jl0a_/d.156.1.1	54	120	outlier
+superfamily	f.23.26	median=30<80
+superfamily	d.100.2	median=61<80
+superfamily	a.4.15	median=62<80
+superfamily	a.2.20	median=59<80
+superfamily	a.32.1	median=46<80
+superfamily	b.151.1	median=58<80
+superfamily	d.253.1	median=60<80
+superfamily	g.33.1	median=47<80
+domain	d1u6gc_/a.118.1.2	25	264	outlier
+domain	d1wa5c_/a.118.1.1	82	264	outlier
+domain	d1qgra_/a.118.1.1	85	264	outlier
+domain	d2bpta_/a.118.1.0	108	264	outlier
+domain	d2z5ka_/a.118.1.1	111	264	outlier
+domain	d2vgla_/a.118.1.10	121	264	outlier
+domain	d1b3ua_/a.118.1.2	127	264	outlier
+domain	d2jkrb_/a.118.1.10	129	264	outlier
+domain	d1jdha_/a.118.1.1	130	264	outlier
+superfamily	f.23.19	median=31<80
+superfamily	d.17.3	median=60<80
+superfamily	a.64.2	median=70<80
+superfamily	g.55.1	median=46<80
+domain	d1psya_/a.52.1.3	31	103	outlier
+superfamily	b.173.1	median=66<80
+superfamily	a.33.1	median=37<80
+superfamily	a.17.1	median=69<80
+superfamily	g.3.14	median=47<80
+superfamily	a.159.4	median=70<80
+domain	d2jlia_/d.367.1.0	17	94	outlier
+domain	d3t7ya_/d.367.1.0	21	94	outlier
+superfamily	a.23.7	median=67<80
+domain	d1p1ja1/c.2.1.3	26	210	outlier
+domain	d2plga1/d.198.1.2	57	130	outlier
+superfamily	a.248.1	median=79<80
+superfamily	f.23.18	median=41<80
+superfamily	d.301.1	median=64<80
+superfamily	a.137.14	median=63<80
+domain	d1h3na3/c.26.1.1	126	317	outlier
+domain	d1ilea3/c.26.1.1	155	317	outlier
+domain	d1ffya3/c.26.1.1	157	317	outlier
+superfamily	b.171.1	median=59<80
+superfamily	d.15.8	median=76<80
+superfamily	a.274.1	median=52<80
+superfamily	a.221.1	median=76<80
+superfamily	g.6.1	median=40<80
+superfamily	a.34.2	median=31<80
+superfamily	g.42.1	median=37<80
+superfamily	b.72.2	median=52<80
+superfamily	d.15.7	median=67<80
+superfamily	g.29.1	median=50<80
+superfamily	a.60.3	median=69<80
+superfamily	f.23.36	median=37<80
+superfamily	g.59.1	median=36<80
+superfamily	d.58.52	median=77<80
+superfamily	a.137.9	median=79<80
+domain	d1hn6a_/g.61.1.1	34	110	outlier
+domain	d1ohfa_/b.121.4.8	29	192	outlier
+domain	d1ihma_/b.121.4.3	46	192	outlier
+domain	d2df7a1/b.121.4.9	57	192	outlier
+domain	d1f8v.1/b.121.4.4	58	192	outlier
+superfamily	a.4.8	median=70<80
+superfamily	a.31.1	median=50<80
+superfamily	a.51.1	median=79<80
+superfamily	g.27.1	median=47<80
+superfamily	g.41.1	median=35<80
+superfamily	f.17.1	median=79<80
+superfamily	a.50.1	median=66<80
+superfamily	g.22.1	median=61<80
+superfamily	a.4.11	median=65<80
+superfamily	f.4.2	median=13<80
+superfamily	a.2.18	median=73<80
+superfamily	a.2.16	median=47<80
+superfamily	d.355.1	median=78<80
+superfamily	g.3.4	median=36<80
+domain	d1ng6a_/a.182.1.1	51	107	outlier
+domain	d1yova_/c.111.1.2	92	397	outlier
+superfamily	g.90.1	median=64<80
+domain	d2a0ua1/c.124.1.5	96	242	outlier
+superfamily	a.251.1	median=64<80
+superfamily	a.7.13	median=68<80
+superfamily	g.9.1	median=41<80
+superfamily	g.50.1	median=71<80
+superfamily	a.38.1	median=79<80
+superfamily	d.230.1	median=78<80
+superfamily	a.60.12	median=60<80
+superfamily	a.180.1	median=66<80
+superfamily	f.45.1	median=66<80
+superfamily	g.3.17	median=41<80
+superfamily	f.23.8	median=42<80
+domain	d1musa_/c.55.3.4	98	202	outlier
+superfamily	a.5.2	median=54<80
+superfamily	a.34.3	median=60<80
+superfamily	g.68.1	median=55<80
+superfamily	g.3.16	median=30<80
+superfamily	a.137.11	median=77<80
+superfamily	f.23.3	median=73<80
+superfamily	a.140.6	median=63<80
+superfamily	a.293.1	median=79<80
+superfamily	g.41.7	median=56<80
+superfamily	a.140.3	median=47<80
+superfamily	f.23.20	median=29<80
+superfamily	a.5.8	median=75<80
+superfamily	b.34.3	median=48<80
+superfamily	a.194.1	median=57<80
+superfamily	g.18.1	median=63<80
+superfamily	f.23.28	median=56<80
+superfamily	d.68.3	median=78<80
+superfamily	g.3.11	median=43<80
+superfamily	b.5.1	median=74<80
+superfamily	a.2.8	median=72<80
+superfamily	a.171.1	median=30<80
+superfamily	a.15.1	median=67<80
+domain	d1hf8a1/a.7.8.2	41	112	outlier
+superfamily	g.2.2	median=55<80
+superfamily	f.23.9	median=33<80
+superfamily	g.4.1	median=34<80
+superfamily	g.34.1	median=45<80
+superfamily	a.7.10	median=66<80
+superfamily	a.30.8	median=70<80
+domain	d1yvua1/b.34.14.1	118	301	outlier
+domain	d1u04a1/b.34.14.1	120	301	outlier
+superfamily	b.34.5	median=76<80
+superfamily	a.8.9	median=73<80
+superfamily	b.34.4	median=74<80
+superfamily	d.58.11	median=77<80
+domain	d1q4ga1/a.93.1.2	104	308	outlier
+superfamily	a.5.3	median=75<80
+domain	d1ppjd1/a.3.1.3	29	97	outlier
+superfamily	d.75.1	median=74<80
+superfamily	g.74.1	median=39<80
+superfamily	g.89.1	median=74<80
+superfamily	d.9.2	median=55<80
+superfamily	g.16.2	median=56<80
+domain	d3bixa_/c.69.1.0	122	278	outlier
+superfamily	a.8.5	median=53<80
+superfamily	a.163.1	median=78<80
+superfamily	a.35.1	median=76<80
+superfamily	f.23.29	median=32<80
+superfamily	a.109.1	median=75<80
+domain	d1p22a1/a.158.1.1	41	100	outlier
+superfamily	a.159.2	median=69<80
+domain	d1ouwa_/b.77.3.1	15	138	outlier
+domain	d2v3ia_/b.29.1.10	32	209	outlier
+superfamily	d.348.1	median=58<80
+domain	d2dw4a2/c.3.1.2	47	229	outlier
+domain	d1gpea1/c.3.1.2	107	229	outlier
+domain	d1sumb_/a.7.12.1	99	215	outlier
+superfamily	b.129.1	median=51<80
+superfamily	g.13.1	median=48<80
+superfamily	g.41.11	median=45<80
+superfamily	d.10.1	median=71<80
+superfamily	g.85.1	median=47<80
+superfamily	d.378.1	median=65<80
+superfamily	a.4.10	median=46<80
+superfamily	g.35.1	median=74<80
+superfamily	d.121.1	median=77<80
+superfamily	g.46.1	median=31<80
+domain	d1wf3a2/d.52.3.1	25	92	outlier
+superfamily	g.5.1	median=59<80
+domain	d1vqqa2/d.175.1.1	82	188	outlier
+superfamily	g.19.1	median=37<80
+domain	d2g38b1/a.25.4.2	77	173	outlier
+superfamily	g.41.15	median=66<80
+superfamily	a.137.3	median=68<80
+superfamily	g.71.1	median=24<80
+superfamily	d.71.1	median=58<80
+superfamily	f.23.7	median=43<80
+superfamily	f.23.14	median=57<80
+superfamily	g.49.1	median=59<80
+superfamily	a.6.1	median=77<80
+superfamily	g.73.1	median=48<80
+superfamily	g.3.3	median=30<80
+superfamily	b.56.1	median=50<80
+superfamily	d.58.25	median=79<80
+superfamily	f.17.3	median=50<80
+superfamily	g.3.13	median=59<80
+superfamily	a.30.3	median=54<80
+superfamily	f.23.21	median=61<80
+superfamily	f.30.1	median=46<80
+superfamily	f.23.22	median=45<80
+superfamily	d.72.1	median=70<80
+domain	d2qp8a_/b.50.1.2	43	325	outlier
+domain	d1t6ex_/b.50.1.2	95	325	outlier
+domain	d1wkra_/b.50.1.2	99	325	outlier
+domain	d3k1wa_/b.50.1.2	104	325	outlier
+domain	d3pvka_/b.50.1.2	112	325	outlier
+domain	d2bjua1/b.50.1.2	115	325	outlier
+domain	d1oewa_/b.50.1.2	126	325	outlier
+superfamily	a.34.1	median=35<80
+superfamily	a.2.1	median=78<80
+domain	d1sz2a1/c.55.1.7	75	170	outlier
+domain	d1n5ua3/a.126.1.1	69	192	outlier
+superfamily	b.38.2	median=74<80
+superfamily	g.30.1	median=61<80
+superfamily	f.23.6	median=46<80
+superfamily	b.84.4	median=59<80
+superfamily	b.85.1	median=68<80
+superfamily	d.48.1	median=60<80
+superfamily	d.291.1	median=71<80
+domain	d1mo9a3/d.87.1.1	57	118	outlier
+superfamily	d.58.23	median=70<80
+superfamily	d.7.1	median=48<80
+superfamily	a.60.11	median=69<80
+superfamily	f.23.4	median=58<80
+superfamily	a.2.10	median=50<80
+superfamily	a.46.2	median=69<80
+superfamily	b.72.3	median=33<80
+superfamily	a.23.5	median=72<80
+superfamily	a.284.1	median=75<80
+superfamily	a.241.1	median=68<80
+domain	d1khba1/c.91.1.1	156	313	outlier
+domain	d1f0xa2/d.145.1.1	76	167	outlier
+domain	d1wvfa2/d.145.1.1	80	167	outlier
+domain	d1v97a6/d.145.1.3	81	167	outlier
+domain	d2i0ka2/d.145.1.1	81	167	outlier
+domain	d1rm6b2/d.145.1.3	82	167	outlier
+superfamily	f.23.24	median=32<80
+superfamily	g.3.15	median=52<80
+superfamily	a.271.1	median=50<80
+superfamily	b.37.1	median=65<80
+superfamily	g.24.1	median=44<80
+superfamily	f.23.10	median=36<80
+superfamily	a.5.7	median=51<80
+superfamily	b.83.1	median=74<80
+superfamily	b.55.2	median=74<80
+superfamily	a.5.10	median=68<80
+superfamily	b.34.13	median=70<80
+superfamily	f.23.30	median=36<80
+superfamily	a.273.1	median=55<80
+domain	d3arce_/f.23.38.1	34	81	outlier
+superfamily	a.64.1	median=78<80
+superfamily	b.107.1	median=74<80
+superfamily	a.2.7	median=70<80
+superfamily	a.10.2	median=53<80
+superfamily	a.60.4	median=64<80
+superfamily	d.184.1	median=76<80
+superfamily	b.34.1	median=75<80
+superfamily	b.38.1	median=72<80
+superfamily	f.23.27	median=31<80
+superfamily	g.3.19	median=64<80
+domain	d1vk1a_/d.268.1.2	93	196	outlier
+superfamily	d.78.1	median=72<80
+superfamily	b.1.24	median=68<80
+superfamily	a.157.1	median=55<80
+superfamily	d.372.1	median=64<80
+superfamily	a.25.3	median=74<80
+superfamily	a.37.1	median=74<80
+domain	d1r1ha_/d.92.1.4	107	246	outlier
+domain	d3dwba_/d.92.1.0	113	246	outlier
+superfamily	g.83.1	median=73<80
+superfamily	b.81.4	median=67<80
+superfamily	b.73.1	median=59<80
+domain	d1rzhh1/b.41.1.1	69	141	outlier
+superfamily	b.34.7	median=53<80
+superfamily	a.2.21	median=52<80
+domain	d1kola1/b.35.1.2	75	175	outlier
+superfamily	a.137.2	median=72<80
+domain	d3usya_/a.118.14.0	101	227	outlier
+superfamily	g.43.1	median=54<80
+superfamily	d.50.3	median=70<80
+superfamily	a.275.1	median=74<80
+superfamily	g.31.1	median=73<80
+superfamily	g.41.16	median=55<80
+superfamily	a.2.2	median=63<80
+superfamily	d.68.8	median=71<80
+superfamily	a.2.19	median=61<80
+superfamily	g.58.1	median=51<80
+superfamily	f.23.34	median=30<80
+superfamily	g.41.5	median=44<80
+superfamily	g.41.3	median=57<80
+superfamily	d.242.1	median=76<80
+domain	d2d28c1/d.52.10.1	68	144	outlier
+superfamily	g.79.1	median=76<80
+superfamily	b.72.1	median=34<80
+domain	d1qhba_/a.111.1.2	222	574	outlier
+superfamily	a.2.9	median=46<80
+superfamily	g.37.1	median=35<80
+superfamily	a.245.1	median=59<80
+superfamily	d.15.10	median=71<80
+superfamily	a.30.6	median=79<80
+superfamily	b.34.11	median=75<80
+domain	d2b5dx1/a.8.3.3	37	105	outlier
+superfamily	a.214.1	median=52<80
+superfamily	a.140.2	median=44<80
+superfamily	g.32.1	median=43<80
+superfamily	d.68.5	median=71<80
+superfamily	a.53.1	median=31<80
+superfamily	a.108.1	median=37<80
+superfamily	d.230.2	median=67<80
+superfamily	f.23.5	median=49<80
+superfamily	a.178.1	median=60<80
+superfamily	b.40.6	median=71<80
+superfamily	f.17.5	median=62<80
+superfamily	a.21.1	median=78<80
+superfamily	b.40.14	median=76<80
+superfamily	a.179.1	median=67<80
+superfamily	g.3.10	median=44<80
+superfamily	g.41.6	median=71<80
+superfamily	d.344.1	median=61<80
+domain	d2q9oa3/b.6.1.3	67	139	outlier
+superfamily	d.76.1	median=78<80
+superfamily	a.43.1	median=66<80
+superfamily	d.186.1	median=58<80
+superfamily	d.129.5	median=78<80
+superfamily	a.30.1	median=59<80
+superfamily	d.58.38	median=68<80
+superfamily	a.30.4	median=48<80
+superfamily	g.41.14	median=29<80
+superfamily	g.67.1	median=31<80
+superfamily	g.26.1	median=51<80
+superfamily	g.39.1	median=35<80
+superfamily	f.17.4	median=60<80
+superfamily	d.230.3	median=59<80
+superfamily	b.174.1	median=70<80
+domain	d1vq8w1/d.59.1.1	60	154	outlier
+superfamily	a.9.1	median=45<80
+superfamily	d.11.1	median=61<80
+superfamily	g.66.1	median=37<80
+superfamily	d.353.1	median=73<80
+superfamily	f.28.1	median=74<80
+superfamily	f.23.32	median=38<80
+superfamily	a.212.1	median=64<80
+superfamily	a.2.12	median=42<80
+domain	d2csga1/b.82.2.12	96	279	outlier
+domain	d1gp6a_/b.82.2.1	109	279	outlier
+domain	d1h2ka_/b.82.2.6	138	279	outlier
+superfamily	d.241.1	median=52<80
+superfamily	g.41.13	median=36<80
+superfamily	a.189.1	median=61<80
+domain	d1ij5a_/a.39.1.9	34	118	outlier
+superfamily	a.137.8	median=25<80
+superfamily	a.239.1	median=75<80
+superfamily	g.87.1	median=32<80
+domain	d1y6za_/d.14.1.0	71	149	outlier
+superfamily	g.54.1	median=79<80
+superfamily	a.60.15	median=74<80
+superfamily	b.76.2	median=78<80
+domain	d1n8yc3/g.3.9.1	22	120	outlier
+superfamily	d.58.3	median=73<80
+domain	d1pg6a_/b.82.5.2	65	190	outlier
+superfamily	a.272.1	median=62<80
+superfamily	g.69.1	median=56<80
+superfamily	b.164.1	median=78<80
+superfamily	g.63.1	median=58<80
+superfamily	d.317.1	median=78<80
+superfamily	g.64.1	median=37<80
+superfamily	d.30.1	median=67<80
+superfamily	g.70.1	median=60<80
+superfamily	a.139.1	median=60<80
+superfamily	f.23.25	median=34<80
+domain	d2gj4a_/c.87.1.4	166	387	outlier
+domain	d1mvha_/b.85.7.1	105	254	outlier
+superfamily	a.34.4	median=63<80
+superfamily	g.1.1	median=28<80
+superfamily	g.62.1	median=52<80
+superfamily	d.58.40	median=74<80
+superfamily	g.2.1	median=48<80
+domain	d3kcgi_/e.1.1.1	40	375	outlier
+domain	d1jmja_/e.1.1.1	46	375	outlier
+superfamily	d.186.2	median=60<80
+superfamily	f.23.17	median=38<80
+superfamily	a.4.7	median=70<80
+superfamily	a.2.17	median=65<80
+superfamily	g.41.8	median=56<80
+superfamily	a.137.1	median=46<80
+superfamily	a.60.2	median=68<80
+domain	d1ek8a_/d.67.3.1	84	184	outlier
+superfamily	a.101.1	median=70<80
+superfamily	g.11.1	median=27<80
+superfamily	g.16.1	median=53<80
+superfamily	a.4.1	median=71<80
+superfamily	f.23.11	median=46<80
+superfamily	a.137.7	median=29<80
+domain	d3r9za_/d.18.1.0	66	146	outlier
+superfamily	d.26.3	median=72<80
+superfamily	a.30.5	median=64<80
+superfamily	g.7.1	median=67<80
+superfamily	b.38.3	median=74<80
+superfamily	g.38.1	median=41<80
+superfamily	a.46.3	median=78<80
+superfamily	a.217.1	median=65<80
+superfamily	b.40.12	median=72<80
+superfamily	a.38.2	median=60<80
+domain	d1n00a_/a.65.1.1	73	315	outlier
+superfamily	a.7.17	median=61<80
+superfamily	a.147.1	median=67<80
+superfamily	f.23.37	median=35<80
+superfamily	g.78.1	median=35<80
+superfamily	g.81.1	median=62<80
+domain	d3dtub2/f.17.2.1	38	91	outlier
+superfamily	a.159.5	median=64<80
+superfamily	b.34.20	median=71<80
+domain	d1c8da_/b.121.5.2	175	426	outlier
+domain	d1s58a_/b.121.5.2	187	426	outlier
+superfamily	g.41.18	median=71<80
+superfamily	a.57.1	median=79<80
+superfamily	g.3.1	median=43<80
+superfamily	a.8.11	median=75<80
+superfamily	g.3.2	median=32<80
+domain	d1em9a_/a.73.1.1	15	131	outlier
+superfamily	b.49.1	median=72<80
+superfamily	g.47.1	median=42<80
+superfamily	a.153.1	median=47<80
+superfamily	g.3.12	median=24<80
+superfamily	b.34.2	median=67<80
+superfamily	f.3.1	median=52<80
+superfamily	d.349.1	median=77<80
+superfamily	d.58.17	median=72<80
+superfamily	a.140.4	median=54<80
+superfamily	a.237.1	median=75<80
+superfamily	g.3.7	median=44<80
+superfamily	g.41.9	median=64<80
+superfamily	b.35.2	median=55<80
+superfamily	g.60.1	median=54<80
+domain	d1qusa_/d.2.1.6	86	185	outlier
+domain	d1jhna3/b.104.1.1	37	142	outlier
+superfamily	g.41.2	median=35<80
+superfamily	g.2.3	median=50<80
+superfamily	g.25.1	median=55<80
+superfamily	d.74.2	median=71<80
+domain	d1bjta_/e.11.1.1	127	464	outlier
+superfamily	a.4.13	median=68<80
+superfamily	a.30.7	median=54<80
+superfamily	g.20.1	median=68<80
+superfamily	g.3.18	median=24<80
+superfamily	g.12.1	median=44<80
+superfamily	e.35.1	median=33<80
+superfamily	d.361.1	median=63<80
+superfamily	g.3.5	median=46<80
+superfamily	f.23.35	median=34<80
+superfamily	a.140.1	median=46<80
+superfamily	a.25.6	median=60<80
+superfamily	g.3.8	median=36<80
+domain	d2piga_/b.81.1.7	83	203	outlier
+superfamily	g.91.1	median=52<80
+domain	d1pmia_/b.82.1.3	76	179	outlier
+domain	d1eyba_/b.82.1.4	88	179	outlier
+domain	d3bvua2/b.30.5.6	93	273	outlier
+superfamily	a.161.1	median=65<80
+superfamily	g.65.1	median=35<80
+superfamily	f.23.23	median=45<80
+superfamily	a.30.2	median=67<80
+superfamily	a.137.13	median=61<80
+superfamily	b.34.19	median=79<80
+superfamily	d.67.4	median=76<80
+domain	d1k5na2/d.19.1.1	81	174	outlier
+domain	d1hyrc2/d.19.1.1	83	174	outlier
+domain	d1t7va2/d.19.1.1	85	174	outlier
+superfamily	g.2.4	median=21<80
+superfamily	d.325.1	median=72<80
+domain	d3hcna_/c.92.1.1	126	262	outlier
+superfamily	a.60.1	median=74<80
+superfamily	d.15.3	median=77<80
+domain	d2i5vo_/b.76.1.1	95	246	outlier
+superfamily	d.295.1	median=66<80
+superfamily	f.23.33	median=65<80
+domain	d1yaro_/a.24.8.1	60	218	outlier
+superfamily	d.368.1	median=62<80
+superfamily	a.159.1	median=68<80
+domain	d1pj5a4/d.250.1.1	117	274	outlier
+superfamily	a.5.1	median=49<80
+superfamily	a.155.1	median=47<80
+domain	d2c34a1/b.1.26.1	5	109	outlier
+superfamily	b.138.1	median=70<80
