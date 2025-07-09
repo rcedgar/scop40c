@@ -47,6 +47,11 @@ Domains with similarity in both structure and sequence which are classified to t
 
 **Folds c.1, c.2 and c.3**
 
-<small>
 Another example where clearly homologous domains are classified by SCOP to different folds.
-</small>
+
+**Alpha hairpins assigned to different superfamilies**
+
+[<img width=600 height=600 src="https://raw.githubusercontent.com/rcedgar/scop40c/refs/heads/main/manual_analysis_short_domains/alpha_hairpins_figure.svg">](short_domains)
+
+Cartoon representations of domains d2a26a1, d1aqta1 and d1qoja_ which have similar alpha-hairpin conformations and are classified to superfamilies a.2.16, a.2.10 and a.2.9, respectively, by SCOP. In our opinion, the conformations of these domains are sufficiently similar that convergence and homology are both plausible explanations for the observed similarity. Superfamilies with median length <80, and all domains with length <80, are deleted from SCOP40c.
+
