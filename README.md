@@ -2,7 +2,7 @@
 
 For accuracy benchmarking of structure homology search and training of a null model, an ideal structure classification should achieve a balance between false-positive and false-negative homology assignments, so that the measured distribution of false-positive scores according to the reference is close to correct despite the inevitable errors that will be present in the database. This goal conflicts with a conservative approach where structures are assigned to the same superfamily only when there is convincing evidence of homology. 
 
-SCOP40c is a curated subset of SCOP40 where, we believe, homology better corresponds to superfamilies. In our judgment, SCOP40c is preferable to SCOP40 for training a null model and for assessing homology detection accuracy.
+SCOP40c is a curated subset of SCOP40 v1.75 where, we believe, homology better corresponds to superfamilies. In our judgment, SCOP40c is preferable to SCOP40 for training a null model and for assessing homology detection accuracy.
 
 The subset is defined in this file:
 
