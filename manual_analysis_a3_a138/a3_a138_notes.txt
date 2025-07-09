@@ -1,0 +1,17 @@
+a.138   a.3
+1.56e-04        d1qo8a1/a.138.1.3       d1iqca1/a.3.1.5
+
+Query= d1qo8a1/a.138.1.3
+
+> d1iqca1/a.3.1.5
+Length=150
+
+ Score = 28.5 bits (62),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 20/49 (41%), Positives = 25/49 (51%), Gaps = 8/49 (16%)
+
+Query  20  KPIKVTDSETHENAQCKSCHGEYAELANDKLQFDPHNSHLGDINCTSCH  68
+           +PI+   + T ENA       + AEL    L FDP  S  G I+C SCH
+Sbjct  3   EPIQPIKAVTPENA-------DMAELGK-MLFFDPRLSKSGFISCNSCH  43
+
+KPIKVTDSETHENAQCKSCHGEYAELANDKLQFDPHNSHLGDINCTSCH
+EPIQPIKAVTPENADMAELGKMLFFDPRLSKSGFISCNSCH

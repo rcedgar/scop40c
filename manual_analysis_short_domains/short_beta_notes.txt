@@ -1,0 +1,3 @@
+superfamily     b.72.1  median=34<80
+superfamily     b.72.2  median=52<80
+superfamily     b.72.3  median=33<80

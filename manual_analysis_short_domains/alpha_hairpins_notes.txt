@@ -1,0 +1,21 @@
+a.2: Long alpha-hairpin [46556] (20 superfamilies)
+
+superfamily     a.2.9   median=46<80
+superfamily     a.2.12  median=42<80
+superfamily     a.2.10  median=50<80
+superfamily     a.2.16  median=47<80
+
+superfamily     a.2.1   median=78<80
+superfamily     a.2.17  median=65<80
+superfamily     a.2.18  median=73<80
+superfamily     a.2.19  median=61<80
+superfamily     a.2.2   median=63<80
+superfamily     a.2.20  median=59<80
+superfamily     a.2.21  median=52<80
+superfamily     a.2.7   median=70<80
+superfamily     a.2.8   median=72<80
+
+d1qoja_ a.2.9.1
+d3d36c_ a.2.12.1
+d2a26a1 a.2.16.1
+d1aqta1 a.2.10.1

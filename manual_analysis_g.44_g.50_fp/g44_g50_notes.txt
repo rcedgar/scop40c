@@ -1,0 +1,26 @@
+# ./blastp_sf_pair.bash g.44.1 g.50.1
+1.42e-05        d1weoa_/g.44.1.1        d1weva_/g.50.1.2
+
+Query= d1weoa__A
+
+Length=93
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+d1weva__A                                                             29.3    1e-04
+
+
+> d1weva__A
+Length=88
+
+ Score = 29.3 bits (64),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 27/100 (27%), Positives = 40/100 (40%), Gaps = 19/100 (19%)
+
+Query  1   GSSGSSGPKPLKNLDGQFCEICGDQIGLTVEGDLFVACNECGFPACRPCYEYERREGTQN  60
+           GSSGSSG        G  C +C         G+  V C EC     + C++ +  +   N
+Sbjct  1   GSSGSSGADDFAMEMGLACVVCRQMT--VASGNQLVECQECHNLYHQDCHKPQVTDKEVN  58
+
+Query  61  -------CPQCKTRYKRLRGSPRVEGDEDEEDIDSGPSSG  93
+                  C +C  + KR+           +++  SGPSSG
+Sbjct  59  DPRLVWYCARCTRQMKRMA----------QKNQKSGPSSG  88
+

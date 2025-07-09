@@ -1,0 +1,2342 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  c.3.hmm
+# target sequence database:        /mnt/c/int/reseek_bench/data/scop40_scopid.fa
+# per-seq hits tabular output:     search.3.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       c.3  [M=222]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------          -----------
+    4.2e-42  143.9   4.3    4.9e-42  143.7   4.3    1.0  1  d1ojta1/c.3.1.5    
+    3.1e-39  134.6   1.8    3.7e-39  134.3   1.8    1.0  1  d1v59a1/c.3.1.5    
+    4.7e-38  130.7   0.2    5.6e-38  130.5   0.2    1.0  1  d3grsa1/c.3.1.5    
+      5e-38  130.6   0.5    5.5e-38  130.5   0.5    1.0  1  d1lvla1/c.3.1.5    
+    2.3e-36  125.2   1.6    2.8e-36  124.9   1.6    1.0  1  d2i0za1/c.3.1.8    
+    1.3e-33  116.2   0.0    1.5e-33  116.0   0.0    1.0  1  d1mo9a1/c.3.1.5    
+    1.4e-31  109.5   0.7    1.8e-31  109.2   0.7    1.0  1  d1feca1/c.3.1.5    
+    3.7e-31  108.2   0.2    4.5e-31  107.9   0.2    1.0  1  d1h6va1/c.3.1.5    
+    9.6e-31  106.8   2.1    1.1e-30  106.6   2.1    1.0  1  d1xdia1/c.3.1.5    
+    4.4e-30  104.7   7.1    5.1e-30  104.4   7.1    1.0  1  d1y0pa2/c.3.1.4    
+    6.2e-30  104.2   0.0    7.2e-30  103.9   0.0    1.0  1  d2gqfa1/c.3.1.8    
+    1.9e-28   99.3   3.4    2.2e-28   99.1   3.4    1.0  1  d2bs2a2/c.3.1.4    
+    1.6e-27   96.2   2.1      2e-27   95.9   2.1    1.1  1  d1kf6a2/c.3.1.4    
+    3.5e-27   95.1   0.0      5e-27   94.6   0.0    1.1  1  d1kdga1/c.3.1.2    
+      7e-27   94.2   0.0    8.9e-27   93.8   0.0    1.1  1  d2gf3a1/c.3.1.2    
+    1.4e-26   93.2   0.1    1.9e-26   92.8   0.1    1.2  1  d1xhca1/c.3.1.5    
+      8e-26   90.7   0.0    1.1e-25   90.3   0.0    1.1  1  d2gmha1/c.3.1.2    
+    1.1e-25   90.3   0.6    1.4e-25   90.0   0.6    1.1  1  d1chua2/c.3.1.4    
+    1.7e-25   89.7   0.1    2.2e-25   89.3   0.1    1.1  1  d1q1ra1/c.3.1.5    
+    1.4e-24   86.6   0.0    1.6e-24   86.5   0.0    1.0  1  d1m6ia1/c.3.1.5    
+    9.7e-24   83.9   0.0    1.4e-23   83.4   0.0    1.2  1  d1s3ea1/c.3.1.2    
+    1.4e-23   83.4   0.0    1.8e-23   83.0   0.0    1.1  1  d1w4xa1/c.3.1.5    
+    1.6e-23   83.2   3.2      2e-23   82.8   3.2    1.1  1  d1fl2a1/c.3.1.5    
+    2.1e-23   82.8   0.0      3e-23   82.3   0.0    1.3  1  d2iida1/c.3.1.2    
+    2.3e-23   82.7   0.1    2.9e-23   82.3   0.1    1.1  1  d1d7ya1/c.3.1.5    
+    5.3e-23   81.5   1.5      6e-23   81.3   1.5    1.0  1  d1ebda2/c.3.1.5    
+    1.5e-21   76.7   0.3    2.2e-21   76.2   0.3    1.2  1  d1jnra2/c.3.1.4    
+    2.1e-21   76.3   0.2    2.6e-21   76.0   0.2    1.2  1  d1lvla2/c.3.1.5    
+    1.2e-20   73.8   0.3    1.7e-20   73.3   0.3    1.2  1  d1v59a2/c.3.1.5    
+    1.2e-20   73.8   0.0    1.8e-20   73.2   0.0    1.3  1  d1gpea1/c.3.1.2    
+    2.1e-20   73.0   1.0    2.6e-20   72.7   1.0    1.1  1  d1pj5a2/c.3.1.2    
+    2.3e-20   72.9   0.0    3.4e-20   72.3   0.0    1.2  1  d2f5va1/c.3.1.2    
+    2.4e-20   72.8   0.0    3.2e-20   72.4   0.0    1.2  1  d1nhpa1/c.3.1.5    
+    2.6e-20   72.7   1.8    3.1e-20   72.4   1.8    1.1  1  d3lada2/c.3.1.5    
+    5.1e-20   71.7   0.0    6.2e-20   71.5   0.0    1.1  1  d1ojta2/c.3.1.5    
+      7e-20   71.3   1.6    1.5e-19   70.2   1.6    1.5  1  d2ivda1/c.3.1.2    
+    7.5e-20   71.2   0.0    1.1e-19   70.6   0.0    1.3  1  d1seza1/c.3.1.2    
+    1.1e-19   70.6   0.0    2.5e-19   69.5   0.0    1.6  1  d2dw4a2/c.3.1.2    
+    1.9e-19   69.9   3.1    2.3e-19   69.6   3.1    1.1  1  d1fcda1/c.3.1.5    
+    5.5e-19   68.4   0.3    1.6e-18   66.8   0.3    1.7  1  d1n4wa1/c.3.1.2    
+    6.6e-19   68.1   1.2    8.3e-19   67.8   1.2    1.2  1  d1nhpa2/c.3.1.5    
+    1.3e-18   67.2   0.1    1.8e-18   66.7   0.1    1.2  1  d1ryia1/c.3.1.2    
+    1.3e-18   67.2   0.1    1.8e-18   66.7   0.1    1.2  1  d1feca2/c.3.1.5    
+    2.5e-18   66.2   0.0    3.5e-18   65.7   0.0    1.2  1  d1h6va2/c.3.1.5    
+    1.2e-17   64.0   0.3    2.5e-17   62.9   0.3    1.4  1  d1b5qa1/c.3.1.2    
+    2.2e-17   63.1   0.1    2.7e-17   62.8   0.1    1.2  1  d1xhca2/c.3.1.5    
+    2.3e-17   63.0   0.0    3.2e-17   62.6   0.0    1.1  1  d1onfa2/c.3.1.5    
+    2.6e-17   62.9   0.0    3.1e-17   62.7   0.0    1.1  1  d3grsa2/c.3.1.5    
+    2.6e-17   62.9   0.1    3.7e-17   62.4   0.1    1.2  1  d1ju2a1/c.3.1.2    
+    7.7e-17   61.3   0.0    1.7e-16   60.2   0.0    1.5  1  d1vg0a1/c.3.1.3    
+    1.5e-16   60.4   0.7    2.5e-16   59.7   0.7    1.3  1  d1fl2a2/c.3.1.5    
+    3.5e-16   59.2   0.6    5.9e-16   58.5   0.6    1.3  1  d1trba2/c.3.1.5    
+    4.6e-16   58.8   0.8    5.9e-16   58.5   0.8    1.1  1  d1rp0a1/c.3.1.6    
+    5.3e-16   58.6   0.0    7.1e-16   58.2   0.0    1.2  1  d1d5ta1/c.3.1.3    
+    6.2e-16   58.4   0.0    7.2e-16   58.2   0.0    1.1  1  d1ps9a2/c.3.1.1    
+    2.6e-15   56.3   0.1    1.8e-14   53.6   0.1    1.9  1  d1trba1/c.3.1.5    
+    2.6e-15   56.3   0.0    4.4e-15   55.6   0.0    1.3  1  d2cula1/c.3.1.7    
+    7.9e-15   54.8   1.0    1.8e-14   53.6   1.0    1.4  1  d1q1ra2/c.3.1.5    
+    8.4e-14   51.4   0.0    1.2e-13   50.9   0.0    1.1  1  d2gv8a1/c.3.1.5    
+    3.5e-13   49.4   0.3    1.4e-11   44.1   0.3    2.0  1  d1djqa3/c.4.1.1    
+    4.9e-13   48.9   1.9    7.6e-13   48.3   1.8    1.3  1  d3c96a1/c.3.1.2    
+    1.3e-12   47.5   0.0    1.8e-12   47.0   0.0    1.3  1  d1pn0a1/c.3.1.2    
+    1.6e-12   47.2   0.1      2e-12   46.9   0.1    1.3  1  d1ps9a3/c.4.1.1    
+    1.3e-11   44.2   0.1    1.9e-11   43.7   0.1    1.3  1  d1m6ia2/c.3.1.5    
+    1.5e-11   44.1   0.0    1.7e-11   43.9   0.0    1.3  1  d2bi7a1/c.4.1.3    
+    1.6e-11   43.9   0.2      2e-11   43.6   0.2    1.1  1  d2voua1/c.3.1.2    
+    3.2e-11   43.0   0.2    5.6e-11   42.2   0.2    1.4  1  d1mo9a2/c.3.1.5    
+    5.7e-11   42.2   0.0    7.3e-11   41.8   0.0    1.4  1  d1i8ta1/c.4.1.3    
+      2e-10   40.3   0.1    2.5e-10   40.1   0.1    1.2  1  d1k0ia1/c.3.1.2    
+    8.4e-10   38.3   0.0    9.8e-10   38.1   0.0    1.1  1  d1w4xa2/c.3.1.5    
+    9.8e-10   38.1   0.2    3.4e-09   36.4   0.2    1.7  1  d1vdca2/c.3.1.5    
+    2.5e-09   36.8   0.0    2.9e-09   36.6   0.0    1.1  1  d1djqa2/c.3.1.1    
+    2.8e-09   36.6   0.0    3.6e-09   36.3   0.0    1.2  1  d1c0pa1/c.4.1.2    
+    8.8e-07   28.5   0.0      1e-06   28.2   0.0    1.3  1  d1gtea4/c.4.1.1    
+    3.2e-06   26.6   0.6    3.3e-06   26.6   0.6    1.2  1  d1pjca1/c.2.1.4    
+    5.7e-06   25.8   0.0    1.5e-05   24.4   0.0    1.5  1  d1ve9a1/c.4.1.2    
+    9.5e-06   25.1   0.1    1.7e-05   24.2   0.1    1.4  1  d1lqta1/c.3.1.1    
+    9.5e-06   25.1   0.0    1.7e-05   24.3   0.0    1.4  1  d1gtea3/c.3.1.1    
+    1.5e-05   24.4   0.0    1.7e-05   24.2   0.0    1.1  1  d1f0ya2/c.2.1.6    
+    0.00016   21.1   0.0    0.00031   20.1   0.0    1.5  1  d1yovb_/c.111.1.2  
+    0.00023   20.5   0.8    0.00024   20.5   0.8    1.3  1  d1llda1/c.2.1.5    
+    0.00056   19.3   0.1     0.0037   16.6   0.1    2.0  1  d1lqta2/c.4.1.1    
+    0.00062   19.1   0.1     0.0007   19.0   0.1    1.1  1  d1i36a2/c.2.1.6    
+    0.00098   18.5   1.9     0.0034   16.7   1.9    1.8  1  d1ldna1/c.2.1.5    
+     0.0017   17.7   0.1     0.0017   17.7   0.1    1.2  1  d1jw9b_/c.111.1.1  
+     0.0022   17.3   0.1     0.0036   16.6   0.1    1.3  1  d1qo2a_/c.1.2.1    
+      0.003   16.9   0.2     0.0039   16.5   0.2    1.2  1  d3tzqa_/c.2.1.0    
+     0.0069   15.7   0.0     0.0096   15.2   0.0    1.3  1  d1qzza2/c.66.1.12  
+     0.0088   15.4   0.1      0.016   14.5   0.1    1.7  1  d3ko8a_/c.2.1.0    
+  ------ inclusion threshold ------
+      0.011   15.1   1.9      0.016   14.5   1.9    1.4  1  d1gpja2/c.2.1.7    
+      0.012   15.0   0.0      0.017   14.4   0.0    1.6  1  d1i24a_/c.2.1.2    
+      0.013   14.9   0.0      0.023   14.0   0.0    1.5  1  d1cjca2/c.4.1.1    
+      0.023   14.0   0.7      0.061   12.6   0.3    1.6  2  d1uxja1/c.2.1.5    
+      0.028   13.7   0.0      0.028   13.7   0.0    1.2  1  d1u7za_/c.72.3.1   
+      0.031   13.6   0.0      0.035   13.4   0.0    1.3  1  d2jfga1/c.5.1.1    
+      0.033   13.5   0.0      0.035   13.4   0.0    1.1  1  d1kjqa2/c.30.1.1   
+      0.033   13.5   4.2       0.16   11.2   4.2    2.1  1  d3awda_/c.2.1.0    
+      0.034   13.5   1.1      0.047   13.0   1.1    1.3  1  d1pl8a2/c.2.1.1    
+      0.036   13.4   0.0      0.092   12.0   0.0    1.7  1  d1wcv1_/c.37.1.0   
+      0.036   13.4   2.7      0.055   12.8   2.6    1.5  1  d1luaa1/c.2.1.7    
+      0.042   13.1   0.3       0.07   12.4   0.3    1.4  1  d1lssa_/c.2.1.9    
+      0.043   13.1   0.0      0.049   12.9   0.0    1.2  1  d1xu9a_/c.2.1.2    
+      0.047   13.0   1.3      0.075   12.3   1.3    1.3  1  d1uzma1/c.2.1.2    
+      0.049   12.9   1.4      0.065   12.5   1.4    1.2  1  d2o23a_/c.2.1.2    
+      0.053   12.8   0.2      0.064   12.5   0.2    1.3  1  d1vj0a2/c.2.1.1    
+      0.055   12.8   0.0      0.064   12.6   0.0    1.3  1  d1p5ja_/c.79.1.1   
+      0.071   12.4   0.3      0.094   12.0   0.3    1.3  1  d1hdoa_/c.2.1.2    
+      0.096   12.0   1.9        0.2   10.9   1.9    1.6  1  d1np3a2/c.2.1.6    
+       0.12   11.7   0.8       0.38   10.0   0.8    1.8  1  d1t2da1/c.2.1.5    
+       0.12   11.6   8.5       0.27   10.5   4.1    2.0  2  d1kola2/c.2.1.1    
+       0.19   11.0   1.9        0.3   10.4   1.9    1.5  1  d1o89a2/c.2.1.1    
+        8.6    5.6   7.8        1.2    8.4   0.2    2.3  2  d1ebfa1/c.2.1.3    
+
+
+Domain annotation for each sequence (and alignments):
+>> d1ojta1/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  143.7   4.3   4.9e-44   4.9e-42      23     217 ..       4     224 ..       2     229 .] 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 143.7 bits;  conditional E-value: 4.9e-44
+              c.3  23 eapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsae..leld....qgvtvkel......gdailaafdeel 104
+                      +a+ydvvv+GgGp+G++aA a+a++G kv+++e+  +lgg+c+++gc+pskal+++a   +e++    +g+++ e+       +a+ ++++++l
+  d1ojta1/c.3.1.5   4 DAEYDVVVLGGGPGGYSAAFAAADEGLKVAIVERYKTLGGVCLNVGCIPSKALLHNAAviDEVRhlaaNGIKYPEPeldidmLRAYKDGVVSRL 97 
+                      579*****************************************************777988888999888877555566654455677799** PP
+
+              c.3 105 akalaeklkkhgvevllgtrveeidrdgdgvvgvvpadg........ngggeeldadavilatGaa.r.gkl..aekaGldvdd..givvdeks 184
+                      +++la+++k+++v+v++g   +++d++     +v++++g        +g+++ ++ +++i+a+G+  + gkl  aekaG++v+d   i+vd ++
+  d1ojta1/c.3.1.5  98 TGGLAGMAKSRKVDVIQGDG-QFLDPH---HLEVSLTAGdayeqaapTGEKKIVAFKNCIIAAGSRaPnGKLisAEKAGVAVTDrgFIEVDKQM 187
+                      ******************99.*****9...6666644333344444356777779**********9879999***********99899****** PP
+
+              c.3 185 ..nvkglya.gdvtggpel.skalvsGrlaaeailek 217
+                        nv+++ya gd+ g+p+l +ka+ +G +aae+++++
+  d1ojta1/c.3.1.5 188 rtNVPHIYAiGDIVGQPMLaHKAVHEGHVAAENCAGH 224
+                      *********************************9874 PP
+
+>> d1v59a1/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  134.3   1.8   3.7e-41   3.7e-39      24     214 ..       4     225 ..       1     231 [. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 134.3 bits;  conditional E-value: 3.7e-41
+              c.3  24 apydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsae..leld.....qgvtvkelgdai.........laafd 101
+                      ++ dvv+iGgGp+G+ aA+++a++G +++ +ek++klgg+c+++gc+pskal+++++  ++++     +g++v+  gd+           +  +
+  d1v59a1/c.3.1.5   4 KSHDVVIIGGGPAGYVAAIKAAQLGFNTACVEKRGKLGGTCLNVGCIPSKALLNNSHlfHQMHteaqkRGIDVN--GDIKinvanfqkaKDDAV 95 
+                      678****************************************************9989888899998788877..332223333334444447 PP
+
+              c.3 102 eelakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadg....ngggeeldadavilatGaa.r..........gkl.aekaGldvdd..g 177
+                      ++l+++++  +kk++v+++ g    + d++   + +v+p dg     ++ + ld++++i+atG++ +          g l aek+Gl+vd+  +
+  d1v59a1/c.3.1.5  96 KQLTGGIELLFKKNKVTYYKGNG-SFEDET---KIRVTPVDGlegtVKEDHILDVKNIIVATGSEvTpfvgrrpyiaG-LgAEKIGLEVDKrgR 184
+                      7********************99.566667...88999998865532444557************88**976655533.27*********9978 PP
+
+              c.3 178 ivvdeks..nvkglya.gdvtggpel.skalvsGrlaaeai 214
+                      +v+d+++  +++++ + gdvt+gp+l +ka ++G++a+e +
+  d1v59a1/c.3.1.5 185 LVIDDQFnsKFPHIKVvGDVTFGPMLaHKAEEEGIAAVEML 225
+                      8999999*9*****************************987 PP
+
+>> d3grsa1/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  130.5   0.2   5.6e-40   5.6e-38      24     219 ..       2     216 ..       1     219 [. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 130.5 bits;  conditional E-value: 5.6e-40
+              c.3  24 apydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsae..leld....qgvtvkel.........gdailaafde 102
+                      a+yd++viGgG++Gl+ A+++a++Ga+ +v+e + klgg+cv++gcvp+k +++ a   ++++    +g++ +e+         +    +a+++
+  d3grsa1/c.3.1.5   2 ASYDYLVIGGGSGGLASARRAAELGARAAVVE-SHKLGGTCVNVGCVPKKVMWNTAVhsEFMHdhadYGFPSCEGkfnwrvikeK---RDAYVS 91 
+                      579*****************************.68********************555888888999666655433444333332...34559* PP
+
+              c.3 103 elakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatGaa.r........gkl..aekaGldvdd..givvdek 183
+                      +l++ ++++l k  +e+++g+++   d+    + ++++ +     + + a ++++atG++ +        +k+  ++k+G++ dd  +i+vde+
+  d3grsa1/c.3.1.5  92 RLNAIYQNNLTKSHIEIIRGHAAFTSDP----KPTIEVSG-----KKYTAPHILIATGGMpStphervpnTKDlsLNKLGIQTDDkgHIIVDEF 176
+                      **********************844444....44588764.....67*************889999988866689******************* PP
+
+              c.3 184 s..nvkglya.gdvtggpel.skalvsGrlaaeailekkl 219
+                         nvkg+ya gdv+g+  l ++a+++Gr++a++++e+k+
+  d3grsa1/c.3.1.5 177 QntNVKGIYAvGDVCGKALLtPVAIAAGRKLAHRLFEYKE 216
+                      *****************9999**************99655 PP
+
+>> d1lvla1/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  130.5   0.5   5.4e-40   5.5e-38      24     217 ..       4     215 ..       1     220 [] 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 130.5 bits;  conditional E-value: 5.4e-40
+              c.3  24 apydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsae..leld.......qgvtvkel..........gdaila 98 
+                      +++ +++iGgGp+G+ aA+++ ++G+ ++++e g++lgg+c+++gc+pskal+++ae  ++ +        g++v ++          +d i  
+  d1lvla1/c.3.1.5   4 IQTTLLIIGGGPGGYVAAIRAGQLGIPTVLVE-GQALGGTCLNIGCIPSKALIHVAEqfHQASrftepspLGISVASPrldigqsvawKDGI-- 94 
+                      56779***************************.89********************8866555567777774444443332332233334444.. PP
+
+              c.3  99 afdeelakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatGaa.r.......gkl..aekaGldvdd.givvd 181
+                        +++l++++a+ lkkhgv+v++g + + +d++   +  v++      g+++ +++++latG+          +k+  +e++ l+++   i++d
+  d1lvla1/c.3.1.5  95 --VDRLTTGVAALLKKHGVKVVHGWA-KVLDGK---Q--VEVD-----GQRIQCEHLLLATGSSsVelprrprTKGfnLECLDLKMNGaAIAID 175
+                      ..899*******************99.778776...4..5543.....399************966999877655599999******9****** PP
+
+              c.3 182 eks..nvkglya.gdvtggpel.skalvsGrlaaeailek 217
+                      e +  ++++++a gdv+g+p+l ++a+++G+ +ae+i++k
+  d1lvla1/c.3.1.5 176 ERCqtSMHNVWAiGDVAGEPMLaHRAMAQGEMVAEIIAGK 215
+                      *************************************986 PP
+
+>> d2i0za1/c.3.1.8  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  124.9   1.6   2.8e-38   2.8e-36      25     214 ..       2     246 ..       1     250 [. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 124.9 bits;  conditional E-value: 2.8e-38
+              c.3  25 pydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa.............gcvpskaladsae.leld.................qgv 87 
+                      +ydv+viGgGpsGl+aA+ +a++Ga+v++l+kg klg +++++             + ++++ +    +  +l+                  gv
+  d2i0za1/c.3.1.8   2 HYDVIVIGGGPSGLMAAIGAAEEGANVLLLDKGNKLGRKLAISgggrcnvtnrlplDEIVKHIPG---NgRFLYsafsifnnediitffenLGV 92 
+                      8***********************************88888888887777777777445554443...24555566667777777777767677 PP
+
+              c.3  88 tvkel..gdai.laafdeelakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatGaa.r........gkl.ae 168
+                      ++ke+  g+++ +++ ++++++al+++lk+ gv+++++t+ve i++ +++ + v++ +g    e+l++ +v++a+G++          g++ ae
+  d2i0za1/c.3.1.8  93 KLKEEdhGRMFpVSNKAQSVVDALLTRLKDLGVKIRTNTPVETIEYENGQTKAVILQTG----EVLETNHVVIAVGGKsVpqtgstgdGYAwAE 182
+                      777667644445888899****************************9999999*99984....99*************66**9987664448** PP
+
+              c.3 169 kaGldvdd....givvdek....s...nvkglya.gdvtgg.....pel.skalvsGrlaaeai 214
+                      kaG ++++    g+ v+e     +    ++gly+ g+v ++     +++ + alv+Gr+a+ ++
+  d2i0za1/c.3.1.8 183 KAGHTITElfggGVSVKEInpkeMsskFTNGLYFcGEVLDIhgytgGYNiTSALVTGRIAGTTA 246
+                      ****99988889999**99655426678**************9999988***********9876 PP
+
+>> d1mo9a1/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  116.0   0.0   1.5e-35   1.5e-33       7     220 ..      27     259 ..      15     261 .] 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 116.0 bits;  conditional E-value: 1.5e-35
+              c.3   7 pgkdalissdgalklkeapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskalads.ae.leld......qgvtvkel 92 
+                      +g + +++ d+    ++++yd++ iGgG +G    a+L++ G + ++++++++lgg c ++ cvp+++++d+ ae ++ +      ++ +++e 
+  d1mo9a1/c.3.1.5  27 DGGEVIYNVDE---NDPREYDAIFIGGGAAGRFGSAYLRAMGGRQLIVDRWPFLGGSCPHNACVPHHLFSDCaAElMLARtfsgqyWFPDMTEK 117
+                      34445888888...89********************************************************65587777999*7766666533 PP
+
+              c.3  93 ................gdailaafdeelakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatGaa.r...... 163
+                                      g + ++       +++ +  ++ + e++l+ +++ i  d   +++v+ a+     ++++a+++ila+Ga         
+  d1mo9a1/c.3.1.5 118 vvgikevvdlfragrnGPHGIM-------NFQSK--EQLNLEYILNCPAKVI--D---NHTVEAAG-----KVFKAKNLILAVGAGpGtldvpe 192
+                      3444445444443333223333.......34444..7889*********999..6...66898764.....89***********9966888887 PP
+
+              c.3 164 ....gklaekaGldvdd..givvdeks..nvkglya.gdvtggpel.skalvsGrlaaeailekkls 220
+                          ++la+++Gld+++   ++v+e+   +v+++ya gd +ggp+   ka +sG++aa++++++k+s
+  d1mo9a1/c.3.1.5 193 qprsAELAKILGLDLGPkgEVLVNEYLqtSVPNVYAvGDLIGGPMEmFKARKSGCYAARNVMGEKIS 259
+                      7765444999******9999****************************************9997665 PP
+
+>> d1feca1/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  109.2   0.7   1.8e-33   1.8e-31      24     216 ..       2     233 ..       1     238 [. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 109.2 bits;  conditional E-value: 1.8e-33
+              c.3  24 apydvvviGgGpsGleaAaaLakaGa.kvtvlek........gdklggrcvsagcvpskaladsae..leld....qgvtvkel.......... 92 
+                      + yd+vviG+G++Glea+  +a +++ +v+v++          ++lgg+cv++gcvp+k+++++a+  ++++     g+ ++++          
+  d1feca1/c.3.1.5   2 RAYDLVVIGAGSGGLEAGWNAASLHKkRVAVIDLqkhhgpphYAALGGTCVNVGCVPKKLMVTGANymDTIResagFGWELDREsvrpnwkali 95 
+                      679*********************877******9666666655667********************9999989999677776445566665444 PP
+
+              c.3  93 gdailaafdeelakalaekl.kkhgvevllgtrveeidrdgdgvvgvv.padgn.gggeeldadavilatGaa.r..........gklaekaGl 172
+                      ++   ++ ++ +++ +++++ + +g ++++g  +    +d+   v v+  ad n    e+ld+++++latG++            + ++ekaG+
+  d1feca1/c.3.1.5  96 AA--KNKAVSGINDSYEGMFaDTEGLTFHQGFGA---LQDN-HTVLVReSADPNsAVLETLDTEYILLATGSWpQhlgievprsqTLQLEKAGV 183
+                      22..33447888888999886678*******996...3341.1333443334443345777************77**99988754444****** PP
+
+              c.3 173 dvdd..givvdeks..nvkglya.gdvtggpel.skalvsGrlaaeaile 216
+                      +v++   i+vd++s  nv+++ya gdvt+  +l ++a+++G++ +++++ 
+  d1feca1/c.3.1.5 184 EVAKngAIKVDAYSktNVDNIYAiGDVTDRVMLtPVAINEGAAFVDTVFA 233
+                      ***9999***************************************9875 PP
+
+>> d1h6va1/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  107.9   0.2   4.5e-33   4.5e-31      25     216 ..       3     228 ..       1     233 [. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 107.9 bits;  conditional E-value: 4.5e-33
+              c.3  25 pydvvviGgGpsGleaAaaLakaGakvtvlek........gdklggrcvsagcvpskaladsae..leld....qgvtvk...el......... 92 
+                      ++d+++iGgG++Gl+aA+++ak  +kv vl+         ++ lgg+cv++gc+p+k++++ a+  + l+    +g++++    +         
+  d1h6va1/c.3.1.5   3 DFDLIIIGGGSGGLAAAKEAAKFDKKVMVLDFvtptplgtNWGLGGTCVNVGCIPKKLMHQAALlgQALKdsrnYGWKLEdtvKHdwekmtesv 96 
+                      579****************************9877777766777******************77688887999989998643311443333333 PP
+
+              c.3  93 gdailaafdeelakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatGaa.r........gkl..aekaGldvd 175
+                      +++i      +l+++++ +l++ +v +   +  ++i ++   + +++ ++g  ++++++a++ ++atG   r        +++  +e++G++++
+  d1h6va1/c.3.1.5  97 QNHI-----GSLNWGYRVALREKKVVYENAYG-KFIGPH---KIMATNNKG--KEKVYSAERFLIATGERpRylgirdscTRTigLETVGVKIN 179
+                      4444.....489*******************9.***999...998887765..7899***********99889988887733367********* PP
+
+              c.3 176 d...givvdeks..nvkglya.gdvtgg.pel.skalvsGrlaaeaile 216
+                      +    i v +++  nv+ +ya gd+ +g  el ++a+++Grl+a+++ +
+  d1h6va1/c.3.1.5 180 EktgKIPVTDEEqtNVPYIYAiGDILEGkLELtPVAIQAGRLLAQRLYG 228
+                      9998776555555*************99766699***********9876 PP
+
+>> d1xdia1/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  106.6   2.1   1.1e-32   1.1e-30      26     217 ..       2     221 ..       1     226 [. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 106.6 bits;  conditional E-value: 1.1e-32
+              c.3  26 ydvvviGgGpsGleaAaaLakaGa...kvtvlekgdklggrcvsagcvpskaladsae..leld.............qgvtvkelgdai..laa 99 
+                      +++v++GgGp+G+eaA ++a+++    +vtv++  d +gg  v ++cvpsk +++s+   +el+             q      +++++  l  
+  d1xdia1/c.3.1.5   2 TRIVILGGGPAGYEAALVAATSHPettQVTVIDC-DGIGGAAVLDDCVPSKTFIASTGlrTELRraphlgfhkislpQ------IHARVktL-- 86 
+                      689*******************98889******8.79*******************6657666678775443333321......12222222.. PP
+
+              c.3 100 fdeelakalaeklkkhgvevllgtrveeidrd.gdgvvgvvpadgngggeeldadavilatGaa.r...........gkl.aekaGldvdd..g 177
+                       +   ++ ++++l + gv+v+ g   e id + g ++++++ ++++g+++e +ad+v++atGa  r           g l +e++G+++++  +
+  d1xdia1/c.3.1.5  87 -AAAQSADITAQLLSMGVQVIAGRG-ELIDSTpGLARHRIKATAADGSTSEHEADVVLVATGASpRilpsgsvpntsG-LgLERVGIQLGRgnY 177
+                      .22223456678999********99.***9985688899998887789999*************99***999888643.36*********9999 PP
+
+              c.3 178 ivvdeks..nvkglya.gdvtggpel.skalvsGrlaaeailek 217
+                      + vd+ s     g+ya gd+tg   l s+a+++Gr+a++++l++
+  d1xdia1/c.3.1.5 178 LTVDRVSrtLATGIYAaGDCTGLLPLaSVAAMQGRIAMYHALGE 221
+                      *******999***********996667*************9985 PP
+
+>> d1y0pa2/c.3.1.4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.4   7.1   5.1e-32   5.1e-30      23     216 ..      14     306 ..       3     308 .] 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 104.4 bits;  conditional E-value: 5.1e-32
+              c.3  23 eapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa.........gcvpskaladsae.leld...................... 84 
+                        + dvvv+G+G +G++aA+ + ++Gakv+++ek++++gg+   a         +    k+  ds+e ++ d                      
+  d1y0pa2/c.3.1.4  14 HDTVDVVVVGSGGAGFSAAISATDSGAKVILIEKEPVIGGNAKLAaggmnaawtDQQKAKKITDSPElMFEDtmkggqnindpalvkvlsshsk 107
+                      5578************************************99999********97778888999999988889989999999888888888888 PP
+
+              c.3  85 qgvtvkel.................gdai.....laafdeelakalaeklkkhgvevllgtrveeidrdg.dgvvgvvpadgn.gggeeldada 154
+                       +v++ +                  +  +     +a+++ +++++l +++ k++++++ +tr +e+  d+ ++v+g+ +++   +g ++++ada
+  d1y0pa2/c.3.1.4 108 DSVDWMTAmgadltdvgmmggasvnR--AhrptgGAGVGAHVVQVLYDNAVKRNIDLRMNTRGIEVLKDDkGTVKGILVKG-MyKGYYWVKADA 198
+                      44444311222223333333344442..033566888899**********************9888886526667776664.546779****** PP
+
+              c.3 155 vilatGaa.r........................gkl....aekaGldvdd..givvdeks......nvkglya.gdvtgg........pel.s 201
+                      vilatG++ +                        g +    ae+aG +++d  +i+++++        ++gly  g+vtgg        +++ s
+  d1y0pa2/c.3.1.4 199 VILATGGFaKnnervakldpslkgfistnqpgavG-DgldvAENAGGALKDmqYIDTKAEVmnakkqVIPGLYGaGEVTGGvhganrlgGNAiS 291
+                      ********88*****99999988888876666552.0578********************77666778********************9999** PP
+
+              c.3 202 kalvsGrlaaeaile 216
+                      +++++Grla+e++++
+  d1y0pa2/c.3.1.4 292 DIITFGRLAGEEAAK 306
+                      ***********9865 PP
+
+>> d2gqfa1/c.3.1.8  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  103.9   0.0   7.2e-32   7.2e-30      26     214 ..       5     250 ..       1     252 [. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 103.9 bits;  conditional E-value: 7.2e-32
+              c.3  26 ydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa..........gcvpskaladsaeleld.................qgvtvkel 92 
+                         ++iG+G +Gl +Aa+Lak+G++vtv++ g k+g +++ +          +  p ++l++++ ++++                 qg+t++e 
+  d2gqfa1/c.3.1.8   5 SENIIIGAGAAGLFCAAQLAKLGKSVTVFDNGKKIGRKILXSgggfcnftnlEVTPAHYLSQNP-HFVKsalarytnwdfislvaeQGITYHEK 97 
+                      5679*********************************999999999999998777888886665.45556666788888888999989998866 PP
+
+              c.3  93 ..gdailaafdeelakalaeklkkhgvevllgtrveeidr.dgdgvvgvvpadgngggeeldadavilatGaa.r........gkl.aekaGl. 172
+                        g+ ++++ +e++++ l+++++k+g ++ll+++v +++r ++d++v+ v+     +  ++ ++++i+atG++          g++ ae++G+ 
+  d2gqfa1/c.3.1.8  98 elGQLFCDEGAEQIVEXLKSECDKYGAKILLRSEVSQVERiQNDEKVRFVLQ-V--NSTQWQCKNLIVATGGLsXpglgatpfGYQiAEQFGIp 188
+                      66888899999***************************99889999888854.3..5678*************66*9977666666*******5 PP
+
+              c.3 173 .....dvdd.givvdeks.......nvkglya.gdvtgg.....pel.skalvsGrlaaeai 214
+                           +v+  g++++  s       +v+gly+ g+v +      +++ ++a++s+ ++a +i
+  d2gqfa1/c.3.1.8 189 vipprAVTXgGVDTKVISsktxesnQVSGLYFiGEVLDVtgwlgGYNfQWAWSSAYACALSI 250
+                      54444333488888888666666788********99999999*9999*********999876 PP
+
+>> d2bs2a2/c.3.1.4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   99.1   3.4   2.2e-30   2.2e-28      22     217 ..       2     306 ..       1     325 [. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 99.1 bits;  conditional E-value: 2.2e-30
+              c.3  22 keapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa.....gcvpskaladsae...leld....................... 84 
+                      k +++d +viGgG++Gl aA a  ++G +++vl+  ++++ ++++a      ++ + +++d+ +   +++d                       
+  d2bs2a2/c.3.1.4   2 KVQYCDSLVIGGGLAGLRAAVATQQKGLSTIVLSLIPVKRSHSAAAqggmqASLGNSKMSDGDNedlHFMDtvkgsdwgcdqkvarmfvntapk 95 
+                      6789*************************************999999999956667789999555799999******999999*********** PP
+
+              c.3  85 .......qgvtvkel....................gdai....................laafdeelakalaeklkkhgvevllgtrveeidrd 131
+                             +gv+++++                                             +a+++++  a+a+++ k gv ++ +++++++  +
+  d2bs2a2/c.3.1.4  96 airelaaWGVPWTRIhkgdrmaiinaqkttiteedF--RhglihsrdfggtkkwrtcytADATGHTMLFAVANECLKLGVSIQDRKEAIALIHQ 187
+                      *******99999744553433333333333444340..144445555567777888888889999***********************988888 PP
+
+              c.3 132 gdgvvgvvpadgn.gggeeldadavilatGaa.r..............gkl..aekaGl.dvdd..givvdeks..nvkglya.gdvtgg.... 197
+                      ++++ g+v++d   g++  + a++ ++atG+  r              g +  a+ +G+ ++++  gi++d+ +  ++kgl+  g+++++    
+  d2bs2a2/c.3.1.4 188 DGKCYGAVVRDLVtGDIIAYVAKGTLIATGGYgRiyknttnavvcegtG-TaiALETGIaQLGNmgGIRTDYRGeaKLKGLFSaGEAACWdmhg 280
+                      899*********98999999************99***998888877651.1579999**9***9****************************** PP
+
+              c.3 198 .....pel.skalvsGrlaaeailek 217
+                           +++ s+a+v+G++++e+ +e+
+  d2bs2a2/c.3.1.4 281 fnrlgGNSvSEAVVAGMIVGEYFAEH 306
+                      ****9999*************99874 PP
+
+>> d1kf6a2/c.3.1.4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.9   2.1     2e-29     2e-27      25     216 ..       5     281 ..       1     304 [. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 95.9 bits;  conditional E-value: 2e-29
+              c.3  25 pydvvviGgGpsGleaAaaLakaGa..kvtvlekgdklggrcvsa..gcvpskaladsae.leld............................. 84 
+                      + d++++G+G +Gl aA+a+a+a+   k+++++k ++++ ++v+a  g+  +   +ds e +++d                             
+  d1kf6a2/c.3.1.4   5 QADLAIVGAGGAGLRAAIAAAQANPnaKIALISKVYPMRSHTVAAegGSAAVAQDHDSFEyHFHDtvaggdwlceqdvvdyfvhhcptemtqle 98 
+                      679********************6555****************998855555556667778888899999999999999989988888888899 PP
+
+              c.3  85 .qgvtvkel.............gdai......laafde.elakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgn.gggeeldadavi 156
+                       +g+++ +              +  i       ++++   l +  ++ l+  +++++  + v +i +d++ v g+v +    g+  +++a av+
+  d1kf6a2/c.3.1.4  99 lWGCPWSRRpdgsvnvrrfggmK--IertwfaADKTGFhMLHTLFQTSLQFPQIQRFDEHFVLDILVDDGHVRGLVAMNMMeGTLVQIRANAVV 190
+                      99999874445555654554330..1444445434444244444455678889************99998888777443322577999****** PP
+
+              c.3 157 latGaa.r............gkl....aekaGldvdd..givvdeks..nvkglya.gdvtgg.........pel.skalvsGrlaaeaile 216
+                      +atG+a r            g +    a+ +G+ ++d  gi++d+++  ++kgl+a g+++           +++ ++++v+Grla+e+++e
+  d1kf6a2/c.3.1.4 191 MATGGAgRvyryntnggivtG-DgmgmALSHGVPLRDmgGIETDQNCetRIKGLFAvGECSSVglhganrlgSNSlAELVVFGRLAGEQATE 281
+                      ******999999988777762.14669******************************************9977779*************988 PP
+
+>> d1kdga1/c.3.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.6   0.0     5e-29     5e-27      25     215 ..       2     354 ..       1     358 [. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 94.6 bits;  conditional E-value: 5e-29
+              c.3  25 pydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa.......gcvpskalads.ae.leld......................... 84 
+                      pyd++++G+Gp+G+ aA +L++aG+kv++le+g++   ++ ++       +++ +k+ +++  e l++d                         
+  d1kdga1/c.3.1.2   2 PYDYIIVGAGPGGIIAADRLSEAGKKVLLLERGGPSTKQTGGTyvapwatSSGLTKFDIPGlFEsLFTDsnpfwwckditvfagclvgggtsvn 95 
+                      8*******************************98874444444455698866677777777444777779988888888888888888888888 PP
+
+              c.3  85 ...................qgvtv..............k........el............................gdai..laafde..... 102
+                                          ++t+              +        ++                            +d++  ++afd      
+  d1kdga1/c.3.1.2  96 galywypndgdfsssvgwpSSWTNhapytsklssrlpsTdhpstdgqRYleqsfnvvsqllkgqgynqatindnpnyKDHVfgYSAFDFlngkr 189
+                      8888888888887776655233333333333333332202233333211333333333344444444444454444433337766666677777 PP
+
+              c.3 103 ..elakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgn.gggeel...dadavilatGaa.r.......................... 163
+                        ++a++l+++l + + +++++++v  + r+g++  gv+++d + g    +   +  +vil++Ga+ +                          
+  d1kdga1/c.3.1.2 190 agPVATYLQTALARPNFTFKTNVMVSNVVRNGSQILGVQTNDPTlGPNGFIpvtPKGRVILSAGAFgTsrilfqsgigptdmiqtvqsnptaaa 283
+                      77***************************************9966655444445999*********88*******9999999998888887665 PP
+
+              c.3 164 .....gkl.aekaGl.dvdd...givvdeks...nvkglyagdvtgg.....pel.skalvsGrlaaeail 215
+                           +++ ++++G+ +++      vvd +    ++++l++ d++ +     ++   ++++++++aa +il
+  d1kdga1/c.3.1.2 284 alppqNQWiNLPVGMtTIGSspqSAVVDSNVkvfGTNNLFIVDAGIIphlptGNPqGTLMSAAEQAAAKIL 354
+                      55554444*******655547788999999889**********99999997766688**********9996 PP
+
+>> d2gf3a1/c.3.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.8   0.0   8.9e-29   8.9e-27      24     212 ..       2     265 ..       1     269 [. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 93.8 bits;  conditional E-value: 8.9e-29
+              c.3  24 apydvvviGgGpsGleaAaaLakaGakvtvlekgdkl..ggrcvsa..................gcvpskaladsae..leld........... 84 
+                      +++dv+v+G+G++G++a+++Lak+G+k++++++ d++  +g +  +                          ++s+e  +el+           
+  d2gf3a1/c.3.1.2   2 THFDVIVVGAGSMGMAAGYQLAKQGVKTLLVDAFDPPhtNGSH--HgdtriirhaygegreyvpL------ALRSQElwYELEkethhkiftkt 87 
+                      689*****************************99888444444..34588889988886433331......33344445555566667888886 PP
+
+              c.3  85 ........................................qgvtvkelgdai.............laafdeelakalaeklkkhgvevllgtrv 125
+                                                              +g+                      ++ f+e++  a++e ++++g +vl++trv
+  d2gf3a1/c.3.1.2  88 gvlvfgpkgesafvaetmeaakehsltvdllegdeinkrwPGI--------TvpenynaifepnsGVLFSENCIRAYRELAEARGAKVLTHTRV 173
+                      6666666665555555555555544444444444444443233........033334444688888899************************* PP
+
+              c.3 126 eeidrdgdgvvgvvpadgngggeeldadavilatGaargklaekaGldvdd.givvdeksnvkglya.gdvtgg........pel.skalvsGr 208
+                      e++d ++d v+ +++a     g+ + ad++i+++Ga+++kl++k+ ld++d ++++d + +++++ +   ++g+        +e  s+++ +G+
+  d2gf3a1/c.3.1.2 174 EDFDISPDSVK-IETAN----GS-YTADKLIVSMGAWNSKLLSKLNLDIPDeHFIIDLHPEHSNVVIaAGFSGHgfkfssgvGEVlSQLALTGK 261
+                      ******99998.88775....34.9************99*********************9999999887777768888866555777777777 PP
+
+              c.3 209 laae 212
+                      + ++
+  d2gf3a1/c.3.1.2 262 TEHD 265
+                      7655 PP
+
+>> d1xhca1/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.8   0.1   1.9e-28   1.9e-26      27     215 ..       2     165 ..       1     167 [] 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 92.8 bits;  conditional E-value: 1.9e-28
+              c.3  27 dvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkelgdai.......laafdeelakalaeklk 113
+                      +vv++G Gp+G+e+A++L++  ++vtv++k++++ +    ++++ s++ a         g+        i       +     +  +++    +
+  d1xhca1/c.3.1.5   2 KVVIVGNGPGGFELAKQLSQT-YEVTVIDKEPVPYY----SKPMLSHYIA---------GF--------IprnrlfpY-----S-LDWY----R 63 
+                      8******************96.9*******988777....4455554442.........22........122111222.....2.2333....5 PP
+
+              c.3 114 khgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatGaargklaekaGldvddgivvdeks..nvkglya.gdvtgg...pel. 200
+                      k+g+e++l  +++ idr    ++ v++++      e+++d ++latGa + +la ++G++ ++gi++d+++  + k++ya gd+++    +++ 
+  d1xhca1/c.3.1.5  64 KRGIEIRLAEEAKLIDRG---RKVVITEK-----GEVPYDTLVLATGAPNVDLARRSGIHTGRGILIDDNFrtSAKDVYAiGDCAEYsgiIAGt 149
+                      79*************997...88788876.....57**********98877789*******************************999996666 PP
+
+              c.3 201 .skalvsGrlaaeail 215
+                         a++++r++a++++
+  d1xhca1/c.3.1.5 150 aKAAMEQARVLADILK 165
+                      789**********986 PP
+
+>> d2gmha1/c.3.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.3   0.0   1.1e-27   1.1e-25       8     217 ..      16     282 ..       8     318 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 90.3 bits;  conditional E-value: 1.1e-27
+              c.3   8 gkdalissdgalklkeapydvvviGgGpsGleaAaaLakaGa......kvtvlekgdklggrcvsagcvpskaladsaeleld........... 84 
+                      ++d++++  +++    ++ dvv++G+Gp+Gl+aA +L+++ a      +v+++ek++++g +++s  c++++a+     l++d           
+  d2gmha1/c.3.1.2  16 DQDKRWEGVNME-RFAEEADVVIVGAGPAGLSAATRLKQLAAqhekdlRVCLVEKAAHIGAHTLSGACLDPRAFEE---LFPDwkekgaplntp 105
+                      566777877865.448899*******************9866666777***********************99943...455566666666655 PP
+
+              c.3  85 ....................qgvtvkelgdailaafdeelakalaeklkkhgvevllgtrveeidrdgdg.vvgvvpadg..........n.gg 146
+                                          +g +++   + ++++   +l+ ++ e++++ gvev++g++++ei +++dg v+g+ ++d           +   
+  d2gmha1/c.3.1.2 106 vtedrfgiltekyripvpilPGLPMN--NHGNYVVRLGHLVSWMGEQAEALGVEVYPGYAAAEILFHEDGsVKGIATNDVgiqkdgapktTfER 197
+                      55555555555533333333333333..3334888899****************************9866256877774444444455444455 PP
+
+              c.3 147 geeldadavilatGaa.r......gkl.aekaGldvddgivvdeks.nvkglya.gdvtgg..........pel.skalvsGrlaaeailek 217
+                      g el+a++ i a G++ +          +++a ++   g      + +++ l + g    g          +++ ++a++sG+laae+i+++
+  d2gmha1/c.3.1.2 198 GLELHAKVTIFAEGCHgHlakqlyK-KfDLRANCEPQGG------FqSIPKLTFpGGLLIGcspgfmnvpkIKGtHTAMKSGTLAAESIFNQ 282
+                      6889**********99779655442.0344444432222......134444444444444445556788778889**************983 PP
+
+>> d1chua2/c.3.1.4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.0   0.6   1.4e-27   1.4e-25      21     215 ..       3     239 ..       1     247 [. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 90.0 bits;  conditional E-value: 1.4e-27
+              c.3  21 lkeapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsaeleld......................qgvtvkel 92 
+                      l+e ++dv++iG+G +Gl++A +La+++ +v+vl+kg++                     +e+d                      +       
+  d1chua2/c.3.1.4   3 LPEHSCDVLIIGSGAAGLSLALRLADQH-QVIVLSKGPVTEF------------------DETDsidshvedtliagagicdrhavE------- 70 
+                      56889*********************86.******9844332..................222222233322444443333222220....... PP
+
+              c.3  93 gdai............laafde.elakalaeklkkhgvevllgtrveeidrd.......gdgvvgvvpadgnggg.eeldadavilatGaa.r. 163
+                         +            +   d+  l++ + ++l+  +++vl +t+++++ ++       +++vvg++++ +n+++ e+++a+av+latG+a + 
+  d1chua2/c.3.1.4  71 ---FvasnarscvqwlI---DQgVLTTLVSKALNHPNIRVLERTNAVDLIVSdkiglpgTRRVVGAWVWNRNKETvETCHAKAVVLATGGAsKv 158
+                      ...12222222233333...33234444444555569*******998888864666655588999****9996554888************779 PP
+
+              c.3 164 ...........gkl....aekaGldvdd..givvdeks..nvkglya.gdvtgg.........pel.skalvsGrlaaeail 215
+                                 g +    a++aG++v++  g++vd+++   v+glya g+v+           +++  ++lv G+ aae i+
+  d1chua2/c.3.1.4 159 yqyttnpdissG-DgiamAWRAGCRVANcgGVMVDDHGrtDVEGLYAiGEVSYTglhganrmaSNSlLECLVYGWSAAEDIT 239
+                      999887777652.15679***********9**********************99899999987777889**********986 PP
+
+>> d1q1ra1/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.3   0.1   2.1e-27   2.2e-25      26     216 ..       4     184 ..       1     185 [] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 89.3 bits;  conditional E-value: 2.1e-27
+              c.3  26 ydvvviGgGpsGleaAaaLakaGa..kvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkelgdailaafdeelakalaeklkkhgv 117
+                       +vv++G+G++G+e+A  L+++G+  ++ ++ ++ +++ ++     + ska++++                    a++e+l  +  ++  ++++
+  d1q1ra1/c.3.1.5   4 DNVVIVGTGLAGVEVAFGLRASGWegNIRLVGDATVIPHHLP----PLSKAYLAG-------------------KATAESLYLRTPDAYAAQNI 74 
+                      68***********************99999998877777553....666666544...................222333333333456789** PP
+
+              c.3 118 evllgtrveeidrdgdgvvgvvpadgngggeeldadavilatGaa.r...gklaekaGldvddgivvdeks..nvkglya.gdvtgg....... 197
+                      ++l gt+v++i rd   + +v++ dg    + ld+d+++latG+      ++la+ aGl+vd+giv++e++  + + ++a gd++++       
+  d1q1ra1/c.3.1.5  75 QLLGGTQVTAINRD---RQQVILSDG----RALDYDRLVLATGGRpLipnCELASAAGLQVDNGIVINEHMqtSDPLIMAvGDCARFhsqlydr 161
+                      ***********999...999****95....78************966999888***************************************** PP
+
+              c.3 198 ...pel.skalvsGrlaaeaile 216
+                         +e+ ++al+++r+ a ++++
+  d1q1ra1/c.3.1.5 162 wvrIESvPNALEQARKIAAILCG 184
+                      ***9999************9997 PP
+
+>> d1m6ia1/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.5   0.0   1.6e-26   1.6e-24      24     218 ..       3     207 ..       1     211 [] 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 86.5 bits;  conditional E-value: 1.6e-26
+              c.3  24 apydvvviGgGpsGleaAaaLaka..Gakvtvlekgdklggrcvsagcvpskaladsae..leld....qgvtvkelgdai..........laa 99 
+                      ++ + + iGgG ++++aA+ ++++  Ga+v++++  ++l++    ++++ sk+l+ s++  ++l+    +g       ++           ++ 
+  d1m6ia1/c.3.1.5   3 SHVPFLLIGGGTAAFAAARSIRARdpGARVLIVSEDPELPY----MRPPLSKELWFSPNvtKTLRfkqwNG-------KERsiyfqppsfyVS- 84 
+                      5777889************999876699*************....************99998888888423.......222222233222221. PP
+
+              c.3 100 fdeelakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatGaa.r.gklaekaGldvdd...givvdeks.nvk 187
+                       ++      + + +++gv vl+g++v+++d++     +v+++dg    +++ ++++++atG+  +  +la++ Gl++d    g++v+++    +
+  d1m6ia1/c.3.1.5  85 -AQD-----LPHIENGGVAVLTGKKVVQLDVR---DNMVKLNDG----SQITYEKCLIATGGTePnVELAKTGGLEIDSdfgGFRVNAELqARS 165
+                      .222.....1256899***************9...889****96....78************97776669999998886689*********99* PP
+
+              c.3 188 glya.gdvtgg.........pel.skalvsGrlaaeailekk 218
+                      ++++ gd++++          e+ ++a+vsGrla+e++++  
+  d1m6ia1/c.3.1.5 166 NIWVaGDAACFydiklgrrrVEHhDHAVVSGRLAGENMTGAA 207
+                      ******************998899*************98855 PP
+
+>> d1s3ea1/c.3.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   83.4   0.0   1.4e-25   1.4e-23      25     216 ..       2     338 ..       1     364 [. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 83.4 bits;  conditional E-value: 1.4e-25
+              c.3  25 pydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa...............gcvpskaladsae..leld................. 84 
+                      ++dvvv+GgG+sG++aA+ L+++G +v+vle++d++ggr+++                g+  ++ l   +e  le++                 
+  d1s3ea1/c.3.1.2   2 KCDVVVVGGGISGMAAAKLLHDSGLNVVVLEARDRVGGRTYTLrnqkvkyvdlggsyvGPTQNRILRLAKElgLETYkvneverlihhvkgksy 95 
+                      79***************************************99**********99999555555555554445444466666666666666666 PP
+
+              c.3  85 .........................................................................................qgvtv 89 
+                                                                                                               +    
+  d1s3ea1/c.3.1.2  96 pfrgpfppvwnpityldhnnfwrtmddmgreipsdapwkaplaeewdnmtmkelldklcwtesakqlatlfvnlcvtaethevsalwflW---- 185
+                      666666666555555555555444445555555554444444433323333333333333333333333333333333333333332222.... PP
+
+              c.3  90 kel.................gdai..laafdeelakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatGaa.r 163
+                        +                 +     +++ + ++++++++ l   g++v+l  +v+ id++   +  v +++   ++e ++a++vi a++    
+  d1s3ea1/c.3.1.2 186 --YvkqcggttriisttnggQ--ErkFVGGSGQVSERIMD-L--LGDRVKLERPVIYIDQT---RENVLVETL--NHEMYEAKYVISAIPPTlG 267
+                      ..0222222222222222221..02233334455555555.2..38**************8...666666666..89************64433 PP
+
+              c.3 164 gkl..........aekaGldvdd.givvdeks....nvkglya.gdvtgg..pel.skalvsGrlaaeaile 216
+                       +           ++++  +v + gi++ + +     v+++y+ g  t    + +   a+++G++aa++il+
+  d1s3ea1/c.3.1.2 268 -MKihfnpplpmmRNQMITRVFPpGILTQYGRvlrqPVDRIYFaGTETAThwSGYmEGAVEAGERAAREILH 338
+                      .224455556777899999999999999998788889********6665556444689**********9987 PP
+
+>> d1w4xa1/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   83.0   0.0   1.8e-25   1.8e-23      23     214 ..       5     213 ..       2     249 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 83.0 bits;  conditional E-value: 1.8e-25
+              c.3  23 eapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsae..leld......qgvtvkel..gdailaafdeelak 106
+                      +++ dv+v+G+G+sGl a ++L+++G +v+v+e ++ +gg++++++++  +  + s e  + ++      +++t + +  + +il     +  +
+  d1w4xa1/c.3.1.5   5 PEEVDVLVVGAGFSGLYALYRLRELGRSVHVIETAGDVGGVWYWNRYPGARCDIESIEycYSFSeevlqeWNWTER-YasQPEIL-----RYIN 92 
+                      7899*****************************************6665544444444332222566656666622.23322222.....5577 PP
+
+              c.3 107 alaekl.kkhgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatGaa.rgklaekaGldvdd..givvdeks............ 184
+                      ++a+k+  + g+++++ ++++++d+ +++++ v +++g    ++++a+++i+a G++ ++ +++ + +d++   +++++ek+            
+  d1w4xa1/c.3.1.5  93 FVADKFdLRSGITFHTTVTAAAFDEATNTWT-VDTNHG----DRIRARYLIMASGQLsDALTGALFKIDIRGvgNVALKEKWaagprtylglst 181
+                      8888876899***************988887.999985....89***********99555447778888888889******6654433333345 PP
+
+              c.3 185 .nvkglyagdvtggpel.skalvsGrlaaeai 214
+                       ++++l++  + g p + s++lvs ++++e +
+  d1w4xa1/c.3.1.5 182 aGFPNLFFIAGPGSPSAlSNMLVSIEQHVEWV 213
+                      558888886666668889*********99955 PP
+
+>> d1fl2a1/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.8   3.2     2e-25     2e-23      26     215 ..       2     175 ..       1     181 [. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 82.8 bits;  conditional E-value: 2e-25
+              c.3  26 ydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkelgdailaafdeelakalaeklkkhgvev 119
+                      ydv+++G+Gp+G +aA++ a++G+++ ++   ++ gg+++ +  + +  ++ +                    + ++ la+al+ +++++ v+v
+  d1fl2a1/c.3.1.5   2 YDVLIVGSGPAGAAAAIYSARKGIRTGLMG--ERFGGQILDTVDIEN--YISV------------------PKTEGQKLAGALKVHVDEYDVDV 73 
+                      9*****************************..88***9997754444..2211..................1222678899************* PP
+
+              c.3 120 llgtrveeidrd..gdgvvgvvpadgngggeeldadavilatGaa.r.gklaekaGldvdd..givvdeks..nvkglya.gdvtggpel..sk 202
+                      +  +++ ++ +   ++g +++++a+g    ++l+a+ +i+atGa+ + + ++e   ++ ++   i++d+k+  nvkg++a gd+t+ p+     
+  d1fl2a1/c.3.1.5  74 IDSQSASKLIPAavEGGLHQIETASG----AVLKARSIIVATGAKlPnTNWLEG-AVERNRmgEIIIDAKCetNVKGVFAaGDCTTVPYKqiII 162
+                      ******99999745699*****9984....9*************9888666442.234455679***********************9997778 PP
+
+              c.3 203 alvsGrlaaeail 215
+                      a+ +G++a  +++
+  d1fl2a1/c.3.1.5 163 ATGEGAKASLSAF 175
+                      8888888766665 PP
+
+>> d2iida1/c.3.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.3   0.0     3e-25     3e-23      15     159 ..      20     291 ..       8     363 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 82.3 bits;  conditional E-value: 3e-25
+              c.3  15 sdgalklkeapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa........................gcvpskaladsaeleld 84 
+                      ++++lk+ ++p++vv++G+G++Gl+aA++La aG++vtvle+++++ggr+++                         +               +
+  d2iida1/c.3.1.2  20 ARNGLKATSNPKHVVIVGAGMAGLSAAYVLAGAGHQVTVLEASERPGGRVRTYrneeagwyanlgpmrlpekhrivrE---------------Y 98 
+                      68899999*******************************************999999888887766544444443332...............0 PP
+
+              c.3  85 ........................................qgvtvkel......gdailaafdeelakalaeklk................... 113
+                                                              +      +      g+ +++ ++e+l k+++e lk                   
+  d2iida1/c.3.1.2  99 irkfdlrlnefsqendnawyfiknirkkvgevkkdpgllkY------PvkpseaGKSAGQLYEESLGKVVEE-LKrtncsyilnkydtystkey 185
+                      32333444445555556654444555554444444444332......0223333555566777777777777.545777777777777777777 PP
+
+              c.3 114 .............................................................khgvevllgtrveeidrdgdgvvgvvpadgngg 146
+                                                                                   + +++v+ +++v++i+++ d++v+vv+++  ++
+  d2iida1/c.3.1.2 186 likegdlspgavdmigdllnedsgyyvsfieslkhddifayekrfdeivdgmdklptamyrDIQDKVHFNAQVIKIQQN-DQKVTVVYETLSKE 278
+                      7777777777777777777777777777777776666666666666666555555555555669************997.66666998988788 PP
+
+              c.3 147 geeldadavilat 159
+                      +  + ad+vi++t
+  d2iida1/c.3.1.2 279 TPSVTADYVIVCT 291
+                      8889********* PP
+
+>> d1d7ya1/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.3   0.1   2.9e-25   2.9e-23      26     216 ..       4     182 ..       1     183 [] 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 82.3 bits;  conditional E-value: 2.9e-25
+              c.3  26 ydvvviGgGpsGleaAaaLakaGa..kvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkelgdailaafdeelakalaeklkkhgv 117
+                       +vvv+G+G++ ++  a+L++aG+   +tv+ ++++ ++    ++++ sk ++++                      d e  k  +++ ++  v
+  d1d7ya1/c.3.1.5   4 APVVVLGAGLASVSFVAELRQAGYqgLITVVGDEAERPY----DRPPLSKDFMAH---------------------GDAE--KIRLDCKRAPEV 70 
+                      68**********************888888888766555....455555555444.....................2332..33445557889* PP
+
+              c.3 118 evllgtrveeidrdgdgvvgvvpadgngggeeldadavilatGaa.r.....gklaekaGldvddgivvdeks..nvkglya.gdvtgg..... 197
+                      e+llg++++ +d++   +++v + dg    ++l++  ++latGaa r     ++la  aGl++ddgi vd+++  +++++ya gdvt++     
+  d1d7ya1/c.3.1.5  71 EWLLGVTAQSFDPQ---AHTVALSDG----RTLPYGTLVLATGAApRavlanDALARAAGLACDDGIFVDAYGrtTCPDVYAlGDVTRQrnpls 157
+                      *************9...*******95....88*************9998875555999************************************ PP
+
+              c.3 198 .....pel.skalvsGrlaaeaile 216
+                           +e+ s+a ++G+++a+++++
+  d1d7ya1/c.3.1.5 158 grferIETwSNAQNQGIAVARHLVD 182
+                      ***99999**************975 PP
+
+>> d1ebda2/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.3   1.5     6e-25     6e-23       4     157 ..       1     116 [.       1     117 [] 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 81.3 bits;  conditional E-value: 6e-25
+              c.3   4 pnipgkdalissdgalklkeapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkelgdail 97 
+                      pn++ + ++++s+gal+l e p+ +vviGgG++G+e++ a+a  G kvt+le                              g      + +il
+  d1ebda2/c.3.1.5   1 PNFKFSNRILDSTGALNLGEVPKSLVVIGGGYIGIELGTAYANFGTKVTILE------------------------------G------AGEIL 58 
+                      67888899********************************************..............................7......8899* PP
+
+              c.3  98 aafdeelakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavil 157
+                      ++f++++a+ ++++lkk gvev++++ +++ ++++dgv+ v+++ +ng+++++dad+v++
+  d1ebda2/c.3.1.5  59 SGFEKQMAAIIKKRLKKKGVEVVTNALAKGAEEREDGVT-VTYE-ANGETKTIDADYVLV 116
+                      **************************************9.9877.699**********97 PP
+
+>> d1jnra2/c.3.1.4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.2   0.3   2.2e-23   2.2e-21       6     216 ..       3     319 ..       1     344 [. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 76.2 bits;  conditional E-value: 2.2e-23
+              c.3   6 ipgkdalissdgalklkeapydvvviGgGpsGleaAaaLaka....Gakvtvlekgdklggrcvsa..................gcvpskalad 77 
+                      +p+k +l+++d++  ++  ++d+++iGgG+sG+ aA+++a +    G kvt++ek+++ +   v++                  +         
+  d1jnra2/c.3.1.4   3 YPKKYELYKADEV-PTEVVETDILIIGGGFSGCGAAYEAAYWaklgGLKVTLVEKAAVERSGAVAQglsaintyidltgrserqN--------- 86 
+                      6899999999995.4889********************9965444566*******988866666666755544444333333330......... PP
+
+              c.3  78 saeleld...................................qgvtv....kel.....gdailaafdeelakalaeklk..khgvevllgtrv 125
+                          +l+                                   +g ++    + +     g+ +++  +e+ +  +ae++k   +  +++ ++  
+  d1jnra2/c.3.1.4  87 ----TLEdyvryvtldmmglaredlvadyarhvdgtvhlfekWGLPIwktpD-GkyvreGQWQIMIHGESYKPIIAEAAKmaVGEENIYERVFI 175
+                      ....333455445555555555555555555555555555565544332221.02333333333344555555555544311456788888876 PP
+
+              c.3 126 .eeidrdg.....dgvvgvvpadgngggeeldadavilatGaa.r.......................gkl..aekaGldvdd.g......... 177
+                       e ++ ++      g+vg ++++   + ++++a+avilatG+a                         g    ++kaG ++++ g         
+  d1jnra2/c.3.1.4 176 fELLKDNNdpnavAGAVGFSVREP--KFYVFKAKAVILATGGAtLlfrprstgeaagrtwyaifdtgsG-YymGLKAGAMLTQaGfwvcgpedl 266
+                      344444433423333555667776..78***************66******999998777777766552.057666666666543444455566 PP
+
+              c.3 178 ........ivvdeks..nvkglya.gdvtgg.pel..skalvsGrlaaeaile 216
+                              + +++++  +vkgl+a gd++g  p    s   ++Gr+aa+a++ 
+  d1jnra2/c.3.1.4 267 mpeeyaklFPLKYNRmtTVKGLFAiGDCAGAnPHKfsSGSFTEGRIAAKAAVR 319
+                      666777779*****99*************9994445899**********9876 PP
+
+>> d1lvla2/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.0   0.2   2.6e-23   2.6e-21       7     160 ..       3     115 .]       1     115 [] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 76.0 bits;  conditional E-value: 2.6e-23
+              c.3   7 pgkdalissdgalklkeapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkelgdailaaf 100
+                      p  + +iss++al  k  p+++vv+GgG++Gle+++a++k+Ga+v v+e+                                    +++il ++
+  d1lvla2/c.3.1.5   3 PLGGPVISSTEALAPKALPQHLVVVGGGYIGLELGIAYRKLGAQVSVVEA------------------------------------RERILPTY 60 
+                      5566789******************************************4....................................56799999 PP
+
+              c.3 101 deelakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatG 160
+                      d+el++ +ae lkk g+ ++lg++ve+ +   +g+     +dg+gg+ +l+ad+v++a+G
+  d1lvla2/c.3.1.5  61 DSELTAPVAESLKKLGIALHLGHSVEGYE---NGCL--LANDGKGGQLRLEADRVLVAVG 115
+                      ************************98885...5598..44899*999************7 PP
+
+>> d1v59a2/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.3   0.3   1.7e-22   1.7e-20       8     158 ..       6     122 .]       1     122 [] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 73.3 bits;  conditional E-value: 1.7e-22
+              c.3   8 gkdalissdgalklkeapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkelgdailaafd 101
+                      ++++++ss+gal+lke+p+++ +iGgG++Gle++ +++++G kvtv+e ++                                    +i+a +d
+  d1v59a2/c.3.1.5   6 DEEKIVSSTGALSLKEIPKRLTIIGGGIIGLEMGSVYSRLGSKVTVVEFQP------------------------------------QIGASMD 63 
+                      5669********************************************443....................................4555669 PP
+
+              c.3 102 eelakalaeklkkhgvevllgtrveeidrdgdgv.vgvvpadgnggg.eeldadavila 158
+                       e+aka ++ lkk+g +++l t+v+  +r++d++ v++v++d+++++ e l+a+++++a
+  d1v59a2/c.3.1.5  64 GEVAKATQKFLKKQGLDFKLSTKVISAKRNDDKNvVEIVVEDTKTNKqENLEAEVLLVA 122
+                      9****************************98887358889999966658999*999987 PP
+
+>> d1gpea1/c.3.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.2   0.0   1.8e-22   1.8e-20       8     220 ..       4     389 ..       1     391 [] 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 73.2 bits;  conditional E-value: 1.8e-22
+              c.3   8 gkdalissdgalklk...eapydvvviGgGpsGleaAaaLakaGa.kvtvlekgdklggrcvsa...........gcvpskaladsaeleld.. 84 
+                       ++ +++s+ + + +    ++yd+++ GgG++Gl++Aa+L ++ + kv+v+ekg + + +++++                         ++d  
+  d1gpea1/c.3.1.2   4 AQQIDVQSSLLSDPSkvaGKTYDYIIAGGGLTGLTVAAKLTENPKiKVLVIEKGFYESNDGAIIedpnaygqifgT-------------TVDqn 84 
+                      555555555553332233789**********************666***********9999999666666555542.............33333 PP
+
+              c.3  85 ..................................................qgvtv................................kel.... 92 
+                                                                        +++++                                + +    
+  d1gpea1/c.3.1.2  85 yltvplinnrtnnikagkglggstlingdswtrpdkvqidswekvfgmegWNWDNmfeymkkaeaartptaaqlaaghsfnatchgtN-Gtvqs 177
+                      3444455555557778888888888888888888899999999999997755554444444444333333333333333322222220.02222 PP
+
+              c.3  93 ..............gdai................................laafdeelakalaeklkkhgvevllgtrveeidrd....gdgvv 136
+                                    +                                    ++ ++  +++l+ + ++ + e+l+g++v ++ ++    g ++v
+  d1gpea1/c.3.1.2 178 gardngqpwspimkA--LmntvsalgvpvqqdflcghprgvsmimnnldeNQVRVDAARAWLLPNYQRSNLEILTGQMVGKVLFKqtasGPQAV 269
+                      222222233333320..0233333333333333444444455554555554455668889999999999**********9998875666699** PP
+
+              c.3 137 gvvpadgn.gggeeldadavilatGaa.r....................gkl.aekaGl...dvdd.givvdeks...nvkglyagdvtgg... 197
+                      gv + + +  + ++++  +v+la+G+a +                    ++l ++++G+   + ++ g vvd+     +++gl + d++     
+  d1gpea1/c.3.1.2 270 GVNFGTNKaVNFDVFAKHEVLLAAGSAiSplileysgiglksvldqanvTQLlDLPVGIcsmMSRElGGVVDATAkvyGTQGLRVIDGSIPptq 363
+                      ***999888899****************9******999888877666554449********66666********999***********999877 PP
+
+              c.3 198 ..pel..skalvsGrlaaeailekkls 220
+                        + +  + ++ ++ ++a+ail+++++
+  d1gpea1/c.3.1.2 364 vsS-HvmTIFYGMALKVADAILDDYAK 389
+                      532.25667999999999999998765 PP
+
+>> d1pj5a2/c.3.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.7   1.0   2.6e-22   2.6e-20      27     209 ..       3     259 ..       1     269 [. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 72.7 bits;  conditional E-value: 2.6e-22
+              c.3  27 dvvviGgGpsGleaAaaLakaGakvtvlekgdkl...ggrcvsa.....gcvpskaladsaeleld.......qgvtvkel............. 92 
+                      ++v+iG+G+ G  +A +L ++G++++ + ++++l   gg + +a     ++ psk +a  a+++++        gv++ ++             
+  d1pj5a2/c.3.1.2   3 RIVIIGAGIVGTNLADELVTRGWNNITVLDQGPLnmpGGSTSHApglvfQTNPSKTMASFAKYTVEkllslteDGVSCFNQvgglevattetrl 96 
+                      79*********************66655556666675666665588877555777774434455556777888566664222222222222233 PP
+
+              c.3  93 .....................gdai.......................laafdeelakalaeklkkhgvevllgtrveeidrdgdgvvgvvpad 142
+                                              +                       + a++ + ++ l +++++ gv+++  t+v++i+++g++v+gv++ad
+  d1pj5a2/c.3.1.2  97 adlkrklgyaaawgiegrllsP--AecqelyplldgenilgglhvpsdGLASAARAVQLLIKRTESAGVTYRGSTTVTGIEQSGGRVTGVQTAD 188
+                      3333222323333223233331..03344444444444455555566644556677888888899****************************9 PP
+
+              c.3 143 gngggeeldadavilatGaargklaekaGldvdd..givvdeksnvkglyagdvtgg......pel.skalvsGrl 209
+                            +++ad v+ ++G++ +k ++++G++v++  g +++e ++++g+y+ ++          ++ +++l++Gr 
+  d1pj5a2/c.3.1.2 189 -----GVIPADIVVSCAGFWGAKIGAMIGMAVPPdgGPLLGESKELDGFYVAEAVWVthsagvAKAmAELLTTGRS 259
+                      .....48************9988899******988888899998******96655334556543335666666665 PP
+
+>> d2f5va1/c.3.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.3   0.0   3.4e-22   3.4e-20      24     216 ..       3     371 ..       1     377 [. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 72.3 bits;  conditional E-value: 3.4e-22
+              c.3  24 apydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa..............................gcvpskaladsaeleld... 84 
+                      ++ydvv++G+Gp+G+++A++L  aG+kv++++ g+  +g   +a                              +                   
+  d2f5va1/c.3.1.2   3 IKYDVVIVGSGPIGCTYARELVGAGYKVAMFDIGEIDSGLKIGAhkkntveyqknidkfvnviqgqlmsvsvpvN---------------Tlvv 81 
+                      79******************************9877777555557777788888777777666655555333331...............0223 PP
+
+              c.3  85 ..........................................qgvtv.......kel..............................gdailaa 99 
+                                                                 ++t+       + +                              +      
+  d2f5va1/c.3.1.2  82 dtlsptswqastffvrngsnpeqdplrnlsgqavtrvvggmsTHWTCatprfdrE-QrpllvkddadaddaewdrlytkaesyfqtgT------ 168
+                      3444566666666667777777778888888777778877775555533333330.12233322222222222222222222222221...... PP
+
+              c.3 100 fde........elakalaeklk........................................khgvevllgtrveeidrd..gdgvvgvvpadg 143
+                       d+         + ++lae+ k                                        ++  ++++ +++e++ r+  +++   ++ +d 
+  d2f5va1/c.3.1.2 169 -DQfkesirhnLVLNKLAEEYKgqrdfqqiplaatrrsptfvewssantvfdlqnrpntdapEERFNLFPAVACERVVRNalNSEIESLHIHDL 261
+                      .1122222222333333333334444444444444444444444444444444444444444889**************95558889999**** PP
+
+              c.3 144 n.gggeeldadavilatGaa.r................gkl..........aekaGldvdd.givvdeks...nvkglyagdvtgg.....pel 200
+                        g+  e++ad+++l +Ga+ +                  +           +++G d ++ +++v+++s   ++k+l+ g ++++       +
+  d2f5va1/c.3.1.2 262 IsGDRFEIKADVYVLTAGAVhNtqllvnsgfgqlgrpnP-TnppellpslgSHRMGFDEKEdNCCVNTDSrvfGFKNLFLGGCGNIptaygA-N 353
+                      9888899*************8899999988877766650.15566667777999999999898888888777************99898853.3 PP
+
+              c.3 201 ..skalvsGrlaaeaile 216
+                         +a++ +++ +e+i++
+  d2f5va1/c.3.1.2 354 ptLTAMSLAIKSCEYIKQ 371
+                      4779**********9976 PP
+
+>> d1nhpa1/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.4   0.0   3.2e-22   3.2e-20      27     218 ..       2     194 ..       1     198 [] 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 72.4 bits;  conditional E-value: 3.2e-22
+              c.3  27 dvvviGgGpsGleaAaaLakaGa..kvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkelgdailaafdeelakalaeklkkhgve 118
+                      +v+v+G+  +G+ea  +L  ++   ++ ++ekgd+++  +++++ +               g              +++++ +  ek++++gv+
+  d1nhpa1/c.3.1.5   2 KVIVLGSSHGGYEAVEELLNLHPdaEIQWYEKGDFISFLSAGMQLYLE-------------GKV--------K--DVNSVRYMTGEKMESRGVN 72 
+                      8********************8777********999986665533222.............311........1..1345555567899****** PP
+
+              c.3 119 vllgtrveeidrdgdgvvgvvpadgn.gggeeldadavilatGaa.r........gklaek.aGldvddgivvdeks..nvkglya.gdvtgg. 197
+                      v+++t+ ++i+++    ++v+++d   g++++  +d++i++ Ga+          +++++  ++l+ +  i++de++  + ++++a gd+t + 
+  d1nhpa1/c.3.1.5  73 VFSNTEITAIQPK---EHQVTVKDLVsGEERVENYDKLIISPGAVpFeldgvrpnTAWLKGtLELHPNGLIKTDEYMrtSEPDVFAvGDATLIk 163
+                      **********999...*********966656567***********6599998887666444367777779************************ PP
+
+              c.3 198 .........pel.skalvsGrlaaeailekk 218
+                               ++l ++a ++Gr a++++ e+ 
+  d1nhpa1/c.3.1.5 164 ynpadtevnIALaTNARKQGRFAVKNLEEPV 194
+                      ******9998889************997755 PP
+
+>> d3lada2/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.4   1.8   3.1e-22   3.1e-20       6     160 ..       3     119 .]       1     119 [] 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 72.4 bits;  conditional E-value: 3.1e-22
+              c.3   6 ipgkdalissdgalklkeapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkelgdailaa 99 
+                        ++d +++s+gal+ ++ p+++ viG+G +Gle++ + a++Ga+vtvle+                                     d++l a
+  d3lada2/c.3.1.5   3 PVDQDVIVDSTGALDFQNVPGKLGVIGAGVIGLELGSVWARLGAEVTVLEA------------------------------------MDKFLPA 60 
+                      458999********************************************3....................................6789999 PP
+
+              c.3 100 fdeelakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatG 160
+                      +de++ak  ++ l k+g ++llg+rv++ ++++ +v+ v++ d++g+++  + d++i+a+G
+  d3lada2/c.3.1.5  61 VDEQVAKEAQKILTKQGLKILLGARVTGTEVKNKQVT-VKFVDAEGEKS-QAFDKLIVAVG 119
+                      9******************************966665.*****987763.34677****97 PP
+
+>> d1ojta2/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   71.5   0.0   6.2e-22   6.2e-20       4     160 ..       5     124 ..       1     125 [] 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 71.5 bits;  conditional E-value: 6.2e-22
+              c.3   4 pnipgkdalissdgalklkeapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkelgdail 97 
+                      p+ip + ++i+s+gal lke p+++++iGgG++Gle++ +++++G +  v+e                   +                  d  +
+  d1ojta2/c.3.1.5   5 PFIPEDPRIIDSSGALALKEVPGKLLIIGGGIIGLEMGTVYSTLGSRLDVVE-------------------M-----------------MDGLM 62 
+                      8899999*********************************************...................3.................34466 PP
+
+              c.3  98 aafdeelakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatG 160
+                      ++ d  l+k+++++ + + ++++ +t+ +++++++dgv  v+++++n  +e  ++dav++a+G
+  d1ojta2/c.3.1.5  63 QGADRDLVKVWQKQNEYRFDNIMVNTKTVAVEPKEDGVY-VTFEGANAPKEPQRYDAVLVAAG 124
+                      777***********************************9.******96655555666*****8 PP
+
+>> d2ivda1/c.3.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.2   1.6   1.5e-21   1.5e-19      27     215 ..       2     340 ..       1     341 [] 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 70.2 bits;  conditional E-value: 1.5e-21
+              c.3  27 dvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa................gcvpskaladsaeleld.................... 84 
+                      +v+v+GgG+sGl++A  L+ +G + ++le++++lgg + ++                + + ++ala+                           
+  d2ivda1/c.3.1.2   2 NVAVVGGGISGLAVAHHLRSRGTDAVLLESSARLGGAVGTHalagylveqgpnsfldREPATRALAAA-----Lnlegriraadpaakrryvyt 90 
+                      79**********************************99988999999887776666533333333333.....033344446667777555555 PP
+
+              c.3  85 ....................................................qgvtvkelgdailaafdeelakalaeklk............. 113
+                                                                                                      +             
+  d2ivda1/c.3.1.2  91 rgrlrsvpasppaflasdilplgarlrvagelfsrrapegvdeslaafgrrhL---------------------------Ghratqvlldavqt 157
+                      55555555555444444455544444455555555555333333333322220...........................22222222333333 PP
+
+              c.3 114 .....................................................................khgvevllgtrveeidrdgdgvvgv 138
+                                                                                           + g+  + g+rve++ r     +++
+  d2ivda1/c.3.1.2 158 giyagdveqlsvaatfpmlvkmerehrslilgairaqkaqrqagtapklsgalstfdgglqvlidalaaSLGDAAHVGARVEGLARE---GWRL 248
+                      34444444444444444444444444444444444444444444444444444444444444444444489**********999776...4445 PP
+
+              c.3 139 vpadgngggeeldadavilatGaa.r.....gkl.....aekaGl.dvdd...givvdeks.nvkglya.gdvtggpel.skalvsGrlaaeai 214
+                      + ++  g  +el++++v+la++a+ +       l     a+ aG+ ++++     ++d+   +++gl+  g++  g  + ++++ +++++a+a+
+  d2ivda1/c.3.1.2 249 IIEE-HGRRAELSVAQVVLAAPAHaTakllrP-LddalaALVAGIyNLGHlerVAAIDAALqRLPGLHLiGNAYKG-VGlNDCIRNAAQLADAL 339
+                      5443.247899*************88766650.155568999***9888777456888888***********9977.3568**********997 PP
+
+              c.3 215 l 215
+                      +
+  d2ivda1/c.3.1.2 340 V 340
+                      5 PP
+
+>> d1seza1/c.3.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.6   0.0   1.1e-21   1.1e-19      26     216 ..       2     347 ..       1     353 [] 0.58
+
+  Alignments for each domain:
+  == domain 1  score: 70.6 bits;  conditional E-value: 1.1e-21
+              c.3  26 ydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa.................................................... 67 
+                      ++v+viG+G sGl+aA++L+  G +vtv+e+++k gg+++s+                                                    
+  d1seza1/c.3.1.2   2 KRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVsqdgliwdegantxtesegdvtflidslglrekqqfplsqnkryiarngtpv 95 
+                      79***********************************************999999999655555444444444444444444444444433333 PP
+
+              c.3  68 .......gcvpskaladsaeleld...........qgvtvkel...gdailaafdeelakalaeklk........................... 113
+                             + + s++l+++     +                  +   + ++ ++f++e++++l + +                            
+  d1seza1/c.3.1.2  96 llpsnpiDLIKSNFLSTG-----SklqxllepilwS------HesvSGFFQRHFGKEVVDYLIDPFVagtcggdpdslsxhhsfpelwnlekrf 178
+                      333333333333333333.....0222222244430......1334445566666666666666554334444444444444444444444333 PP
+
+              c.3 114 ...................k.......................hgvevllgtrveeidrd.....gdgvvgvv...padgngggeeldadavil 157
+                                         k                       + +e++l++rv e+ ++     +   + ++   p++++++  e + davi 
+  d1seza1/c.3.1.2 179 gsvilgairsklsktsankKrqrgsfsflggxqtltdaickdlREDELRLNSRVLELSCSctedsAIDSWSIIsasPHKRQSE--EESFDAVIX 270
+                      333333333333333333303333333333333333333333348999***99977777533222233444444448887544..455666*** PP
+
+              c.3 158 atGaa.r......gkl......aekaGl.dvdd..givvdeks..nvkglya.gdvtggpel.skalvsGrlaaeaile 216
+                       ++ +          +      + + ++  +++   ++  +k   n++gl++ g++ gg  +  kal+sG++aa+ ++ 
+  d1seza1/c.3.1.2 271 TAPLCdVksxkiaK-RgnpfllNFIPEVyGHNYdsVLDAIDKXekNLPGLFYaGNHRGGL-SvGKALSSGCNAADLVIS 347
+                      **999669988751.24556654445667566556565555555*************993.346***********9875 PP
+
+>> d2dw4a2/c.3.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.5   0.0   2.5e-21   2.5e-19      23     214 ..       3     419 ..       1     424 [. 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 69.5 bits;  conditional E-value: 2.5e-21
+              c.3  23 eapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa...............................................gc 69 
+                      +++++v++iG+G sGl+aA++L   G++vt+le++d++ggr++++                                               + 
+  d2dw4a2/c.3.1.2   3 KKTGKVIIIGSGVSGLAAARQLQSFGMDVTLLEARDRVGGRVATFrkgnyvadlgamvvtglggnpmavvskqvnmelakikqkcplyeangQ- 95 
+                      5789**************************************************999999877655555555555555555544444444442. PP
+
+              c.3  70 vpskaladsaeleld...........................................................qgvtvkelgdailaafdeel 104
+                                                                                                ++++        +++++eel
+  d2dw4a2/c.3.1.2  96 --------------AvpkekdemveqefnrlleatsylshqldfnvlnnkpvslgqalevviqlqekhvkdeqiEHWKK-------IVKTQEEL 168
+                      ..............03333333334444444445555555555666655555555544444444444433333322211.......22222222 PP
+
+              c.3 105 akalaeklk..................................................................................... 113
+                      ++ l+++++                                                                                     
+  d2dw4a2/c.3.1.2 169 KELLNKMVNlkekikelhtaeflvkskhrdltalckeydelaetqgkleeklqeleanppsdvylssrdrqildwhfanlefanatplstlslk 262
+                      2222222214444444444444444444444444444555555555555555577777777777777777777777777778888888888888 PP
+
+              c.3 114 ............................khgvevllgtrveeidrdgdgvvgvvpadgn.gggeeldadavilatGaar............... 163
+                                                  ++g +++l+t+v ++ ++++g+  + ++++  +++  +++dav++  +                  
+  d2dw4a2/c.3.1.2 263 hwdqdddfeftgshltvrngyscvpvalAEGLDIKLNTAVRQVRYTASGCEVIAVNTRStSQTFIYKCDAVLCTLPLGVlkqqppavqfvpplp 356
+                      888888888887777777777777777778********************97778877634445559999999885442466666655555544 PP
+
+              c.3 164 ...gklaekaGldvddgivvdek..s......nvkglya.gdvtgg..pel.skalvsGrlaaeai 214
+                         +   + ++++v+ g   +++  +       +++l++ g++t    p++ + al sG + a +i
+  d2dw4a2/c.3.1.2 357 ewkT---SAVQRMVAAGSSGNDYdlMaqpitpPIPRLFFaGEHTIRnyPATvHGALLSGLREAGRI 419
+                      3331...33444444433333333313445577999999999998878666777777776655554 PP
+
+>> d1fcda1/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.6   3.1   2.3e-21   2.3e-19      26     214 ..       3     178 ..       1     184 [. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 69.6 bits;  conditional E-value: 2.3e-21
+              c.3  26 ydvvviGgGpsGleaAaaLakaGa..kvtvlekgdklggrcvsa...gcvpskaladsaeleldqgvtvkelgdailaafdeelakalaeklkk 114
+                       +vvv+GgG +G +aA++++ a    +vt++e +         +    c+ s++ +         g      gd+      e++++++ + l++
+  d1fcda1/c.3.1.5   3 RKVVVVGGGTGGATAAKYIKLADPsiEVTLIEPN---------TdyyTCYLSNEVI---------G------GDRK----LESIKHGYDG-LRA 67 
+                      69****************99776556******21.........1122333333332.........3......4455....6889999988.9** PP
+
+              c.3 115 hgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatGaar.........gklaekaGldvdd...givvdeks..nvkglya.gd 193
+                      hg++v++ ++ ++id+d   ++ v++a+g    +e+ +d++++a G +          gk a++aGl+ d     +++++++   +kg+++ gd
+  d1fcda1/c.3.1.5  68 HGIQVVHDSA-TGIDPD---KKLVKTAGG----AEFGYDRCVVAPGIELiydkieqraGKIAQIAGLTNDAgwcPVDIKTFEssIHKGIHViGD 153
+                      ********88.9**999...999**9974....99**********9886698888766666******999888889*****9999********* PP
+
+              c.3 194 vtgg...pel.skalvsGrlaaeai 214
+                      ++     p++   a ++G++aa a+
+  d1fcda1/c.3.1.5 154 ASIAnpmPKSgYSANSQGKVAAAAV 178
+                      **99966666999*********986 PP
+
+>> d1n4wa1/c.3.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.8   0.3   1.6e-20   1.6e-18      26     216 ..       3     363 ..       1     366 [] 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 66.8 bits;  conditional E-value: 1.6e-20
+              c.3  26 ydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa.................................................... 67 
+                       ++vviG+G+++   A +L +aG+++++le g+ +    +                                                      
+  d1n4wa1/c.3.1.2   3 VPAVVIGTGYGAAVSALRLGEAGVQTLMLEMGQLW----NQPgpdgnifcgmlnpdkrsswfknrteaplgsflwldvvnrnidpyagvldrvn 92 
+                      578***************************76444....3334455666877777777666666666666555555555555555555555555 PP
+
+              c.3  68 ..............gcvpskaladsaeleld............................................................... 84 
+                                    g               +                                                               
+  d1n4wa1/c.3.1.2  93 ydqmsvyvgrgvggG---------------Slvnggmavepkrsyfeeilprvdssemydryfpransmlrvnhidtkwfedtewykfarvsre 171
+                      555555555555550...............0444444444444444445544444444454454455555555555554444444333333333 PP
+
+              c.3  85 ......qgvtvkel..............gdai..................laafdeelakalaeklkkhgvevllgtrveeidrd..gdgvvgv 138
+                                   +              +                       + ++  +++la++l+ ++v++++ ++v+ i ++  g+ + +v
+  d1n4wa1/c.3.1.2 172 qagkagL------GtvfvpnvydfgymqR--EaagevpksalateviygnNHGKQSLDKTYLAAALGTGKVTIQTLHQVKTIRQTkdGGYALTV 257
+                      3333330......0223323323322330..0333444444444445543222255778899999999**************997345778899 PP
+
+              c.3 139 vpadgnggg...eeldadavilatGaa.r........gkl......aekaGl.dvdd.givvdeks...nvkglyagdvtgg.....pel.ska 203
+                      + +d++g+    +e+++++++l++G++ +        + +      ++ +G  + +  g ++d+++   ++k+ly+ d++ +      +   ++
+  d1n4wa1/c.3.1.2 258 EQKDTDGKLlatKEISCRYLFLGAGSLgStellvrarD-TgtlpnlNSEVGAgWGCVlGKATDDYGrvaGYKNLYVTDGSLIpgsvgVNPfVTI 350
+                      988875444444899************88888876650.1556854444555677779*******999*************9998863336689 PP
+
+              c.3 204 lvsGrlaaeaile 216
+                      ++ +++++e+i++
+  d1n4wa1/c.3.1.2 351 TALAERNVERIIK 363
+                      9999999999986 PP
+
+>> d1nhpa2/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.8   1.2   8.3e-21   8.3e-19      22     159 ..      27     123 .]       1     123 [] 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 67.8 bits;  conditional E-value: 8.3e-21
+              c.3  22 keapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkelgdailaafdeelakalaeklkkh 115
+                      +++ ++vvviG+G++G+eaA a akaG+kvtv++              + ++ l          g         ++   d+e++++l+e+++++
+  d1nhpa2/c.3.1.5  27 DPEVNNVVVIGSGYIGIEAAEAFAKAGKKVTVID--------------ILDRPL----------G---------VY--LDKEFTDVLTEEMEAN 85 
+                      488899****************************..............333222..........3.........22..3*************** PP
+
+              c.3 116 gvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilat 159
+                      ++++ +g +ve+ ++dg+ ++ vv+ +       +dad v++a+
+  d1nhpa2/c.3.1.5  86 NITIATGETVERYEGDGRVQK-VVTDK-----NAYDADLVVVAV 123
+                      *************99976666.76654.....569********8 PP
+
+>> d1ryia1/c.3.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.7   0.1   1.8e-20   1.8e-18      23     210 ..       2     264 ..       1     270 [. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 66.7 bits;  conditional E-value: 1.8e-20
+              c.3  23 eapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa..............gcvpskaladsaeleld.................. 84 
+                      +++y +vviGgG++G + A++Lak++++++++e+ +++ggr++sa              ++              d                  
+  d1ryia1/c.3.1.2   2 KRHYEAVVIGGGIIGSAIAYYLAKENKNTALFES-GTMGGRTTSAaagmlgahaeceerDAFF------------Dfamhsqrlykglgeelya 82 
+                      689******************************6.6*********887777777666663333............1333333344555555558 PP
+
+              c.3  85 .qgvtvkel.gdailaafdeelakalaeklk.................................................khgvevllgtrvee 127
+                        gv+++++ g ++  af+ee +  l+ +++                                                   g e++ +t+v +
+  d1ryia1/c.3.1.2  83 lSGVDIRQHnGGMFKLAFSEEDVLQLRQMDDldsvswyskeevlekepyasgdifgasfiqddvhvepyfvckayvkaakMLGAEIFEHTPVLH 176
+                      8677776555334433443333333333222223333333333333333333333333333333333333333333333389************ PP
+
+              c.3 128 idrdgdgvvgvvpadgngggeeldadavilatGaargklaekaGldvdd.givvdeks.nvkglya.gdvtgg.......pel.skalvsGrla 210
+                      ++rd +++  +  ++   +g+ + a +v++a G ++g++ +++Gl+ +d    ++++      l+a g++ +g       ++l s+++++ +++
+  d1ryia1/c.3.1.2 177 VERD-GEA--LFIKTP--SGD-VWANHVVVASGVWSGMFFKQLGLNNADgKPYIGRHPeDSRILFAaGHFRNGillapatGALiSDLIMNKEVN 264
+                      ***9.333..344554..335.66899*****99988787788887777666777777666668888999888888876666677777777765 PP
+
+>> d1feca2/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.7   0.1   1.8e-20   1.8e-18       8     160 ..       1     116 [.       1     117 [] 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 66.7 bits;  conditional E-value: 1.8e-20
+              c.3   8 gkdalissdgalklkeapydvvviGgGpsGleaAaaLa...kaGakvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkelgdaila 98 
+                      g+d +i+s++a++l+eap++++ +GgG++ +e A       ++G +v +                                +      gd+il+
+  d1feca2/c.3.1.5   1 GDDLCITSNEAFYLDEAPKRALCVGGGYISIEFAGIFNaykARGGQVDLAY------------------------------R------GDMILR 58 
+                      5789*****************************988772224566777777..............................5......899*** PP
+
+              c.3  99 afdeelakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatG 160
+                      +fd+el+k l+e+l+++g++v+++ + +++  ++dg   vv+++g    +e+d+d+v la+G
+  d1feca2/c.3.1.5  59 GFDSELRKQLTEQLRANGINVRTHENPAKVTKNADGTRHVVFESG----AEADYDVVMLAIG 116
+                      ********************************9999988***985....89**********8 PP
+
+>> d1h6va2/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.7   0.0   3.5e-20   3.5e-18       8     160 ..       3     122 .]       1     122 [] 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 65.7 bits;  conditional E-value: 3.5e-20
+              c.3   8 gkdalissdgalklkeapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkelgdailaafd 101
+                      +k+++issd++++l++ p++ +v+G+ + +le+A  La  G +vtv+ +                                      + l++fd
+  d1h6va2/c.3.1.5   3 DKEYCISSDDLFSLPYCPGKTLVVGASYVALECAGFLAGIGLDVTVMVR-------------------------------------SILLRGFD 59 
+                      6889********************************************4.....................................4678999* PP
+
+              c.3 102 eelakalaeklkkhgvevllg...trveeidrdgdgvvgvvpadgngggeel..dadavilatG 160
+                      + +a+++ e++++hg+++++    t+ e+i+  + g+ +v+ +++n+++ ++  +   v+la+G
+  d1h6va2/c.3.1.5  60 QDMANKIGEHMEEHGIKFIRQfvpTKIEQIEAGTPGRLKVTAKSTNSEE-TIedEFNTVLLAVG 122
+                      ********************95555778999989*********998663.34446888****97 PP
+
+>> d1b5qa1/c.3.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.9   0.3   2.5e-19   2.5e-17      27     215 ..       2     339 ..       2     345 .. 0.59
+
+  Alignments for each domain:
+  == domain 1  score: 62.9 bits;  conditional E-value: 2.5e-19
+              c.3  27 dvvviGgGpsGleaAaaLakaGa.kvtvlekgdklggrcvsa...................gcvpskaladsaeleld................ 84 
+                      +v+v+G+G+sG++aA++L++aG+ + ++le+ d++ggr++ +                   g +++ ++++++ l l+                
+  d1b5qa1/c.3.1.2   2 RVIVVGAGMSGISAAKRLSEAGItDLLILEATDHIGGRMHKTnfaginvelganwvegvngGKMNPIWPIVNSTLKLRnfrsdfdylaqnvyke 95 
+                      7*********************99*****************98888888888888888888444454444442211223334555666555555 PP
+
+              c.3  85 .........................................................................qgvtvkel............. 92 
+                                                                                               +      +             
+  d1b5qa1/c.3.1.2  96 dggvydedyvqkrieladsveemgeklsatlhasgrddmsilamqrlnehqpngpatpvdmvvdyykfdyefaE------Pprvtslqntvpla 183
+                      55555555555445555455554455555555555555555555555555544444333333322221111110......02222223333333 PP
+
+              c.3  93 .....gdai....laafde........elakalaeklkkhg....vevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatGaar.. 163
+                           gd +         +        +la+ ++++++k g     +++l++ v ei+++++gv+ v+++d   + ++++ad+v ++++     
+  d1b5qa1/c.3.1.2 184 tfsdfGDDVyfvaD----QrgyeavvyYLAGQYLKTDDKSGkivdPRLQLNKVVREIKYSPGGVT-VKTED---N-SVYSADYVMVSASLGVlq 268
+                      33333222233320....23444344466666666666666677799999**********99998.99999...4.99**********432256 PP
+
+              c.3 164 .................gklaekaGldvdd.givvdeks........nvkglya.gdvtgg.pel...skalvsGrlaaeail 215
+                                                   +  + v+ ++         v ++y+ g++t +   +   + a+ sG+  ae+++
+  d1b5qa1/c.3.1.2 269 sdliqfkpklptwkvraI-----------YqFWPVGVNRyeydqlraPVGRVYFtGEHTSEhY-NgyvHGAYLSGIDSAEILI 339
+                      444444433333333220...........1333333332224444466788999999999962.3356999999999998876 PP
+
+>> d1xhca2/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.8   0.1   2.7e-19   2.7e-17       3     160 ..       3     120 ..       1     122 [] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 62.8 bits;  conditional E-value: 2.7e-19
+              c.3   3 r.pnipgkdalissdgalklk......eapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsaeleldqgvtv 89 
+                      r p+i+gk++l++++++++++      e+++ +++iGgG++Gle+A  La+aG++v ++++                                 
+  d1xhca2/c.3.1.5   3 RePQIKGKEYLLTLRTIFDADrikesiENSGEAIIIGGGFIGLELAGNLAEAGYHVKLIHR--------------------------------- 63 
+                      569****************9999999999*******************************4................................. PP
+
+              c.3  90 kelgdailaafdeelakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatG 160
+                         g+++  + deel+++++++l++ gv+++l+++   ++ +     gv +++g      ++ ++ i+a+G
+  d1xhca2/c.3.1.5  64 ---GAMF-LGLDEELSNMIKDMLEETGVKFFLNSEL--LEAN---EEGVLTNSG-----FIEGKVKICAIG 120
+                      ...3444.477**********************886..8889...667777763.....467777777776 PP
+
+>> d1onfa2/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.6   0.0   3.2e-19   3.2e-17       4     159 ..       2     117 .]       2     117 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 62.6 bits;  conditional E-value: 3.2e-19
+              c.3   4 pnipgkdalissdgalklkeapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkelgdail 97 
+                      p+++g+++ issd+++++ke+ +++ ++G+G++++e+ ++++++G++  ++ +                                    g++il
+  d1onfa2/c.3.1.5   2 PPVKGIENTISSDEFFNIKES-KKIGIVGSGYIAVELINVIKRLGIDSYIFAR------------------------------------GNRIL 58 
+                      6899************99555.9*****************************4....................................67899 PP
+
+              c.3  98 aafdeelakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilat 159
+                      ++fde++ ++l++++kk+++++++ + v+ei+  +d++  +++ dg   ++  + d+vi+++
+  d1onfa2/c.3.1.5  59 RKFDESVINVLENDMKKNNINIVTFADVVEIKKVSDKNLSIHLSDG--RIY-EHFDHVIYCV 117
+                      ********************************************96..333.46999**998 PP
+
+>> d3grsa2/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.7   0.0   3.1e-19   3.1e-17       5     160 ..       2     125 .]       1     125 [] 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 62.7 bits;  conditional E-value: 3.1e-19
+              c.3   5 nipgkdalissdgalklkeapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkelgdaila 98 
+                      +ipg++  i+sdg+++l+e p++ v++G+G++++e+A  L+++G k+ ++                               +      +d++l+
+  d3grsa2/c.3.1.5   2 QIPGASLGITSDGFFQLEELPGRSVIVGAGYIAVEMAGILSALGSKTSLMI------------------------------R------HDKVLR 59 
+                      79*************************************************..............................6......999*** PP
+
+              c.3  99 afdeelakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgn.gggeel....dadavilatG 160
+                       fd+ +++ ++e+l++ gvevl  ++v+e++ + +g   v++ ++  g   ++    d+d++++a+G
+  d3grsa2/c.3.1.5  60 SFDSMISTNCTEELENAGVEVLKFSQVKEVKKTLSGLE-VSMVTAVpGRLPVMtmipDVDCLLWAIG 125
+                      ******************************99966665.7777777455443367788999999986 PP
+
+>> d1ju2a1/c.3.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.4   0.1   3.7e-19   3.7e-17      22     218 ..      19     347 ..       3     351 .] 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 62.4 bits;  conditional E-value: 3.7e-19
+              c.3  22 k....eapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa...............gcvpskaladsaeleld............ 84 
+                           e +yd+v++GgG sG+ +Aa L++ ++kv+vle+g+ +    +                 +                            
+  d1ju2a1/c.3.1.2  19 TdlelEGSYDYVIVGGGTSGCPLAATLSE-KYKVLVLERGSLPTAYPNVLtadgfvynlqqeddgK---------------Tpverfvsedgid 96 
+                      23335889********************8.6*******9966543222223355555555554441...............0344444455555 PP
+
+              c.3  85 ......................................................qgvtvkel..................gdai.......... 96 
+                                                                                   +                  +             
+  d1ju2a1/c.3.1.2  97 nvrgrvlggtsiinagvyarantsiysasgvdwdmdlvnqtyewvedtivykpnS------QswqsvtktafleagvhpnH--Gfsldheegtr 182
+                      6667777777777777777777777777554333333333333333333322220......13333333333333333330..13333334444 PP
+
+              c.3  97 ..laafde....elakalaeklkkhgvevllgtrveeidrd...gdgvvgvvpadgn.gggeel..dadavilatGaa.r............gk 165
+                        +++fd+    + a+ l++k ++++ +v  +++ve+i ++   g +++gv+++d n + ++ +  +  +vi+++G   +            ++
+  d1ju2a1/c.3.1.2 183 itGSTFDNkgtrHAADELLNKGNSNNLRVGVHASVEKIIFSnapGLTATGVIYRDSNgTPHQAFvrSKGEVIVSAGTIgTpqllllsgvgpeSY 276
+                      45666666777799999999999*****************745558899********9999989988999******997788888887765533 PP
+
+              c.3 166 l...aekaGldvdd......givvdeks...nvkglyagdvtgg...pel...skalvsGrlaaeailekk 218
+                      l   + ++ l +++      g v+d ++   +++ l + d++++   p++     +l+ Gr+++ +il+++
+  d1ju2a1/c.3.1.2 277 LsslNIPVVLSHPYvgqclvGKVLDGDFrvtGINALRVVDGSTFpytPAShpqGFYLMLGRYVGIKILQER 347
+                      3543333333222233466689999999899999999*9*9999777444556689******999998865 PP
+
+>> d1vg0a1/c.3.1.3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.2   0.0   1.7e-18   1.7e-16      23     216 ..       4     366 ..       1     371 [. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 60.2 bits;  conditional E-value: 1.7e-18
+              c.3  23 eapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa................................................. 67 
+                      ++++dv+viG+G+     Aaa++++G +v+++++++++gg+++s+                                                 
+  d1vg0a1/c.3.1.3   4 PSDFDVIVIGTGLPESIIAAACSRSGQRVLHVDSRSYYGGNWASFsfsgllswlkeyqmwqeqileneeaiplsskdktiqhvevfcyasqrit 97 
+                      6789***************************************999999998888777777766666665555555555555555444444444 PP
+
+              c.3  68 .............gcvpskaladsaeleld........................................qgvtvkel...........gdail 97 
+                                   +                                                        + v++ +                 
+  d1vg0a1/c.3.1.3  98 ysqiikegrrfniD---------------LvskllysrgllidlliksnvsryaefknitrilafregtvEQVPCSRAdvfnskqltmvE---- 172
+                      44444444444432...............0333333323333333335555555555555555444444422222111222212222220.... PP
+
+              c.3  98 aafdeelakalaeklk.............................................................................. 113
+                                     k                                                                              
+  d1vg0a1/c.3.1.3 173 ---------------Krmlmkfltfcveyeehpdeyrayegttfseylktqkltpnlqyfvlhsiamettsctvdglkatkkflqclgrygntp 251
+                      ...............0222222222222333333333333333333333333355566666666666666666666666666666666666666 PP
+
+              c.3 114 ....................khgvevllgtrveeidrd..gdgvvgvvpadgngggeeldadavilatGaa.rgklaekaGldvdd.givvdek 183
+                                           +g  ++l+++v+++ +d  +++++ v+  +    g+++  ++ i+  +++ +            + + +v ++
+  d1vg0a1/c.3.1.3 252 flfplygqgelpqcfcrmcaVFGGIYCLRHSVQCLVVDkeSRKCKAVI-DQF---GQRIISKHFIIEDSYLsE------------NtCSRVSRD 329
+                      6666666665655555555567**********9999974459999776.654...699*********976533............247788888 PP
+
+              c.3 184 s...nvkglyagdvtggpel.skalvsGrlaaeaile 216
+                      +     +++y++ + + + + ++a++++++++++i+ 
+  d1vg0a1/c.3.1.3 330 CyndLPSNVYVCSGPDSGLGnDNAVKQAETLFQQICP 366
+                      887889****************************985 PP
+
+>> d1fl2a2/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.7   0.7   2.5e-18   2.5e-16       2     160 ..       2     125 ..       1     126 [] 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 59.7 bits;  conditional E-value: 2.5e-18
+              c.3   2 rrpnipgkd........alissdgalklkeapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsaeleldqgv 87 
+                      r++n+pg+d        ++ ++dg l    ++++v+viGgG sG+eaA+ La    +vt+le +                              
+  d1fl2a2/c.3.1.5   2 RNMNVPGEDqyrtkgvtYCPHCDGPL---FKGKRVAVIGGGNSGVEAAIDLAGIVEHVTLLEFA------------------------------ 62 
+                      45899****99**99999******99...9********************************32.............................. PP
+
+              c.3  88 tvkelgdailaafdeelakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgn.gggeeldadavilatG 160
+                             ++ a  d+ l+++l++ lk  +v+++l+++ +e+++dg++vvg++++d+  g+++ ++ +++++ +G
+  d1fl2a2/c.3.1.5  63 ------PEMKA--DQVLQDKLRS-LK--NVDIILNAQTTEVKGDGSKVVGLEYRDRVsGDIHNIELAGIFVQIG 125
+                      ......22322..8888888888.77..9***************************99999****999999986 PP
+
+>> d1trba2/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.5   0.6   5.9e-18   5.9e-16      10     160 ..      13     126 .]       2     126 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 58.5 bits;  conditional E-value: 5.9e-18
+              c.3  10 d..alissdgalklkeapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkelgdailaafd 101
+                      +  a+++sdg++   +++++v+viGgG +++e A +L+    +v++++++                                    d + a  +
+  d1trba2/c.3.1.5  13 GvsACATSDGFF---YRNQKVAVIGGGNTAVEEALYLSNIASEVHLIHRR------------------------------------DGFRA--E 65 
+                      2558********...9********************************64....................................43432..8 PP
+
+              c.3 102 eelakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadg.n.gggeeldadavilatG 160
+                      + l k+l++k++++++ ++++ + ee+ +d+ gv+gv+++d+ n +++e ld++++++a+G
+  d1trba2/c.3.1.5  66 KILIKRLMDKVENGNIILHTNRTLEEVTGDQMGVTGVRLRDTqNsDNIESLDVAGLFVAIG 126
+                      899*************************************99546788999********97 PP
+
+>> d1rp0a1/c.3.1.6  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.5   0.8   5.9e-18   5.9e-16      11     214 ..      22     264 ..       7     273 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 58.5 bits;  conditional E-value: 5.9e-18
+              c.3  11 alissdgalklkeapydvvviGgGpsGleaAaaLaka.Gakvtvlekgdkl.ggrcvsagcvpskalads.ae.leld.....qgvtvkel... 92 
+                      ++++ d+++   +a++dvvv+G+G++Gl+aA++++k+ +++v+++e++  + gg +++ +  +  a+++  +  l+ld     +    +e+   
+  d1rp0a1/c.3.1.6  22 RRYMTDMIT---YAETDVVVVGAGSAGLSAAYEISKNpNVQVAIIEQSVSPgGGAWLGGQLFS--AMIVRkPAhLFLDeigvaY----DEQdty 106
+                      567788888...99**********************9778******99666355555553332..2444433356666644441....333333 PP
+
+              c.3  93 ..gdailaafdeelakalaekl.kkhgvevllgtrveeidrdgdgvvgvvpa..............dgngggeeldadavilatGaa.r.gkl. 166
+                         +++       ++  +++kl  + +v+++  +++e++ ++g++v gvv++              d      +++a+ v+ + G   + g++ 
+  d1rp0a1/c.3.1.6 107 vvVKHAA-----LFTSTIMSKLlARPNVKLFNAVAAEDLIVKGNRVGGVVTNwalvaqnhhtqscmDP----NVMEAKIVVSSCGHDgPfGATg 191
+                      4422222.....233344444424679***********************887777777766555554....5679999999998775593334 PP
+
+              c.3 167 ...aekaGl..dvdd..givvdeks.........nvkglya.g.dvtgg......pel.skalvsGrlaaeai 214
+                         ++ +G+  +v+    +++++ +          v+g  + g +v+++      + +   ++ sG +a++ +
+  d1rp0a1/c.3.1.6 192 vkrLKSIGMidHVPGmkALDMNTAEdaivrltreVVPGMIVtGmEVAEIdgaprmGPTfGAMMISGQKAGQLA 264
+                      5534445555433333333333332222244446688888888777777777755323466666777777666 PP
+
+>> d1d5ta1/c.3.1.3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.2   0.0   7.1e-18   7.1e-16      23     163 ..       4     291 ..       1     328 [. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 58.2 bits;  conditional E-value: 7.1e-18
+              c.3  23 eapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa............................gcvpskaladsae..leld.. 84 
+                      +++ydv+v+G+G++ + +   ++ +G+kv+++++++++gg + s+                            + +p++++a++++  ++l+  
+  d1d5ta1/c.3.1.3   4 DEEYDVIVLGTGLTECILSGIMSVNGKKVLHMDRNPYYGGESSSItpleelykrfqllegppetmgrgrdwnvDLIPKFLMANGQLvkMLLYte 97 
+                      679*********************************************************************99**********9999999999 PP
+
+              c.3  85 ...............................................................qgvtvkelgdailaafdeelakalaeklk.. 113
+                                                                                     +gv                         +  
+  d1d5ta1/c.3.1.3  98 vtryldfkvvegsfvykggkiykvpstetealasnlmgmfekrrfrkflvfvanfdendpktfEGV-------------------------Dpq 166
+                      998887777776666665555444444444444444444444444333333333333333333222.........................022 PP
+
+              c.3 114 ...............................................................................khgvevllgtrveei 128
+                                                                                                      +g +++l+++v +i
+  d1d5ta1/c.3.1.3 167 ntsmrdvyrkfdlgqdvidftghalalyrtddyldqpcletinriklyseslarygkspylyplyglgelpqgfarlsaIYGGTYMLNKPVDDI 260
+                      223333333333344444444444444444444444444455566666666665555555555555555555555555457************* PP
+
+              c.3 129 drdgdgvvgvvpadgngggeeldadavilatGaa.r 163
+                       + +++vvgv+ +     ge+++++++i+  +++ +
+  d1d5ta1/c.3.1.3 261 IMENGKVVGVKSE-----GEVARCKQLICDPSYVpD 291
+                      **********954.....4899*******9966543 PP
+
+>> d1ps9a2/c.3.1.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.2   0.0   7.2e-18   7.2e-16       3     160 ..       3     160 ..       1     162 [] 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 58.2 bits;  conditional E-value: 7.2e-18
+              c.3   3 r.pnipgkd..alissdga.lklkeapydvvviGgGpsGleaAaaLakaGakvtvlekg..dklggrcvsa..gcvpskaladsaeleld...q 85 
+                      r p+i+g+d  +++s+ ++  +  + +++v++iG+G +G+  A +L++ G ++    +g   ++g ++  +  g                   q
+  d1ps9a2/c.3.1.1   3 RtPPIDGIDhpKVLSYLDVlRDKAPVGNKVAIIGCGGIGFDTAMYLSQPGESTSQNIAGfcNEWGIDSSLQqaG---------------GlspQ 81 
+                      55899999988788875551557899*******************************76444444433322221...............01122 PP
+
+              c.3  86 gvtvkel........gdai....laafdeelakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatG 160
+                      g ++ +         +       +++ ++++ +  +++l ++gv+ ++g++ ++i  d+dg + vv ++   ++++l++d+v++++G
+  d1ps9a2/c.3.1.1  82 GMQIPRSprqivmlqR--KaskpGQGLGKTTGWIHRTTLLSRGVKMIPGVSYQKI--DDDGLH-VVING---ETQVLAVDNVVICAG 160
+                      2222211222333331..034567888****************************..556888.55454...78************8 PP
+
+>> d1trba1/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.6   0.1   1.8e-16   1.8e-14      23     211 ..       3     180 ..       1     188 [. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 53.6 bits;  conditional E-value: 1.8e-16
+              c.3  23 eapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkelgdai...laafdeelakalaeklk 113
+                      +++ +++++G+Gp+G++aA ++a+a+ + +++  g ++gg+++++  v               +++    gd +   +      l +++ e++ 
+  d1trba1/c.3.1.5   3 TKHSKLLILGSGPAGYTAAVYAARANLQPVLIT-GMEKGGQLTTTTEVE--------------NWP----GDPNdltG----PLLMERMHEHAT 73 
+                      5799*****************************.7899**999986554..............354....55553231....122233334555 PP
+
+              c.3 114 khgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatGaa.r..........gkl.aekaGldvddgivvdeks.nvkglya.gd 193
+                      k+  e++  +   ++d +   +   ++++   +  e+ +da+i+atGa  r          g+l +e+  ++v  gi  ++   +++g++a gd
+  d1trba1/c.3.1.5  74 KFETEIIFDHI-NKVDLQ---NRPFRLNG---DNGEYTCDALIIATGASaRyhspntaifeGQLeLENGYIKVQSGIHGNATQtSIPGVFAaGD 160
+                      55555555555.355554...55455555...45779************99**9987666544466666667777888888999********** PP
+
+              c.3 194 vtggpel..skalvsGrlaa 211
+                      v+++++    + + +G+ aa
+  d1trba1/c.3.1.5 161 VMDHIYRqaITSAGTGCMAA 180
+                      **995443344445555555 PP
+
+>> d2cula1/c.3.1.7  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.6   0.0   4.4e-17   4.4e-15      25     215 ..       2     222 ..       1     224 [. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 55.6 bits;  conditional E-value: 4.4e-17
+              c.3  25 pydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa...gcvpskaladsae..leld........qgvtvkelgdailaafdeela 105
+                       y+v+++G+G+sG e A +La++G++v +l ++  l      a     +p+k ++++ +  ++          +           + a +    
+  d2cula1/c.3.1.7   2 AYQVLIVGAGFSGAETAFWLAQKGVRVGLLTQS--LD-----AvmmPFLPPKPPFPPGSllER-AydpkdervWA----------FHARA---- 73 
+                      699****************************54..22.....233344455555555222222.12333333321..........22223.... PP
+
+              c.3 106 kalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatGaa.r..................gkl......aekaGldv 174
+                      k+l+e l+    ++++ t+ +++   g++vvgv++++g      ++ ++v+la+G++                    +        ++++G + 
+  d2cula1/c.3.1.7  74 KYLLEGLR--PLHLFQATA-TGLLLEGNRVVGVRTWEG----PPARGEKVVLAVGSFlGarlflggvveeagrlseaS-YpdlledLSRLGFRF 159
+                      44555444..567777777.88888899********85....6799999********889999999999886665551.055666666666644 PP
+
+              c.3 175 dd..g.................ivvdeks..nvkglya.gdvtggpelskalvsGrlaaeail 215
+                       +  g                 ++ ++++  +++glya g + +++ +++++++G+++ae++l
+  d2cula1/c.3.1.7 160 VEreGevppgyrvrylafhpeeWEEKTFRlkRLEGLYAvGLCVREGDYARMSEEGKRLAEHLL 222
+                      43322344445555555666669*****99***************9889************97 PP
+
+>> d1q1ra2/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.6   1.0   1.8e-16   1.8e-14      25     160 ..      35     133 .]      21     133 .] 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 53.6 bits;  conditional E-value: 1.8e-16
+              c.3  25 pydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkelgdailaafdeelakalaekl.kkhgv 117
+                      ++++vviGgG++Gle+Aa + ka+++vt+l+ ++++  r++   ++p                         ++af e+        l ++ gv
+  d1q1ra2/c.3.1.5  35 DNRLVVIGGGYIGLEVAATAIKANMHVTLLDTAARVLERVT---APP-------------------------VSAFYEH--------LhREAGV 92 
+                      679****************************6544433333...222.........................2223333........33899** PP
+
+              c.3 118 evllgtrveeidrdgdgvv..gvvpadgngggeeldadavilatG 160
+                      ++++gt+v ++++++d+++   v ++dg     +l+ad vi+++G
+  d1q1ra2/c.3.1.5  93 DIRTGTQVCGFEMSTDQQKvtAVLCEDG----TRLPADLVIAGIG 133
+                      *************986654114447774....89********996 PP
+
+>> d2gv8a1/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.9   0.0   1.2e-15   1.2e-13      27     198 ..       6     233 ..       2     256 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 50.9 bits;  conditional E-value: 1.2e-15
+              c.3  27 dvvviGgGpsGleaAaaLakaGa..kvtvlekgdklggrcvsagcvpskaladsae..leld................................ 84 
+                      ++++iG+GpsGl  A+aL +++a  +vt++e+++ +gg+++ ++++++k++++s++  l+++                                
+  d2gv8a1/c.3.1.5   6 KIAIIGAGPSGLVTAKALLAEKAfdQVTLFERRGSPGGVWNYTSTLSNKLPVPSTNpiLTTEpivgpaalpvypsplyrdlqtntpielxgycd 99 
+                      89******************99999**************************9998888888889999999888777777766554444444444 PP
+
+              c.3  85 qgvtvkel.........gdailaafdeelakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgngggeel...dadavilatGaar... 163
+                      q                +++ +++++   a+ l+         ++l t v +i+ + dg + v++++++ g + +     dav ++ G  +   
+  d2gv8a1/c.3.1.5 100 Q------SfkpqtlqfpHRHTIQEYQRIYAQPLLP-------FIKLATDVLDIEKK-DGSWVVTYKGTKAG-SPIskdIFDAVSICNGHYEvpy 178
+                      2......0333334566666666666666666666.......4568999*999998.67776998877644.4453433555777776553488 PP
+
+              c.3 164 .gkl.......aekaGldvddgivvdeks..nvkglya.gdvtgg.........p 198
+                       g+l       ++k+    ++ i+ + +    ++++++  d+t           p
+  d2gv8a1/c.3.1.5 179 tGYLysvpfpsLAKLKSPETKLIDDGSHVhnVYQHIFYiPDPTLAfvglalhvvP 233
+                      7555666665543333333333433444487899999999999777766655442 PP
+
+>> d1djqa3/c.4.1.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.1   0.3   1.4e-13   1.4e-11      22     215 ..      46     200 ..      27     214 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 44.1 bits;  conditional E-value: 1.4e-13
+              c.3  22 keapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkelgdailaafdeelakalaeklkkh 115
+                       +++  v+++G+GpsG eaA++L ++G+ v++ + ++k+gg+++ + ++p      +        ++++  +d      +++++     kl   
+  d1djqa3/c.4.1.1  46 TKNKDSVLIVGAGPSGSEAARVLMESGYTVHLTDTAEKIGGHLNQVAALPG----LG-------EWSYH--RDYR----ETQIT-----KLL-- 115
+                      356678***********************************9986643321....01.......23332..1111....22222.....222.. PP
+
+              c.3 116 gvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatGaar.gkl....aekaGldvddgivvdeks....nvkglya.gdvtggpe 199
+                          + +++    +    g++ ++  d      ++ ad+vi+atGa + + +    a  +             +     +kg+y  gd ++ p 
+  d1djqa3/c.4.1.1 116 ----KKNKES---QLA-LGQKPMTADD----VLQYGADKVIIATGASEcTLWnelkARES-------------EwaenDIKGIYLiGD-AEAPR 183
+                      ....112232...221.1122244344....47799********9985544433332222.............12445689******9.44577 PP
+
+              c.3 200 l.skalvsGrlaaeail 215
+                      l ++a+ +G ++a++i 
+  d1djqa3/c.4.1.1 184 LiADATFTGHRVAREIE 200
+                      78888888888888774 PP
+
+>> d3c96a1/c.3.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.3   1.8   7.6e-15   7.6e-13      27     198 ..       3     203 ..       1     231 [. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 48.3 bits;  conditional E-value: 7.6e-15
+              c.3  27 dvvviGgGpsGleaAaaLakaGa.kvtvlekgdklggrcvsa.....................gcvpskaladsaeleld.............. 84 
+                      d+++ G+G++Gl++A aL++aG+ kvt+le++++++  +v++                      ++p+++l        +              
+  d3c96a1/c.3.1.2   3 DILIAGAGIGGLSCALALHQAGIgKVTLLESSSEIRPLGVGIniqpaavealaelglgpalaaTAIPTHEL--------Ryidqsgatvwsepr 88 
+                      99*********************************888888888999999999886655555544555555........455565555533432 PP
+
+              c.3  85 ........qgvtvkelgdailaafde..........elakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatG 160
+                              +                +           l +a++e+l+++   v++g  ve+i+++ dg+v +  +dg g+ + l ad+++ a G
+  d3c96a1/c.3.1.2  89 gveagnayP----------------QysihrgelqmILLAAVRERLGQQ--AVRTGLGVERIEER-DGRVLIGARDGHGKPQALGADVLVGADG 163
+                      332222221................222233333347889999999977..8999999******9.555558899998655889******9999 PP
+
+              c.3 161 aa.r.....................gklaekaGldvddgivvdeksnvkglya.gdvtgg..p 198
+                       +                       g                       ++   gd+++   p
+  d3c96a1/c.3.1.2 164 IHsAvrahlhpdqrplrdplphwgrG-----------------------RITLlGDAAHLmyP 203
+                      88557666666554444333333221.......................23344455544553 PP
+
+>> d1pn0a1/c.3.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.0   0.0   1.8e-14   1.8e-12      20     198 ..       2     266 ..       1     347 [. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 47.0 bits;  conditional E-value: 1.8e-14
+              c.3  20 klkeapydvvviGgGpsGleaAaaLa.....kaGakvtvlekgdklggrcvsa.......................gcvpskaladsae..lel 83 
+                      k++e+++dv+++G+Gp+Gl+aA++L+     k   kv +++k++++ +++ ++                       + +++ al ++ e  +  
+  d1pn0a1/c.3.1.2   2 KYSESYCDVLIVGAGPAGLMAARVLSeyvrqKPDLKVRIIDKRSTKVYNGQADglqcrtleslknlgladkilseaNDMSTIALYNPDEngHI- 94 
+                      7889**********************555422356********99988888778899888999988888888877766666666666333422. PP
+
+              c.3  84 d......................................qgvtvkelgdai.....................laafdeelakalaeklkkhgve 118
+                      +                                                                        +a+  +++ ++++++++   +
+  d1pn0a1/c.3.1.2  95 RrtdripdtlpgisryhqvvlhqgrierrildsiaeisdT----------RikverplipekmeidsskaedPEAYPVTMTLRYMSEDESTPLQ 178
+                      1365777788666665444444333333333333333221..........02222223333334444444443444568888888888887777 PP
+
+              c.3 119 vllgtrveeidrd......gdgvvgvvpadgn.gggeeldadavilatGaargklaekaGldvdd....givvdeks.nvkglya.gdvtgg.. 197
+                      + + t+   +  +      +d++ ++  ++ + g++e++++++vi + G+++         +v++      +v ek+ + +++++ gd+++   
+  d1pn0a1/c.3.1.2 179 FGHKTENGLFRSNlqtqeeEDANYRLP-EGKEaGEIETVHCKYVIGCDGGHS---------WVRRtlgfEMIVTEKFsKDERVFIaGDACHThs 262
+                      777776543322232222235555554.444448889899999999998664.........334334233445555568999999999988777 PP
+
+              c.3 198 ...p 198
+                         +
+  d1pn0a1/c.3.1.2 263 pkaG 266
+                      5552 PP
+
+>> d1ps9a3/c.4.1.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.9   0.1     2e-14     2e-12      23     126 ..      41     119 ..      17     177 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 46.9 bits;  conditional E-value: 2e-14
+              c.3  23 eapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkelgdailaafdeelakalaeklkkhg 116
+                       ++++++v+G+Gp+Gl+ A+ +a++G++vt++++ +++gg+ ++a+ +p k                    ++++     e+  +++++ +  g
+  d1ps9a3/c.4.1.1  41 VQKKNLAVVGAGPAGLAFAINAAARGHQVTLFDAHSEIGGQFNIAKQIPGK--------------------EEFY-----ETLRYYRRMIEVTG 109
+                      56899*************************************999877643....................3333.....33345555555555 PP
+
+              c.3 117 vevllgtrve 126
+                      v+++l+++v+
+  d1ps9a3/c.4.1.1 110 VTLKLNHTVT 119
+                      5555555542 PP
+
+>> d1m6ia2/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.7   0.1   1.9e-13   1.9e-11      14     160 ..      26     136 ..       5     137 .] 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 43.7 bits;  conditional E-value: 1.9e-13
+              c.3  14 ssdgalklkeapydvvviGgGpsGleaAaaLaka....Gakvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkelgdailaafdee 103
+                      ++++++k++ + + + +iGgG+ G e+A+aL ++    G +v+ l   +++g                                  ++    e+
+  d1m6ia2/c.3.1.5  26 DFRSLEKISREVKSITIIGGGFLGSELACALGRKaralGTEVIQLF--PEKGN---------------------------------MGKILPEY 84 
+                      57778888899999*****************964333499999999..33332.................................334449** PP
+
+              c.3 104 lakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatG 160
+                      l+++ +ek++++gv+v++++ v+ + ++ +g+  ++++dg    + +++d++++a+G
+  d1m6ia2/c.3.1.5  85 LSNWTMEKVRREGVKVMPNAIVQSVGVS-SGKLLIKLKDG----RKVETDHIVAAVG 136
+                      **********************999887.66666****96....7799********7 PP
+
+>> d2bi7a1/c.4.1.3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.9   0.0   1.7e-13   1.7e-11      25      85 ..       2      90 ..       1     294 [. 0.54
+
+  Alignments for each domain:
+  == domain 1  score: 43.9 bits;  conditional E-value: 1.7e-13
+              c.3 25 pydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa.........................gcvpskaladsaeleld........... 84
+                     +++++++G+G+sG   +++La++G++v++++++d++gg+++ a                         +               +           
+  d2bi7a1/c.4.1.3  2 SKKILIVGAGFSGAVIGRQLAEKGHQVHIIDQRDHIGGNSYDArdsetnvmvhvygphifhtdnetvwN---------------Yvnkhaemmpyv 82
+                     689*************************************99977666555533333333333332221...............022222222122 PP
+
+              c.3 85 .......q 85
+                            +
+  d2bi7a1/c.4.1.3 83 nrvkatvN 90
+                     22222220 PP
+
+>> d2voua1/c.3.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6   0.2     2e-13     2e-11      24     212 ..       3     202 ..       1     233 [. 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 2e-13
+              c.3  24 apydvvviGgGpsGleaAaaLakaGakvtvlekg.dklggrcvsa.........gcvpskaladsaeleldqgvtvkel............... 92 
+                      ++ +++v+Gg +sGl+aA  L++aG++v v+e++ ++l+g ++++                        l+qgv ++++               
+  d2voua1/c.3.1.2   3 TTDRIAVVGGSISGLTAALMLRDAGVDVDVYERSpQPLSGFGTGIvvqpelvhyL--------------LEQGVELDSIsvpsssmeyvdaltg 82 
+                      6789******************************888899888665433222220..............2345555422222222233333332 PP
+
+              c.3  93 .......gdailaafdeelakalaeklkkhgvevllgtrv.eeidrdgdgvvgvvpadgngggeeldadavilatGaa.r.gklaekaGldvdd 176
+                             +d  ++ +d+   + ++     +g e+++ +++ +++ +d ++ v++++ dg      ++a +vi a G+a   +k++  +      
+  d2voua1/c.3.1.2  83 ervgsvpADWRFTSYDSIYGGLYEL----FGPERYHTSKClVGLSQD-SETVQMRFSDG----TKAEANWVIGADGGAsVvRKRL--L------ 159
+                      2333334444455555555533333....566666666643566555.55556778775....5689999999999885563221..2...... PP
+
+              c.3 177 givvdeksnvkglya.gdvtgg.....pel.skalvsGrlaae 212
+                      gi++ + + + ++   gd++        ++ +ka+  +r++ae
+  d2voua1/c.3.1.2 160 GIETVDRMVHGRVLLiGDAAVTprphaAAGgAKASDDARTLAE 202
+                      3444444445566666777655666654446677777777776 PP
+
+>> d1mo9a2/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.2   0.2   5.6e-13   5.6e-11      16     160 ..      12     121 .]       2     121 .] 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 42.2 bits;  conditional E-value: 5.6e-13
+              c.3  16 dgalklk.eapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkelgdailaafdeelakal 108
+                      + +++l+ e++  vvv+Gg  +++e+++   + G ++++l +                                     +      d+e+++++
+  d1mo9a2/c.3.1.5  12 TLVEELDyEPGSTVVVVGGSKTAVEYGCFFNATGRRTVMLVRT------------------------------------EPLKLIKDNETRAYV 69 
+                      4455555244556****************************54....................................2222334******** PP
+
+              c.3 109 aeklkkhgvevllgtrveeidrdgdgvv.gvvpadgngggeeldadavilatG 160
+                      ++++k++g e+++g++v++i++d++g+v  vv ++ ng+  ++++d v+l+ G
+  d1mo9a2/c.3.1.5  70 LDRMKEQGMEIISGSNVTRIEEDANGRVqAVVAMTPNGE-MRIETDFVFLGLG 121
+                      **********************98777625667777877.99*******9875 PP
+
+>> d1i8ta1/c.4.1.3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.8   0.0   7.3e-13   7.3e-11      26     118 ..       2     126 ..       1     287 [. 0.58
+
+  Alignments for each domain:
+  == domain 1  score: 41.8 bits;  conditional E-value: 7.3e-13
+              c.3  26 ydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa..........................gcvpskaladsaeleld......... 84 
+                      yd++++G+G+ G  +A++L+k+++kv+v+ek+ ++gg+ ++                           +               d         
+  d1i8ta1/c.4.1.3   2 YDYIIVGSGLFGAVCANELKKLNKKVLVIEKRNHIGGNAYTEdcegiqihkygahifhtndkyiwdyvN---------------Dlvefnrftn 80 
+                      8************************************99988666555544444333333333333330...............0333333333 PP
+
+              c.3  85 .......................qgvtvkelgdailaafdeelakalaeklkkhgve 118
+                                             +gv+             +e ++ ++++ kk+g++
+  d1i8ta1/c.4.1.3  81 splaiykdklfnlpfnmntfhqmWGVK-----------DPQEAQNIINAQKKKYGDK 126
+                      333333333333333333333442221...........1112222222222222222 PP
+
+>> d1k0ia1/c.3.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.1   0.1   2.5e-12   2.5e-10      25     144 ..       2     195 ..       1     266 [. 0.56
+
+  Alignments for each domain:
+  == domain 1  score: 40.1 bits;  conditional E-value: 2.5e-12
+              c.3  25 pydvvviGgGpsGleaAaaLakaGakvtvlekg..dklggrcvsa...........gcvpskaladsaeleld..................... 84 
+                      +++v++iG+GpsGl ++  L+kaG+++++le++  d++ gr+++            ++++++ +a+      d                     
+  d1k0ia1/c.3.1.2   2 KTQVAIIGAGPSGLLLGQLLHKAGIDNVILERQtpDYVLGRIRAGvleqgmvdllrEAGVDRRMAR------Dglvhegveiafagqrrridlk 89 
+                      578*****************************9988889999988997766666653333333333......2444423334444444233333 PP
+
+              c.3  85 .........qgvtvkel..............gdai.....................laafde......elakalaeklkkhgvevllgtrveei 128
+                                      +              +  +                     +++f+         ++++a++++ hg+ +++  + e+ 
+  d1k0ia1/c.3.1.2  90 rlsggktvtV------YgqtevtrdlmeareA--CgattvyqaaevrlhdlqgerpYVTFERdgerlrLDCDYIAGCDGFHGISRQSIPA-ERM 174
+                      3332222220......0222233222222220..12222222222233332333344444334555556777777777777777766532.333 PP
+
+              c.3 129 drd.....gdgvvgvvpadgn 144
+                      +       gd+++ v p++++
+  d1k0ia1/c.3.1.2 175 QHGrlflaGDAAHIVPPTGAK 195
+                      221233445666655555553 PP
+
+>> d1w4xa2/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.1   0.0   9.8e-12   9.8e-10      11     160 ..      16     234 ..       1     235 [] 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 38.1 bits;  conditional E-value: 9.8e-12
+              c.3  11 alissdga..lklkeapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa.....gcvpskalads.ae..leld.......... 84 
+                      +l++  ++  +  + ++++v viG+G+sG+ +  ++ak+ a+  v+ + ++       +     +++ ++++++  ++   e++          
+  d1w4xa2/c.3.1.5  16 NLYHTGNWphEPVDFSGQRVGVIGTGSSGIQVSPQIAKQAAELFVFQRTPH-------FavparNAPLDPEFLADlKKryAEFReesrntpggt 102
+                      55555555544566899******************************8644.......233344333333333332334533335777776554 PP
+
+              c.3  85 ...qgvtvkelgdailaafdeelakalaeklkkhgvevllgtrveeidrdgdgvvg...................................... 137
+                         qg       + +l+++deel++ l++ ++++g ++l  +r +  drd++++v                                       
+  d1w4xa2/c.3.1.5 103 hryQG------PKSALEVSDEELVETLERYWQEGGPDILAAYRDILRDRDANERVAefirnkirntvrdpevaerlvpkgypfgtkrlileidy 190
+                      44444......66679999***********************9988888877776678888899999999999999999999999999999999 PP
+
+              c.3 138 .....................vvpadgngggeeldadavilatG 160
+                                           ++p++ +++++e++ d ++latG
+  d1w4xa2/c.3.1.5 191 yemfnrdnvhlvdtlsapietITPRGVRTSEREYELDSLVLATG 234
+                      999999999999999999999999998888899**********8 PP
+
+>> d1vdca2/c.3.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.4   0.2   3.3e-11   3.4e-09       8     159 ..      14     124 .]      11     124 .] 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 36.4 bits;  conditional E-value: 3.3e-11
+              c.3   8 gkdalissdgalklkeapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkelgdailaafd 101
+                      g++a++ +dga     ++++++viGgG s++e A+ L k G kv +++++d+ +                                       +
+  d1vdca2/c.3.1.5  14 GISACAVCDGAI---FRNKPLAVIGGGDSAMEEANFLTKYGSKVYIIHRRDAFRA--------------------------------------S 66 
+                      6789999***98...9********************************8755444......................................2 PP
+
+              c.3 102 eelakalaeklkkhgvevllgtrveeidrdg..dgvvgvvpadgn.gggeeldadavilat 159
+                      + +   ++++l + +++v+ +++v+e  +dg  d   g++++    g+ + l++ +++ a+
+  d1vdca2/c.3.1.5  67 KIM---QQRALSNPKIDVIWNSSVVEAYGDGerDVLGGLKVKNVVtGDVSDLKVSGLFFAI 124
+                      222...3456677888899998887666664332223444443333334667777777775 PP
+
+>> d1djqa2/c.3.1.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.6   0.0   2.9e-11   2.9e-09       4     160 ..      13     154 ..       1     156 [] 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 36.6 bits;  conditional E-value: 2.9e-11
+              c.3   4 pnipgkd....alissdgalk.lkeapydvvviGg..GpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvk 90 
+                      ++ipg+d     +++ +++++  k+++++vv++ +   +++ ++A +La+aG++vt+++                              gv++ 
+  d1djqa2/c.3.1.1  13 DPIPGADaslpDQLTPEQVMDgKKKIGKRVVILNAdtYFMAPSLAEKLATAGHEVTIVS------------------------------GVHLA 76 
+                      789****777777889*****889***********************************..............................65433 PP
+
+              c.3  91 elgdailaafdeelakalaeklkkhgvevllgtrveeidrd.....gdgvv....gvvpadgngggeeldadavilatG 160
+                      + ++++  ++ + ++   + ++++ g++++++ +  + +       g++++    gv+p+d+n+++++++ d ++l tG
+  d1djqa2/c.3.1.1  77 N-YMHFTLEYPNMMRRLHELHVEELGDHFCSRIEPGRMEIYniwgdGSKRTyrgpGVSPRDANTSHRWIEFDSLVLVTG 154
+                      2.222222334455555555889999999999865555442233224332222236**********************8 PP
+
+>> d1c0pa1/c.4.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.3   0.0   3.6e-11   3.6e-09      23     143 ..       4     182 ..       1     261 [. 0.60
+
+  Alignments for each domain:
+  == domain 1  score: 36.3 bits;  conditional E-value: 3.6e-11
+              c.3  23 eapydvvviGgGpsGleaAaaLakaGakvtvlekg..dklggrcvsa.......................gcvpskaladsaeleld....... 84 
+                       ++++vvv+G+G +Gl+ A  La++G++v++l +   + ++ ++ ++                       +               +       
+  d1c0pa1/c.4.1.2   4 HSQKRVVVLGSGVIGLSSALILARKGYSVHILARDlpEDVSSQTFASpwaganwtpfmtltdgprqakweE---------------Stfkkwve 82 
+                      6789*****************************86332223333322566665555555555444444442...............03333333 PP
+
+              c.3  85 ..........................qgvtvk.el.........gdailaafde......elakalaeklkkhgvevllgtrveeidrdgdgvv 136
+                                                +  +++ ++           ai++++d+        +++la++l+k g ++ ++t  + +++  dg+ 
+  d1c0pa1/c.4.1.2  83 lvptghamwlkgtrrfaqnedgllghWYKDITpNYrplpssecpPGAIGVTYDTlsvhapKYCQYLARELQKLGATFERRTV-TSLEQAFDGAD 175
+                      4444444434366666666666666643333231122333344433335555556666667799*********999999965.77777544444 PP
+
+              c.3 137 gvvpadg 143
+                       vv a+g
+  d1c0pa1/c.4.1.2 176 LVVNATG 182
+                      4555544 PP
+
+>> d1gtea4/c.4.1.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.2   0.0     1e-08     1e-06      26     119 ..       5      72 ..       1     179 [. 0.59
+
+  Alignments for each domain:
+  == domain 1  score: 28.2 bits;  conditional E-value: 1e-08
+              c.3  26 ydvvviGgGpsGleaAaaLakaGa.kvtvlekgdklggrcvsa.......................gcvpskaladsaeleldqgvtvkelgda 95 
+                       +++ +G+Gp+ +++A  La++G+ ++t++ek++++gg ++s                        +                           
+  d1gtea4/c.4.1.1   5 AKIALLGAGPASISCASFLARLGYsDITIFEKQEYVGGLSTSEipqfrlpydvvnfeielmkdlgvK--------------------------- 71 
+                      578889*****************99*************66633443333333333222222222220........................... PP
+
+              c.3  96 ilaafdeelakalaeklkkhgvev 119
+                                             +
+  d1gtea4/c.4.1.1  72 -----------------------I 72 
+                      .......................2 PP
+
+>> d1pjca1/c.2.1.4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.6   0.6   3.3e-08   3.3e-06      23      57 ..      30      64 ..      14     156 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 26.6 bits;  conditional E-value: 3.3e-08
+              c.3 23 eapydvvviGgGpsGleaAaaLakaGakvtvlekg 57
+                      +p++vv++GgG  G eaA+ +  +Ga+v +++ +
+  d1pjca1/c.2.1.4 30 VKPGKVVILGGGVVGTEAAKMAVGLGAQVQIFDIN 64
+                     5799*****************************54 PP
+
+>> d1ve9a1/c.4.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.4   0.0   1.5e-07   1.5e-05      27     139 ..       2     178 ..       1     189 [. 0.56
+
+  Alignments for each domain:
+  == domain 1  score: 24.4 bits;  conditional E-value: 1.5e-07
+              c.3  27 dvvviGgGpsGleaAaaLakaGa......kvtvlekgdklggrcvsa.................................gcvpskaladsael 81 
+                      +vvviG+G +Gl+ A  ++++ +      +v v+ ++         +                                 +             
+  d1ve9a1/c.4.1.2   2 RVVVIGAGVIGLSTALCIHERYHsvlqplDVKVYADR---------FtpftttdvaaglwqpytsepsnpqeanwnqqtfN------------- 73 
+                      8******************986612222244444433.........02222233566677666655555555555555553............. PP
+
+              c.3  82 eld.......................................................qgvtvkel...gdailaafdeelakalaeklkkhgv 117
+                        +                                                       +g+ +++l   g            ++l+e+l ++gv
+  d1ve9a1/c.4.1.2  74 --YllshigspnaanmgltpvsgynlfreavpdpywkdmvlgfrkltpreldmfpdyrYGWFNTSLileG--------RKYLQWLTERLTERGV 157
+                      ..03334444444443333455555555555555554455444444444444444444444433223322........45579*********** PP
+
+              c.3 118 evllgtrveeidrdgdgvvgvv 139
+                      +++l+ +ve +++ ++g   v+
+  d1ve9a1/c.4.1.2 158 KFFLR-KVESFEEVARGGADVI 178
+                      *****.6688888765544444 PP
+
+>> d1lqta1/c.3.1.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.2   0.1   1.7e-07   1.7e-05       4     160 ..       4     214 ..       1     215 [] 0.52
+
+  Alignments for each domain:
+  == domain 1  score: 24.2 bits;  conditional E-value: 1.7e-07
+              c.3   4 pnipgkd.....alissdgalklk.........eapydvvviGgGpsGleaAaaLakaGa...kvtvlekgdklggrcvsa......gcvpska 74 
+                      +nipg+d     a +++ g+++++          ++ ++vviG G  +l +A+ L +      ++ + +           +             
+  d1lqta1/c.3.1.1   4 LNIPGEDlpgsiAAVDFVGWYNAHphfeqvspdLSGARAVVIGNGNVALDVARILLTDPDvlaRTDIAD-----------HaleslrP------ 80 
+                      6899999999999999*****99955555555444*********************9776233333333...........11222220...... PP
+
+              c.3  75 ladsaeleld.............................qgvtvk....el.......gdai............laafdeelakalaeklk... 113
+                               +                              gv+v+    el       +  +            l++++++ + + ++      
+  d1lqta1/c.3.1.1  81 ---------RgiqevvivgrrgplqaafttlelreladlDGVDVVidpaELdgitdedA--AavgkvckqnikvLRGYADRERPGHRR--Mvfr 161
+                      .........23423333333222222222222334445544444222221122222221..111111111111222222222222222..0111 PP
+
+              c.3 114 ..khgvevllgtrveeidrd.....gdgvvgvvpadgngggeeldadavilatG 160
+                           +e++   +ve+i        +dg  +v  +d+ g+ eel+a  v+ ++G
+  d1lqta1/c.3.1.1 162 flTSPIEIKGKRKVERIVLGrnelvSDGSGRVAAKDT-GEREELPAQLVVRSVG 214
+                      2233555555566777755334444588999999985.888*********9998 PP
+
+>> d1gtea3/c.3.1.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.3   0.0   1.7e-07   1.7e-05       6     160 ..       3     152 ..       1     153 [] 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 24.3 bits;  conditional E-value: 1.7e-07
+              c.3   6 ipgkdalissdgalklk.......................eapydvvviGgGpsGleaAaaLakaGa.kvtvlekgdklggrcvsagcvpskal 75 
+                       +++ + ++ d++++++                       ++ + v+v+G+G +++ +A  + + Ga +v ++ + +                 
+  d1gtea3/c.3.1.1   3 TDDIFQGLTQDQGFYTSkdflplvaksskagmcachsplpSIRGAVIVLGAGDTAFDCATSALRCGArRVFLVFRKG----------------- 79 
+                      566667777888888777777777777777777777777788999**********************6777777442................. PP
+
+              c.3  76 adsaeleldqgvtvkelgdai..laafdeelakalaeklkkh...........gvevllgtrveeidrdgdgvvgvvpadgngggeeldadavi 156
+                                          +  ++a+ ee+  a +ek++             g +++  +  ++ ++d+ g++    +d ++++ +l+ad+vi
+  d1gtea3/c.3.1.1  80 --------------------FvnIRAVPEEVELAKEEKCEFLpflsprkvivkGGRIVAVQF-VRTEQDETGKW---NED-EDQIVHLKADVVI 148
+                      ....................223666788888888888886433443322222555555544.46677766666...454.46778889999*9 PP
+
+              c.3 157 latG 160
+                       a G
+  d1gtea3/c.3.1.1 149 SAFG 152
+                      9997 PP
+
+>> d1f0ya2/c.2.1.6  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.2   0.0   1.7e-07   1.7e-05      26      85 ..       5      99 ..       3     178 .. 0.59
+
+  Alignments for each domain:
+  == domain 1  score: 24.2 bits;  conditional E-value: 1.7e-07
+              c.3 26 ydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa.....gcvpskaladsae...leld...........................q 85
+                     ++v viGgG++G   A ++a+ G+ v+++++ + +  ++        + v +k++a +++   ++++                           +
+  d1f0ya2/c.2.1.6  5 KHVTVIGGGLMGAGIAQVAAATGHTVVLVDQTEDILAKSKKGieeslRKVAKKKFAENPKagdEFVEktlstiatstdaasvvhstdlvveaivE 99
+                     689***************************88776665555577777455566666664434444445555555444444343332222222221 PP
+
+>> d1yovb_/c.111.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.1   0.0   3.1e-06   0.00031      24      85 ..      36     144 ..      18     338 .. 0.44
+
+  Alignments for each domain:
+  == domain 1  score: 20.1 bits;  conditional E-value: 3.1e-06
+                c.3  24 apydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa...............................gcvpskaladsaeleld 84 
+                         +++v+viG+G  G+e+ + La +G + +++ + d++      +                               +                
+  d1yovb_/c.111.1.2  36 DTCKVLVIGAGGLGCELLKNLALSGFRQIHVIDMDTID-----VsnlnrqflfrpkdigrpkaevaaeflndrvpN---------------C 107
+                        579**********************9666666554442.....022233344444433333333333333322221...............0 PP
+
+                c.3  85 ....................................q 85 
+                                                            +
+  d1yovb_/c.111.1.2 108 nvvphfnkiqdfndtfyrqfhiivcgldsiiarrwiN 144
+                        2222222222222222233333333333333333330 PP
+
+>> d1llda1/c.2.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.5   0.8   2.4e-06   0.00024      25      57 ..       1      34 [.       1     131 [. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 20.5 bits;  conditional E-value: 2.4e-06
+              c.3 25 pydvvviGgGpsGleaAaaLakaGa.kvtvlekg 57
+                     p++++viG+G  G ++A a+a++G+ + +vle+ 
+  d1llda1/c.2.1.5  1 PTKLAVIGAGAVGSTLAFAAAQRGIaREIVLEDI 34
+                     5799********************9899999964 PP
+
+>> d1lqta2/c.4.1.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.6   0.1   3.7e-05    0.0037      25     188 ..       2     126 ..       1     147 [. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 16.6 bits;  conditional E-value: 3.7e-05
+              c.3  25 pydvvviGgGpsGleaAaaLakaGa.......kvtvlekgdklggrcvsagcvpskaladsaeleldqgvtvkel.gdailaafdeelakalae 110
+                      py ++++G+Gps++ aAa L ka          v +le  +++ g ++s                   g     +  d+      ++++k  ++
+  d1lqta2/c.4.1.1   2 PYYIAIVGSGPSAFFAAASLLKAADttedldmAVDMLEMLPTPWGLVRS-------------------G-----VaPDHPK---IKSISKQFEK 68 
+                      67799****************9865344344467777733333222221...................2.....1333443...4567777888 PP
+
+              c.3 111 klkkhgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatGaa.rgklaekaGldvdd.givvdeks.nvkg 188
+                      ++++   +++ ++ v          + v+p +     e++da  vi+a+Ga  rg         v+  g+  d++s ++++
+  d1lqta2/c.4.1.1  69 TAEDPRFRFFGNVVV-----G---EH-VQPGEL---SERYDA--VIYAVGAQsRG---------VPTpGLPFDDQSgTIPN 126
+                      888888888888777.....3...55.777654...355555..99999877662.........22234444444444444 PP
+
+>> d1i36a2/c.2.1.6  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.0   0.1     7e-06    0.0007     102     183 ..       9      90 ..       3     132 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 19.0 bits;  conditional E-value: 7e-06
+              c.3 102 eelakalaeklkkhgvevllg...trveeidr.dgdgvvgvvpadgngggeeldadavilatGaargkl.....aekaGldvdd.givvdek 183
+                       e+a+ la++l+++gvev++     +   i+r +    vgv+ ++   +++++++ +vi a+    +++     a +aG++v+  +++++  
+  d1i36a2/c.2.1.6   9 GEVAQTLASRLRSRGVEVVTSlegRSPSTIERaR---TVGVTETS---EEDVYSCPVVISAV----TPGvalgaARRAGRHVRGiYVDINNI 90 
+                      478999**************63334557888844...55677544...689**********9....22255577888888888888877765 PP
+
+>> d1ldna1/c.2.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.7   1.9   3.4e-05    0.0034      25      57 ..       6      40 ..       2     128 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 16.7 bits;  conditional E-value: 3.4e-05
+              c.3 25 pydvvviGgGpsGleaAaaLakaGa..kvtvlekg 57
+                     + +vvviG+G+ G ++  aL  +G+  ++++++++
+  d1ldna1/c.2.1.5  6 GARVVVIGAGFVGASYVFALMNQGIadEIVLIDAN 40
+                     679*********************99899999975 PP
+
+>> d1jw9b_/c.111.1.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.7   0.1   1.7e-05    0.0017      15      56 ..      22      62 ..       6     215 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 17.7 bits;  conditional E-value: 1.7e-05
+                c.3 15 sdgalklkeapydvvviGgGpsGleaAaaLakaGa.kvtvlek 56
+                       +dg + l  ++ +v+++G G  G++a  +La aG+ + t+l+ 
+  d1jw9b_/c.111.1.1 22 FDGQEAL--KDSRVLIVGLGGLGCAASQYLASAGVgNLTLLDF 62
+                       4444444..566**********************988888883 PP
+
+>> d1qo2a_/c.1.2.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.6   0.1   3.6e-05    0.0036      31     180 ..      78     222 ..      76     234 .. 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 16.6 bits;  conditional E-value: 3.6e-05
+              c.3  31 iGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsae....leld..............qgvtvkelgdai....laafde 102
+                      iGgG+  l +A +L+k+G++  +++                sk l d++      e+d                         +     +  +e
+  d1qo2a_/c.1.2.1  78 IGGGIRSLDYAEKLRKLGYRRQIVS----------------SKVLEDPSFlkslREIDvepvfsldtrggrvA----------FkgwlAE--EE 143
+                      9************************................34455552222233333655555554333330..........1333222..22 PP
+
+              c.3 103 elakalaeklkkhgvevllgtrveeidrdg.dgvvgvvpadgngggeeldadavilatGaa.r...gklaekaGldvdd...givv 180
+                           l+++lk++g e + +t+   i+ dg  + +  ++    +++  ++a++ +la+G+  +    k+a+k+  + +    g++v
+  d1qo2a_/c.1.2.1 144 IDPVSLLKRLKEYGLEEIVHTE---IEKDGtLQEHDFSL----TKKIAIEAEVKVLAAGGIsSensLKTAQKVHTETNGllkGVIV 222
+                      233346778999****999988...67763244554444....45788***********996686522255555555544444444 PP
+
+>> d3tzqa_/c.2.1.0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.5   0.2   3.9e-05    0.0039      25      85 ..       4     107 ..       1     191 [. 0.48
+
+  Alignments for each domain:
+  == domain 1  score: 16.5 bits;  conditional E-value: 3.9e-05
+              c.3  25 pydvvviGg..GpsGleaAaaLakaGakvtvlekg.dklggrcvsa................gcvpskaladsaeleld............... 84 
+                      +++v++i g  G +Gle  ++La+aGa+v++ +     l g    a                + v+++al+d +    d               
+  d3tzqa_/c.2.1.0   4 ENKVAIITGacGGIGLETSRVLARAGARVVLADLPeTDLAG----AaasvgrgavhhvvdltNEVSVRALIDFTI---Dtfgrldivdnnaahs 90 
+                      56777775559**********************52112222....122234444445566664444444433322...1222333444444444 PP
+
+              c.3  85 ................q 85 
+                                       
+  d3tzqa_/c.2.1.0  91 dpadmlvtqmtvdvwdD 107
+                      44444444433334331 PP
+
+>> d1qzza2/c.66.1.12  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.2   0.0   9.6e-05    0.0096      28     128 ..      85     217 ..      56     243 .. 0.52
+
+  Alignments for each domain:
+  == domain 1  score: 15.2 bits;  conditional E-value: 9.6e-05
+                c.3  28 vvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsae....leld....qgvtvkelgdai............... 96 
+                        v+ +GgG +G+ aA+aL++ + + t++e +++                   ae     + d     +vtv e gd++               
+  d1qzza2/c.66.1.12  85 VLDVGGGNGGMLAAIALRAPHLRGTLVELAGP-------------------AErarrRFADaglaDRVTVAE-GDFFkplpvtadvvllsfv 156
+                        5559************************4422...................221112222244443444432.2222222222222222222 PP
+
+                c.3  97 .laafdeelakalaeklkkh............................gvevllgtrveei 128
+                         l+ +de   + l++++++                             g +v+++ +v+++
+  d1qzza2/c.66.1.12 157 lLNWSDEDALTILRGCVRALepggrllvldradrffstlldlrmltfmGGRVRTRDEVVDL 217
+                        2112233333333333332111111122222222222222222222227777777777554 PP
+
+>> d3ko8a_/c.2.1.0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.5   0.1   0.00016     0.016      32      85 ..       8      71 ..       1     260 [. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 14.5 bits;  conditional E-value: 0.00016
+              c.3 32 GgGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskalads.ae.leld...................q 85
+                     G+G++G  +  +L ++G++v+v++        + s      ++++++ ae +  d                    
+  d3ko8a_/c.2.1.0  8 GAGFIGSHLVDKLVELGYEVVVVDN-------LSSG----RREFVNPsAElHVRDlkdyswgagikgdvvfhfaA 71
+                     77**********************2.......2222....35555553446666677777333332222222220 PP
+
+>> d1gpja2/c.2.1.7  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.5   1.9   0.00016     0.016      25      61 ..      24      60 ..       8     154 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 14.5 bits;  conditional E-value: 0.00016
+              c.3 25 pydvvviGgGpsGleaAaaLakaGakvtvlekgdklg 61
+                     ++ v+v+G+G +G ++A+ L ++G++ +++  + + +
+  d1gpja2/c.2.1.7 24 DKTVLVVGAGEMGKTVAKSLVDRGVRAVLVANRTYER 60
+                     578**************************99664433 PP
+
+>> d1i24a_/c.2.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.4   0.0   0.00017     0.017      27      85 ..       3      78 ..       1     339 [. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 14.4 bits;  conditional E-value: 0.00017
+              c.3 27 dvvviGg.GpsGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsae.leld...............................q 85
+                     +v viGg G+ G + A  L+k++++v++++                ++ l+d+++ l  +                                
+  d1i24a_/c.2.1.2  3 RVMVIGGdGYCGWATALHLSKKNYEVCIVDN--------------LVRRLFDHQLgL--EsltpiasihdrisrwkaltgksielyvgdicD 78
+                     899***************************2..............223343443321..122233444444444444433333333333330 PP
+
+>> d1cjca2/c.4.1.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.0   0.0   0.00023     0.023      30      62 ..       6      40 ..       3     166 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 14.0 bits;  conditional E-value: 0.00023
+              c.3 30 viGgGpsGleaAaaLakaGa..kvtvlekgdklgg 62
+                     v+G+Gp+G+  A  L k +   +v ++ek+ ++ g
+  d1cjca2/c.4.1.1  6 VVGSGPAGFYTAQHLLKHHSraHVDIYEKQLVPFG 40
+                     9*****************98779999998744433 PP
+
+>> d1uxja1/c.2.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.6   0.3   0.00061     0.061      28      55 ..       4      32 ..       1      67 [. 0.77
+   2 ?   -0.7   0.0       7.1   7.1e+02      10      32 ..      55      76 ..      41      83 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 12.6 bits;  conditional E-value: 0.00061
+              c.3 28 vvviGgGpsGleaAaaLakaGa.kvtvle 55
+                     + +iG+G+ G + A +La++   ++++l+
+  d1uxja1/c.2.1.5  4 ISIIGAGFVGSTTAHWLAAKELgDIVLLD 32
+                     559***************88766777777 PP
+
+  == domain 2  score: -0.7 bits;  conditional E-value: 7.1
+              c.3 10 dalissdgalklkeapydvvviG 32
+                     d +++ ++ + +++a+ dv+v+ 
+  d1uxja1/c.2.1.5 55 DVRVTGTNNY-ADTANSDVIVVT 76
+                     4455544433.667777888874 PP
+
+>> d1u7za_/c.72.3.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.7   0.0   0.00028     0.028      33      72 ..      31      56 ..      31     201 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 13.7 bits;  conditional E-value: 0.00028
+               c.3 33 gGpsGleaAaaLakaGakvtvlekgdklggrcvsagcvps 72
+                      +G +G++ Aaa+a++Ga+vt+++              +p+
+  d1u7za_/c.72.3.1 31 SGKMGFAIAAAAARRGANVTLVS--------------GPV 56
+                      5899*******************..............222 PP
+
+>> d2jfga1/c.5.1.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.4   0.0   0.00035     0.035      23      62 ..       3      42 ..       1      92 [. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 13.4 bits;  conditional E-value: 0.00035
+              c.3 23 eapydvvviGgGpsGleaAaaLakaGakvtvlekgdklgg 62
+                     +++++vv+iG G++Gl++     ++G+   v++ + +++g
+  d2jfga1/c.5.1.1  3 YQGKNVVIIGLGLTGLSCVDFFLARGVTPRVMDTRMTPPG 42
+                     6889***********************9999998888877 PP
+
+>> d1kjqa2/c.30.1.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.4   0.0   0.00035     0.035      19     121 ..       5     102 ..       2     111 .] 0.55
+
+  Alignments for each domain:
+  == domain 1  score: 13.4 bits;  conditional E-value: 0.00035
+               c.3  19 lklkeapydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa....gcvpskaladsaeleld.............qgvtvkelgd 94 
+                       + l +a ++v  +G+G  G e+A+++ ++G++v+ +++ +  +  +v++                                  +       + 
+  d1kjqa2/c.30.1.1   5 TALRPAATRVMLLGSGELGKEVAIECQRLGVEVIAVDRYADAPAMHVAHrshvI---------------NmldgdalrrvvelE-------KP 75 
+                       56788999*****************************87433332222222220...............122222221222220.......22 PP
+
+               c.3  95 ailaafdeelakalaeklkkhgvevll 121
+                       ++++   e +a+ ++ +l+++g +v++
+  d1kjqa2/c.30.1.1  76 HYIVPEIEAIATDMLIQLEEEGLNVVP 102
+                       222211223333333345666666665 PP
+
+>> d3awda_/c.2.1.0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   4.2    0.0016      0.16      26     172 ..      10     169 ..       3     191 .. 0.51
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 0.0016
+              c.3  26 ydvvviGgG..psGleaAaaLakaGakvtvlekgdklggrcvsagcvpskaladsae..leld........qgvtvkelgdailaaf.deelak 106
+                      ++v+++ gG   +Gl++  aLa+aGa+v++ +                + a+a+ a   l+++        + v            + +e++++
+  d3awda_/c.2.1.0  10 NRVAIVTGGaqNIGLACVTALAEAGARVIIADL---------------DEAMATKAVedLRMEghdvssvvMDV------------TnTESVQN 76 
+                      577777555337********************2...............23333331112222232332222111............11334444 PP
+
+              c.3 107 alaekl.kkhgvevllgt......rveeidrdgdgv.vgvvpa......dgn.gggeel.dadavilatGaa.r.........gkl..aekaGl 172
+                      a+++   +++ v++l         +v++ d++++++ ++v  +      + +  g   l    +vi+a+G++           + +  a+kaG+
+  d3awda_/c.2.1.0  77 AVRSVHeQEGRVDILVACagicisEVKAEDMTDGQWlKQVDINlngmfrSCQaVGRIMLeQKQGVIVAIGSMsGlivnrpqqqA-AynASKAGV 169
+                      444422123346666665222222455555554444234443322333322222223343466677777766446665444331.134666665 PP
+
+>> d1pl8a2/c.2.1.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   1.1   0.00047     0.047      25      57 ..      27      60 ..      19     149 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 0.00047
+              c.3 25 pydvvviGgGpsGleaAaaLakaGa.kvtvlekg 57
+                     + +v+v G+Gp+G+    ++++ Ga +v+v + +
+  d1pl8a2/c.2.1.1 27 GHKVLVCGAGPIGMVTLLVAKAMGAaQVVVTDLS 60
+                     579*********************9899888843 PP
+
+>> d1wcv1_/c.37.1.0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.0   0.0   0.00092     0.092      37      68 ..      20      77 ..      18     231 .. 0.56
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00092
+               c.3 37 GleaAaaLakaGakvtvlekgdklggrcvsa............................g 68
+                      ++ +Aa+La++G++v++++    + g+ +s                              
+  d1wcv1_/c.37.1.0 20 AINLAAYLARLGKRVLLVDL--DPQGNATSGlgvraergvyhllqgepleglvhpvdgfH 77
+                      7789***************4..34454444456666555554444443333333322220 PP
+
+>> d1luaa1/c.2.1.7  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.8   2.6   0.00055     0.055      25      57 ..      24      56 ..      11     176 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 12.8 bits;  conditional E-value: 0.00055
+              c.3 25 pydvvviGgGpsGleaAaaLakaGakvtvlekg 57
+                     ++ vv  G+Gp G+  Aa La +Ga+v++  + 
+  d1luaa1/c.2.1.7 24 KKAVVLAGTGPVGMRSAALLAGEGAEVVLCGRK 56
+                     5668999*********************98864 PP
+
+>> d1lssa_/c.2.1.9  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.4   0.3    0.0007      0.07      29     112 ..       4      85 ..       2     126 .. 0.54
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 0.0007
+              c.3  29 vviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa..................gcvpskaladsaeleldqgvtvkel.......gdail 97 
+                      ++ G G  G+++A+ L+++G+++++++           +                  +c   k                  l       +d+++
+  d1lssa_/c.2.1.9   4 IIAGIGRVGYTLAKSLSEKGHDIVLIDI----------DkdickkasaeidalvingDCTKIKT-----------------LedagiedADMYI 70 
+                      67777999*******************4..........12111111111222222222222122.................1222223355555 PP
+
+              c.3  98 aafdeelakalaekl 112
+                      a++++e ++ + + l
+  d1lssa_/c.2.1.9  71 AVTGKEEVNLMSSLL 85 
+                      555555555555544 PP
+
+>> d1xu9a_/c.2.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.9   0.0   0.00049     0.049      25      76 ..      14      70 ..       6     204 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 12.9 bits;  conditional E-value: 0.00049
+              c.3 25 pydvvviGgG.psGleaAaaLakaGakvtvlekgdklggrcvsa....gcvpskala 76
+                     +++v+v G+   +G e+A+ Lak Ga+v+v  ++ +   ++vs+    g+ + ++ a
+  d1xu9a_/c.2.1.2 14 GKKVIVTGASkGIGREMAYHLAKMGAHVVVTARSKETLQKVVSHclelGAASAHYIA 70
+                     6789999997468*******************9977777777666666443333333 PP
+
+>> d1uzma1/c.2.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.3   1.3   0.00075     0.075      36     112 ..      19     100 ..       7     204 .. 0.51
+
+  Alignments for each domain:
+  == domain 1  score: 12.3 bits;  conditional E-value: 0.00075
+              c.3  36 sGleaAaaLakaGakvtvlekgdklggrcvsa.......gcvpskaladsaeleld..qgvtvkel...........gdailaafdeelakala 109
+                      +Gl+ A +La+ G+kv+v ++g+  +  + ++       +  +++a+ ++     +  qg     +           +    ++++e + k+++
+  d1uzma1/c.2.1.2  19 IGLAIAQRLAADGHKVAVTHRGSGAPKGLFGVevdvtdsD-AVDRAFTAV-----EehQG-----PvevlvsnaglsA----RMTEEKFEKVIN 97 
+                      8*******************99444333333344444421.122222222.....02212.....0222222222211....222333333333 PP
+
+              c.3 110 ekl 112
+                      ++l
+  d1uzma1/c.2.1.2  98 ANL 100
+                      322 PP
+
+>> d2o23a_/c.2.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.5   1.4   0.00065     0.065      32     180 ..      13     188 ..       3     225 .. 0.54
+
+  Alignments for each domain:
+  == domain 1  score: 12.5 bits;  conditional E-value: 0.00065
+              c.3  32 GgGpsGleaAaaLakaGakvtvlekgdklggrcvsa.......gcvpskaladsaeleld......................qgvtvkel.... 92 
+                      G+   Gl+ A +L  +Ga+ ++l+  +  gg    a       +cv  +a ++s +   d                             +    
+  d2o23a_/c.2.1.2  13 GASGLGLATAERLVGQGASAVLLDL-PNSGGE---AqakklgnNCVFAPADVTSEK---DvqtalalakgkfgrvdvavncaG------Iavas 93 
+                      5566677889**************4.222332...134466667776666666622...122233355666633333332220......12222 PP
+
+              c.3  93 ........gdailaafdeelakalaeklkkhgvevllgtrveeidrdgdgvvgvvpadgngggeeldadavilatGaa.r....gklaekaGld 173
+                              +++ l+ f+  l   l+   + ++v +l   ++ + ++d++g+ gv+ +++  + + ++  +v  a+ +a +    g+  +++ +d
+  d2o23a_/c.2.1.2  94 ktynlkkgQTHTLEDFQRVLDVNLM---GTFNVIRLVAGEMGQNEPDQGGQRGVIINTA--SVAAFE-GQVGQAAYSAsKggivGM-TLPIARD 180
+                      2223322233335444444443333...3567888888888999999999999999876..223232.233333333322333311.2222223 PP
+
+              c.3 174 vdd.givv 180
+                      +++ gi+v
+  d2o23a_/c.2.1.2 181 LAPiGIRV 188
+                      33344433 PP
+
+>> d1vj0a2/c.2.1.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.5   0.2   0.00064     0.064      22      59 ..      26      63 ..       7     173 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 12.5 bits;  conditional E-value: 0.00064
+              c.3 22 keapydvvviGgGpsGleaAaaLakaGakvtvlekgdk 59
+                     + a++ vv+ G+Gp Gl     ++ +Ga+++++ +g++
+  d1vj0a2/c.2.1.1 26 SFAGKTVVIQGAGPLGLFGVVIARSLGAENVIVIAGSP 63
+                     478999**********************9999986522 PP
+
+>> d1p5ja_/c.79.1.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.6   0.0   0.00063     0.064      33      68 ..      62     102 ..      62     302 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 12.6 bits;  conditional E-value: 0.00063
+               c.3  33 gGpsGleaAaaLakaGakvtvlekgdklggrcvsa..........g 68 
+                       +G +G++aA+a++++G+  t++      +g++ +            
+  d1p5ja_/c.79.1.1  62 AGNAGMAAAYAARQLGVPATIVV-----PGTTPALtierlknegaT 102
+                       8****************999999.....333222223333333331 PP
+
+>> d1hdoa_/c.2.1.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.0   0.3   0.00094     0.094      26      68 ..       4      79 ..       2     187 .. 0.52
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00094
+              c.3 26 ydvvviGg.GpsGleaAaaLakaGakvtvlekg.dkl...ggrcvsa............................g 68
+                     +++++ G+ G +Gl+  a++ +aG++vtvl +  ++l   g r +++                            +
+  d1hdoa_/c.2.1.2  4 KKIAIFGAtGQTGLTTLAQAVQAGYEVTVLVRDsSRLpseGPRPAHVvvgdvlqaadvdktvagqdavivllgtrN 79
+                     57778888899********************853333111222211122223333333333222222222222220 PP
+
+>> d1np3a2/c.2.1.6  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9   1.9     0.002       0.2      25      68 ..      16      62 ..       5     173 .. 0.57
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 0.002
+              c.3 25 pydvvviGgGpsGleaAaaLakaGakvtvlekgdklggrcvsa.......g 68
+                     +++v++iG G+ G + A+ L+++G++vtv  +++     +v a       +
+  d1np3a2/c.2.1.6 16 GKKVAIIGYGSQGHAHACNLKDSGVDVTVGLRSGS---ATV-AkaeahglK 62
+                     689****************************7622...111.122323331 PP
+
+>> d1t2da1/c.2.1.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.0   0.8    0.0038      0.38      25      57 ..       3      36 ..       1     140 [. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 10.0 bits;  conditional E-value: 0.0038
+              c.3 25 pydvvviGgGpsGleaAaaLakaGa.kvtvlekg 57
+                     + ++v +G+G++G  +A  + +++  +v++++  
+  d1t2da1/c.2.1.5  3 KAKIVLVGSGMIGGVMATLIVQKNLgDVVLFDIV 36
+                     5789********************99******32 PP
+
+>> d1kola2/c.2.1.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.5   4.1    0.0027      0.27      28      55 ..      29      56 ..      20      87 .. 0.85
+   2 ?    3.8   0.1      0.31        31     151     197 ..      94     150 ..      58     191 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 10.5 bits;  conditional E-value: 0.0027
+              c.3 28 vvviGgGpsGleaAaaLakaGakvtvle 55
+                     v v G+Gp Gl+aAa ++ +Ga v+++ 
+  d1kola2/c.2.1.1 29 VYVAGAGPVGLAAAASARLLGAAVVIVG 56
+                     6699******************999998 PP
+
+  == domain 2  score: 3.8 bits;  conditional E-value: 0.31
+              c.3 151 dadavilatGaa.r.....gklaekaGl..dvdd.givvdeks...nvkglya.gdvtgg 197
+                      ++d+ + a+G++ r     g   +k++   +v +    v +     +++gly+  d++  
+  d1kola2/c.2.1.1  94 EVDCAVDAVGFEaRghgheG---AKHEApaTVLNsLMQVTRVAgkiGIPGLYVtEDPGAV 150
+                      46679999999988664441...3333322222333333333346788*****9998755 PP
+
+>> d1o89a2/c.2.1.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.4   1.9     0.003       0.3      23      57 ..      30      65 ..       8     155 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 10.4 bits;  conditional E-value: 0.003
+              c.3 23 eapydvvviGg.GpsGleaAaaLakaGakvtvlekg 57
+                     ++++ +vv G+ G  G +a a L+k+G++v+ ++ +
+  d1o89a2/c.2.1.1 30 PQDGEIVVTGAsGGVGSTAVALLHKLGYQVVAVSGR 65
+                     667889999999*******************99943 PP
+
+>> d1ebfa1/c.2.1.3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.4   0.2     0.012       1.2      25      49 ..       4      28 ..       1     136 [. 0.77
+   2 ?    0.4   2.4       3.3   3.3e+02      31      44 ..     145     158 ..     139     162 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 8.4 bits;  conditional E-value: 0.012
+              c.3 25 pydvvviGgGpsGleaAaaLakaGa 49
+                       +v+viG+G  G +   +L + + 
+  d1ebfa1/c.2.1.3  4 VVNVAVIGAGVVGSAFLDQLLAMKS 28
+                     578***********99999987654 PP
+
+  == domain 2  score: 0.4 bits;  conditional E-value: 3.3
+              c.3  31 iGgGpsGleaAaaL 44 
+                      +G+G+++++aA +L
+  d1ebfa1/c.2.1.3 145 VGAGLAAVTAAGVL 158
+                      9**********998 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (222 nodes)
+Target sequences:                      11206  (1948246 residues searched)
+Passed MSV filter:                       553  (0.0493486); expected 224.1 (0.02)
+Passed bias filter:                      482  (0.0430127); expected 224.1 (0.02)
+Passed Vit filter:                       193  (0.0172229); expected 11.2 (0.001)
+Passed Fwd filter:                       112  (0.00999465); expected 0.1 (1e-05)
+Initial search space (Z):              11206  [actual number of targets]
+Domain search space  (domZ):             112  [number of targets reported over threshold]
+# CPU time: 0.10u 0.00s 00:00:00.10 Elapsed: 00:00:00.06
+# Mc/sec: 6394.37
+//
+[ok]

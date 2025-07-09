@@ -1,0 +1,259 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: User specified sequence set (Input:
+/mnt/c/int/reseek_bench/data/scop40.fa).
+           11,206 sequences; 1,948,246 total letters
+
+
+
+Query= motif
+
+Length=15
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+d1ve9a1                                                               32.0    2e-04
+d1c0pa1                                                               27.7    0.006
+d1seza1                                                               24.3    0.084
+d1b5qa1                                                               23.9    0.13 
+d2iida1                                                               23.1    0.22 
+d2dw4a2                                                               22.7    0.33 
+d2gmha1                                                               21.9    0.62 
+d1ldna1                                                               21.6    0.97 
+d1pj5a2                                                               21.2    1.1  
+d1q1ra2                                                               20.8    1.5  
+d1rp0a1                                                               20.0    3.0  
+d1kyqa1                                                               19.6    4.0  
+d3lada2                                                               19.6    4.2  
+d2gf3a1                                                               19.6    4.7  
+d2f5va1                                                               19.2    6.0  
+d1nhpa2                                                               19.2    6.1  
+d1ebfa1                                                               18.9    8.3  
+
+
+> d1ve9a1
+Length=247
+
+ Score = 32.0 bits (71),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   RVVVIGAGVIGLSTA  15
+           RVVVIGAGVIGLSTA
+Sbjct  2   RVVVIGAGVIGLSTA  16
+
+
+> d1c0pa1
+Length=268
+
+ Score = 27.7 bits (60),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 12/15 (80%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   RVVVIGAGVIGLSTA  15
+           RVVV+G+GVIGLS+A
+Sbjct  8   RVVVLGSGVIGLSSA  22
+
+
+> d1seza1
+Length=353
+
+ Score = 24.3 bits (51),  Expect = 0.084, Method: Composition-based stats.
+ Identities = 11/15 (73%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  1   RVVVIGAGVIGLSTA  15
+           RV VIGAGV GL+ A
+Sbjct  3   RVAVIGAGVSGLAAA  17
+
+
+> d1b5qa1
+Length=347
+
+ Score = 23.9 bits (50),  Expect = 0.13, Method: Composition-based stats.
+ Identities = 9/15 (60%), Positives = 13/15 (87%), Gaps = 0/15 (0%)
+
+Query  1   RVVVIGAGVIGLSTA  15
+           RV+V+GAG+ G+S A
+Sbjct  2   RVIVVGAGMSGISAA  16
+
+
+> d2iida1
+Length=370
+
+ Score = 23.1 bits (48),  Expect = 0.22, Method: Composition-based stats.
+ Identities = 9/14 (64%), Positives = 12/14 (86%), Gaps = 0/14 (0%)
+
+Query  2   VVVIGAGVIGLSTA  15
+           VV++GAG+ GLS A
+Sbjct  33  VVIVGAGMAGLSAA  46
+
+
+> d2dw4a2
+Length=425
+
+ Score = 22.7 bits (47),  Expect = 0.33, Method: Composition-based stats.
+ Identities = 8/15 (53%), Positives = 13/15 (87%), Gaps = 0/15 (0%)
+
+Query  1   RVVVIGAGVIGLSTA  15
+           +V++IG+GV GL+ A
+Sbjct  7   KVIIIGSGVSGLAAA  21
+
+
+> d2gmha1
+Length=380
+
+ Score = 21.9 bits (45),  Expect = 0.62, Method: Composition-based stats.
+ Identities = 9/14 (64%), Positives = 11/14 (79%), Gaps = 0/14 (0%)
+
+Query  2   VVVIGAGVIGLSTA  15
+           VV++GAG  GLS A
+Sbjct  35  VVIVGAGPAGLSAA  48
+
+
+> d1ldna1
+Length=148
+
+ Score = 21.6 bits (44),  Expect = 0.97, Method: Compositional matrix adjust.
+ Identities = 10/13 (77%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  1   RVVVIGAGVIGLS  13
+           RVVVIGAG +G S
+Sbjct  8   RVVVIGAGFVGAS  20
+
+
+> d1pj5a2
+Length=305
+
+ Score = 21.2 bits (43),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 13/15 (87%), Gaps = 0/15 (0%)
+
+Query  1   RVVVIGAGVIGLSTA  15
+           R+V+IGAG++G + A
+Sbjct  3   RIVIIGAGIVGTNLA  17
+
+
+> d1q1ra2
+Length=133
+
+ Score = 20.8 bits (42),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 10/15 (67%), Positives = 11/15 (73%), Gaps = 0/15 (0%)
+
+Query  1   RVVVIGAGVIGLSTA  15
+           R+VVIG G IGL  A
+Sbjct  37  RLVVIGGGYIGLEVA  51
+
+
+> d1rp0a1
+Length=278
+
+ Score = 20.0 bits (40),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 10/14 (71%), Positives = 11/14 (79%), Gaps = 0/14 (0%)
+
+Query  2   VVVIGAGVIGLSTA  15
+           VVV+GAG  GLS A
+Sbjct  36  VVVVGAGSAGLSAA  49
+
+
+> d1kyqa1
+Length=139
+
+ Score = 19.6 bits (39),  Expect = 4.0, Method: Composition-based stats.
+ Identities = 6/13 (46%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  1   RVVVIGAGVIGLS  13
+           R+++IG G +GL+
+Sbjct  15  RILLIGGGEVGLT  27
+
+
+> d3lada2
+Length=119
+
+ Score = 19.6 bits (39),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 9/10 (90%), Positives = 9/10 (90%), Gaps = 0/10 (0%)
+
+Query  4   VIGAGVIGLS  13
+           VIGAGVIGL 
+Sbjct  27  VIGAGVIGLE  36
+
+
+> d2gf3a1
+Length=281
+
+ Score = 19.6 bits (39),  Expect = 4.7, Method: Composition-based stats.
+ Identities = 6/14 (43%), Positives = 11/14 (79%), Gaps = 0/14 (0%)
+
+Query  2   VVVIGAGVIGLSTA  15
+           V+V+GAG +G++  
+Sbjct  6   VIVVGAGSMGMAAG  19
+
+
+> d2f5va1
+Length=379
+
+ Score = 19.2 bits (38),  Expect = 6.0, Method: Composition-based stats.
+ Identities = 7/14 (50%), Positives = 11/14 (79%), Gaps = 0/14 (0%)
+
+Query  2   VVVIGAGVIGLSTA  15
+           VV++G+G IG + A
+Sbjct  7   VVIVGSGPIGCTYA  20
+
+
+> d1nhpa2
+Length=123
+
+ Score = 19.2 bits (38),  Expect = 6.1, Method: Composition-based stats.
+ Identities = 9/14 (64%), Positives = 11/14 (79%), Gaps = 0/14 (0%)
+
+Query  2   VVVIGAGVIGLSTA  15
+           VVVIG+G IG+  A
+Sbjct  33  VVVIGSGYIGIEAA  46
+
+
+> d1ebfa1
+Length=168
+
+ Score = 18.9 bits (37),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 8/11 (73%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  1   RVVVIGAGVIG  11
+            V VIGAGV+G
+Sbjct  6   NVAVIGAGVVG  16
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.144    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 29223690
+
+
+  Database: User specified sequence set (Input:
+/mnt/c/int/reseek_bench/data/scop40.fa).
+    Posted date:  Unknown
+  Number of letters in database: 1,948,246
+  Number of sequences in database:  11,206
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

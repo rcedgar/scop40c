@@ -1,0 +1,16 @@
+hit	d.68.3	b.3.7	9.5e-09	build
+
+6.31e-08	d1kf6b1/a.1.2.1	d2fug91/d.58.1.5
+
+Query= d1jdqa_/d.68.3.3
+> d1xpna_/b.3.7.1
+Length=170
+
+ Score = 25.4 bits (54),  Expect = 9e-05, Method: Compositional matrix adjust.
+ Identities = 21/21 (100%), Positives = 21/21 (100%), Gaps = 0/21 (0%)
+
+Query  1   GSSHHHHHHSSGLVPRGSHMA  21
+           GSSHHHHHHSSGLVPRGSHMA
+Sbjct  1   GSSHHHHHHSSGLVPRGSHMA  21
+
+Structures different

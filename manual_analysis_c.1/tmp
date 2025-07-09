@@ -1,0 +1,8 @@
+#!/bin/bash -e
+
+for n in 1 2 3 4 5 6
+do
+	hmmsearch --tblout search.$n.tbl c.$n.hmm $c/int/reseek_bench/data/scop40_scopid.fa \
+		> search.$n.txt
+	ls -lh search.$n.tbl
+done

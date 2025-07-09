@@ -1,0 +1,439 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: User specified sequence set (Input:
+/mnt/c/int/reseek_bench/data/scop40.fa).
+           11,206 sequences; 1,948,246 total letters
+
+
+
+Query= motif
+
+Length=25
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+d1pj5a2                                                               52.4    2e-11
+d1b5qa1                                                               25.4    0.059
+d3ko8a_                                                               25.0    0.098
+d2f5va1                                                               24.6    0.11 
+d2b69a1                                                               23.5    0.30 
+d1ldna1                                                               23.5    0.37 
+d1ve9a1                                                               23.1    0.42 
+d1ebfa1                                                               22.7    0.59 
+d1c0pa1                                                               22.7    0.60 
+d1llda1                                                               22.7    0.69 
+d2dw4a2                                                               22.3    0.84 
+d2f1ka2                                                               21.9    1.2  
+d1eq2a_                                                               21.6    1.4  
+d3oaed_                                                               21.2    1.9  
+d1t6ja_                                                               21.2    2.1  
+d1seza1                                                               21.2    2.1  
+d2jfga1                                                               21.2    2.4  
+d1q1ra1                                                               20.8    2.7  
+d2ivda1                                                               20.4    3.8  
+d1cjca2                                                               20.4    4.1  
+d1lssa_                                                               20.4    4.5  
+d1vyra_                                                               20.4    4.6  
+d1uxja1                                                               20.4    4.9  
+d2iida1                                                               20.0    5.0  
+d1sc6a2                                                               20.0    5.3  
+d1nvmb1                                                               20.0    5.9  
+d1dqna_                                                               20.0    6.1  
+d1d7ya1                                                               20.0    6.2  
+d1dusa_                                                               19.6    7.6  
+d2zbxa_                                                               19.6    8.5  
+d1orra_                                                               19.6    8.5  
+d3lf6a_                                                               19.2    9.4  
+
+
+> d1pj5a2
+Length=305
+
+ Score = 52.4 bits (124),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 25/25 (100%), Positives = 25/25 (100%), Gaps = 0/25 (0%)
+
+Query  1   TPRIVIIGAGIVGTNLADELVTRGW  25
+           TPRIVIIGAGIVGTNLADELVTRGW
+Sbjct  1   TPRIVIIGAGIVGTNLADELVTRGW  25
+
+
+> d1b5qa1
+Length=347
+
+ Score = 25.4 bits (54),  Expect = 0.059, Method: Composition-based stats.
+ Identities = 9/23 (39%), Positives = 15/23 (65%), Gaps = 0/23 (0%)
+
+Query  2   PRIVIIGAGIVGTNLADELVTRG  24
+           PR++++GAG+ G + A  L   G
+Sbjct  1   PRVIVVGAGMSGISAAKRLSEAG  23
+
+
+> d3ko8a_
+Length=297
+
+ Score = 25.0 bits (53),  Expect = 0.098, Method: Compositional matrix adjust.
+ Identities = 12/24 (50%), Positives = 18/24 (75%), Gaps = 1/24 (4%)
+
+Query  3   RIVIIG-AGIVGTNLADELVTRGW  25
+           RIV+ G AG +G++L D+LV  G+
+Sbjct  2   RIVVTGGAGFIGSHLVDKLVELGY  25
+
+
+> d2f5va1
+Length=379
+
+ Score = 24.6 bits (52),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 10/22 (45%), Positives = 15/22 (68%), Gaps = 0/22 (0%)
+
+Query  4   IVIIGAGIVGTNLADELVTRGW  25
+           +VI+G+G +G   A ELV  G+
+Sbjct  7   VVIVGSGPIGCTYARELVGAGY  28
+
+
+> d2b69a1
+Length=312
+
+ Score = 23.5 bits (49),  Expect = 0.30, Method: Composition-based stats.
+ Identities = 12/23 (52%), Positives = 16/23 (70%), Gaps = 1/23 (4%)
+
+Query  3   RIVIIG-AGIVGTNLADELVTRG  24
+           RI+I G AG VG++L D+L   G
+Sbjct  3   RILITGGAGFVGSHLTDKLXXDG  25
+
+
+> d1ldna1
+Length=148
+
+ Score = 23.5 bits (49),  Expect = 0.37, Method: Composition-based stats.
+ Identities = 10/22 (45%), Positives = 15/22 (68%), Gaps = 0/22 (0%)
+
+Query  3   RIVIIGAGIVGTNLADELVTRG  24
+           R+V+IGAG VG +    L+ +G
+Sbjct  8   RVVVIGAGFVGASYVFALMNQG  29
+
+
+> d1ve9a1
+Length=247
+
+ Score = 23.1 bits (48),  Expect = 0.42, Method: Composition-based stats.
+ Identities = 8/15 (53%), Positives = 13/15 (87%), Gaps = 0/15 (0%)
+
+Query  3   RIVIIGAGIVGTNLA  17
+           R+V+IGAG++G + A
+Sbjct  2   RVVVIGAGVIGLSTA  16
+
+
+> d1ebfa1
+Length=168
+
+ Score = 22.7 bits (47),  Expect = 0.59, Method: Composition-based stats.
+ Identities = 8/18 (44%), Positives = 14/18 (78%), Gaps = 0/18 (0%)
+
+Query  4   IVIIGAGIVGTNLADELV  21
+           + +IGAG+VG+   D+L+
+Sbjct  7   VAVIGAGVVGSAFLDQLL  24
+
+
+> d1c0pa1
+Length=268
+
+ Score = 22.7 bits (47),  Expect = 0.60, Method: Composition-based stats.
+ Identities = 8/23 (35%), Positives = 17/23 (74%), Gaps = 0/23 (0%)
+
+Query  3   RIVIIGAGIVGTNLADELVTRGW  25
+           R+V++G+G++G + A  L  +G+
+Sbjct  8   RVVVLGSGVIGLSSALILARKGY  30
+
+
+> d1llda1
+Length=143
+
+ Score = 22.7 bits (47),  Expect = 0.69, Method: Compositional matrix adjust.
+ Identities = 10/22 (45%), Positives = 14/22 (64%), Gaps = 0/22 (0%)
+
+Query  3   RIVIIGAGIVGTNLADELVTRG  24
+           ++ +IGAG VG+ LA     RG
+Sbjct  3   KLAVIGAGAVGSTLAFAAAQRG  24
+
+
+> d2dw4a2
+Length=425
+
+ Score = 22.3 bits (46),  Expect = 0.84, Method: Composition-based stats.
+ Identities = 9/24 (38%), Positives = 16/24 (67%), Gaps = 0/24 (0%)
+
+Query  1   TPRIVIIGAGIVGTNLADELVTRG  24
+           T +++IIG+G+ G   A +L + G
+Sbjct  5   TGKVIIIGSGVSGLAAARQLQSFG  28
+
+
+> d2f1ka2
+Length=165
+
+ Score = 21.9 bits (45),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 9/22 (41%), Positives = 16/22 (73%), Gaps = 0/22 (0%)
+
+Query  3   RIVIIGAGIVGTNLADELVTRG  24
+           +I ++G G++G +LA +L  RG
+Sbjct  2   KIGVVGLGLIGASLAGDLRRRG  23
+
+
+> d1eq2a_
+Length=273
+
+ Score = 21.6 bits (44),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 9/21 (43%), Positives = 13/21 (62%), Gaps = 0/21 (0%)
+
+Query  4   IVIIGAGIVGTNLADELVTRG  24
+           IV  GAG +G+N+   L  +G
+Sbjct  3   IVTGGAGFIGSNIVKALNDKG  23
+
+
+> d3oaed_
+Length=421
+
+ Score = 21.2 bits (43),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 8/16 (50%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  9    AGIVGTNLADELVTRG  24
+            AG VG N+ D+L  +G
+Sbjct  245  AGTVGENVPDDLYIKG  260
+
+
+> d1t6ja_
+Length=647
+
+ Score = 21.2 bits (43),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 8/16 (50%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  8    GAGIVGTNLADELVTR  23
+            G+   G+NL DELV +
+Sbjct  492  GSAXTGSNLRDELVEK  507
+
+
+> d1seza1
+Length=353
+
+ Score = 21.2 bits (43),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 9/22 (41%), Positives = 13/22 (59%), Gaps = 0/22 (0%)
+
+Query  3   RIVIIGAGIVGTNLADELVTRG  24
+           R+ +IGAG+ G   A +L   G
+Sbjct  3   RVAVIGAGVSGLAAAYKLKIHG  24
+
+
+> d2jfga1
+Length=93
+
+ Score = 21.2 bits (43),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 9/22 (41%), Positives = 13/22 (59%), Gaps = 0/22 (0%)
+
+Query  3   RIVIIGAGIVGTNLADELVTRG  24
+            +VIIG G+ G +  D  + RG
+Sbjct  7   NVVIIGLGLTGLSCVDFFLARG  28
+
+
+> d1q1ra1
+Length=185
+
+ Score = 20.8 bits (42),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 9/22 (41%), Positives = 13/22 (59%), Gaps = 0/22 (0%)
+
+Query  4   IVIIGAGIVGTNLADELVTRGW  25
+           +VI+G G+ G  +A  L   GW
+Sbjct  6   VVIVGTGLAGVEVAFGLRASGW  27
+
+
+> d2ivda1
+Length=341
+
+ Score = 20.4 bits (41),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 8/21 (38%), Positives = 13/21 (62%), Gaps = 0/21 (0%)
+
+Query  4   IVIIGAGIVGTNLADELVTRG  24
+           + ++G GI G  +A  L +RG
+Sbjct  3   VAVVGGGISGLAVAHHLRSRG  23
+
+
+> d1cjca2
+Length=230
+
+ Score = 20.4 bits (41),  Expect = 4.1, Method: Composition-based stats.
+ Identities = 8/21 (38%), Positives = 13/21 (62%), Gaps = 0/21 (0%)
+
+Query  1   TPRIVIIGAGIVGTNLADELV  21
+           TP+I ++G+G  G   A  L+
+Sbjct  1   TPQICVVGSGPAGFYTAQHLL  21
+
+
+> d1lssa_
+Length=132
+
+ Score = 20.4 bits (41),  Expect = 4.5, Method: Composition-based stats.
+ Identities = 10/21 (48%), Positives = 12/21 (57%), Gaps = 0/21 (0%)
+
+Query  4   IVIIGAGIVGTNLADELVTRG  24
+           I+I G G VG  LA  L  +G
+Sbjct  3   IIIAGIGRVGYTLAKSLSEKG  23
+
+
+> d1vyra_
+Length=363
+
+ Score = 20.4 bits (41),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 9/20 (45%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  5    VIIGAGIVGTNLADELVTRG  24
+            VIIGAG      A++L+ +G
+Sbjct  295  VIIGAGAYTAEKAEDLIGKG  314
+
+
+> d1uxja1
+Length=133
+
+ Score = 20.4 bits (41),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 10/21 (48%), Positives = 13/21 (62%), Gaps = 0/21 (0%)
+
+Query  3   RIVIIGAGIVGTNLADELVTR  23
+           +I IIGAG VG+  A  L  +
+Sbjct  3   KISIIGAGFVGSTTAHWLAAK  23
+
+
+> d2iida1
+Length=370
+
+ Score = 20.0 bits (40),  Expect = 5.0, Method: Composition-based stats.
+ Identities = 9/21 (43%), Positives = 13/21 (62%), Gaps = 0/21 (0%)
+
+Query  4   IVIIGAGIVGTNLADELVTRG  24
+           +VI+GAG+ G + A  L   G
+Sbjct  33  VVIVGAGMAGLSAAYVLAGAG  53
+
+
+> d1sc6a2
+Length=132
+
+ Score = 20.0 bits (40),  Expect = 5.3, Method: Composition-based stats.
+ Identities = 8/16 (50%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  3   RIVIIGAGIVGTNLAD  18
+           ++V IGA  +GTN  D
+Sbjct  69  KLVAIGAFAIGTNQVD  84
+
+
+> d1nvmb1
+Length=157
+
+ Score = 20.0 bits (40),  Expect = 5.9, Method: Composition-based stats.
+ Identities = 7/14 (50%), Positives = 12/14 (86%), Gaps = 0/14 (0%)
+
+Query  3   RIVIIGAGIVGTNL  16
+           ++ IIG+G +GT+L
+Sbjct  6   KVAIIGSGNIGTDL  19
+
+
+> d1dqna_
+Length=230
+
+ Score = 20.0 bits (40),  Expect = 6.1, Method: Composition-based stats.
+ Identities = 7/18 (39%), Positives = 11/18 (61%), Gaps = 0/18 (0%)
+
+Query  8    GAGIVGTNLADELVTRGW  25
+            G+ ++G  L D  + RGW
+Sbjct  178  GSWLIGFGLDDNGLRRGW  195
+
+
+> d1d7ya1
+Length=183
+
+ Score = 20.0 bits (40),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 7/22 (32%), Positives = 13/22 (59%), Gaps = 0/22 (0%)
+
+Query  4   IVIIGAGIVGTNLADELVTRGW  25
+           +V++GAG+   +   EL   G+
+Sbjct  6   VVVLGAGLASVSFVAELRQAGY  27
+
+
+> d1dusa_
+Length=194
+
+ Score = 19.6 bits (39),  Expect = 7.6, Method: Composition-based stats.
+ Identities = 7/13 (54%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  8   GAGIVGTNLADEL  20
+           G G++G  LADE+
+Sbjct  62  GYGVIGIALADEV  74
+
+
+> d2zbxa_
+Length=399
+
+ Score = 19.6 bits (39),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 8/13 (62%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  8    GAGIVGTNLADEL  20
+            GAG+VG  +AD+L
+Sbjct  201  GAGLVGALVADQL  213
+
+
+> d1orra_
+Length=338
+
+ Score = 19.6 bits (39),  Expect = 8.5, Method: Composition-based stats.
+ Identities = 7/17 (41%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  8   GAGIVGTNLADELVTRG  24
+           G G +G+NLA   +++G
+Sbjct  8   GCGFLGSNLASFALSQG  24
+
+
+> d3lf6a_
+Length=154
+
+ Score = 19.2 bits (38),  Expect = 9.4, Method: Composition-based stats.
+ Identities = 7/18 (39%), Positives = 13/18 (72%), Gaps = 0/18 (0%)
+
+Query  6   IIGAGIVGTNLADELVTR  23
+           +I  G+V ++ AD ++TR
+Sbjct  33  LINDGMVVSDFADHVITR  50
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.145    0.450    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 48706150
+
+
+  Database: User specified sequence set (Input:
+/mnt/c/int/reseek_bench/data/scop40.fa).
+    Posted date:  Unknown
+  Number of letters in database: 1,948,246
+  Number of sequences in database:  11,206
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

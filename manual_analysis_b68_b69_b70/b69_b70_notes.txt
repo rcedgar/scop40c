@@ -1,0 +1,29 @@
+# ./blastp_fold_pair.bash b.69 b.70
+9.04e-05        d1nr0a1/b.69.4.1        d1xfda1/b.70.3.1
+
+Query= d1nr0a1_A
+
+Length=311
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+d1xfda1_A                                                             32.3    3e-04
+
+
+> d1xfda1_A
+Length=465
+
+ Score = 32.3 bits (72),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 21/56 (38%), Positives = 34/56 (61%), Gaps = 13/56 (23%)
+
+Query  205  ASTGGDGTIVLYNGVDGTKTGVFEDDSLK-NVAHSGSVFGLTWSPDGTKIASASAD  259
+             STG +G  V+YNG+      ++E++ LK ++AH        WSPDGT++A A+ +
+Sbjct  150  VSTGKEG--VIYNGLSD---WLYEEEILKTHIAH-------WWSPDGTRLAYAAIN  193
+
+ASTGGDGTIVLYNGVDGTKTGVFEDDSLKNVAHSGSVFGLTWSPDGTKIASASAD
+VSTGKEGVIYNGLSDWLYEEEILKTHIAHWWSPDGTRLAYAAIN
+
+ASTGGDGTIVLYNGVDGTKTGVFEDDSLK-NVAHSGSVFGLTWSPDGTKIASASAD  d1nr0a1/b.69
+ STG +G  V+YNG+      ++E++ LK ++AH        WSPDGT++A A+ +
+VSTGKEG--VIYNGLSD---WLYEEEILKTHIAH-------WWSPDGTRLAYAAIN  d1xfda1/b.70
+Expect = 3e-04, Identities = 21/56 (38%)
