@@ -16,3 +16,8 @@ python ../py/final_analysis4.py \
 	curated.lookup4.MAXE$MAXE.MAXP$MAXP \
 	$MAXE \
 	$MAXP
+
+mkdir -p ../final_analysis
+rm -f ../final_analysis/scop40c.lookup
+
+ln -s curated.lookup4.MAXE1e-4.MAXP1e-6 ../final_analysis/scop40c.lookup
