@@ -49,7 +49,7 @@ Domains with similarity in both structure and sequence which are classified to t
 
 Another example where clearly homologous domains are classified by SCOP to different folds.
 
-**Alpha hairpins assigned to different superfamilies**
+**Alpha hairpins assigned to different folds**
 
 [<img width=600 height=600 src="https://raw.githubusercontent.com/rcedgar/scop40c/refs/heads/main/manual_analysis_short_domains/alpha_hairpins_figure.svg">](short_domains)
 
