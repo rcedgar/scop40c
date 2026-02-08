@@ -53,7 +53,7 @@ Another example where clearly homologous domains are classified by SCOP to diffe
 
 [<img width=600 height=600 src="https://raw.githubusercontent.com/rcedgar/scop40c/refs/heads/main/manual_analysis_short_domains/alpha_hairpins_figure.svg">](short_domains)
 
-Short domains often have simple conformations, as illustrated by cartoon representations of domains d3bhpa_ and d1vp7a_ which are assigned to different folds by SCOP. In our opinion, these domains lack sufficiently distinctive structural features to distinguish homology from convergence. We therefore delete short domains from SCOP40c, choosing the somewhat arbitrary minimum of length of 80 residues.
+Short domains often have simple conformations, as illustrated by cartoon representations of domains d3bhpa_ and d1vp7a_ which are assigned to different folds by SCOP. In our opinion, these domains lack sufficiently distinctive structural features to distinguish homology from convergence. We therefore delete short domains from SCOP40c, choosing the somewhat arbitrary minimum length 80 residues.
 
 **The conservative reference paradox**
 
