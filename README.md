@@ -53,5 +53,5 @@ Another example where clearly homologous domains are classified by SCOP to diffe
 
 [<img width=600 height=600 src="https://raw.githubusercontent.com/rcedgar/scop40c/refs/heads/main/manual_analysis_short_domains/alpha_hairpins_figure.svg">](short_domains)
 
-Short domains often have simple conformations which are not sufficiently distinctive to determine homology, as illustrated by cartoon representations of domains d2a26a1, d1aqta1 and d1qoja_. These domains have similar alpha-hairpin conformations and are classified to superfamilies a.2.16, a.2.10 and a.2.9, respectively, by SCOP. In our opinion, the conformations of these domains are sufficiently similar that convergence and homology are both plausible explanations for the observed similarity. Superfamilies with median length <80, and all domains with length <80, are therefore deleted from SCOP40c, where the threshold of 80 a.a. is somewhat arbitrary while designed to strike a reasonable balance.
+Short domains often have simple conformations, as illustrated by cartoon representations of domains d3bhpa_ and d1vp7a_ which are assigned to different folds by SCOP. In our opinion, these domains lack sufficiently distinctive structural features to distinguish homology from convergence. We therefore delete short domains from SCOP40c, choosing the somewhat arbitrary minimum of length of 80 residues.
 
