@@ -4,10 +4,23 @@ For accuracy benchmarking of structure homology search and training of a null mo
 
 SCOP40c is a curated subset of SCOP40 v1.75 where, we believe, homology better corresponds to superfamilies. In our judgment, SCOP40c is preferable to SCOP40 for training a null model and for assessing homology detection accuracy.
 
-The subset is defined in this file:
+### Release 2026-10-16
+Update with bug fixes and improvements, number of domains reduced from 9,705 in final_analysis
+to 8,291 in release-2026-10-16.
+
+<pre>
+release-2026-10-16/
+   ├── scop40c-2026-10-16.lookup    # Lookup file (see Documentation below)
+   ├── scop40c-2026-10-16.cal       # Reseek .cal (C-alpha text file format)
+   └── scop40c-2026-10-16.bcb       # Reseek v3 .bcb compressed database format
+</pre>
+
+### Documentation
+The subset is defined in a lookup file:
 
 <pre>
 final_analysis/scop40c.lookup
+release-2026-10-16/scop40c-2026-10-16.lookup
 </pre>
 
 This is a tab-separated text file (165 kb) with one domain per line plus the SCOP family assignment, like this:
@@ -26,7 +39,7 @@ You can download the structure files for all of SCOP40 v1.75 like this:
 wget https://wwwuser.gwdg.de/~compbiol/foldseek/scop40pdb.tar.gz
 </pre>
 
-### Analysis pipline to reconstruct scop40c.lookup
+### Analysis pipline to reconstruct final_analysis/scop40c.lookup
 
 <pre>
 cd bash
