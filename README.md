@@ -10,10 +10,14 @@ to 8,291 in release-2026-10-16.
 
 <pre>
 release-2026-10-16/
-   ├── scop40c-2026-10-16.lookup    # Lookup file (see Documentation below)
-   ├── scop40c-2026-10-16.cal       # Reseek .cal (C-alpha text file format)
-   └── scop40c-2026-10-16.bcb       # Reseek v3 .bcb compressed database format
+   ├── scop40c-2026-10-16.lookup
+   ├── scop40c-2026-10-16.cal
+   ├── scop40c-2026-10-16.bcb
+   ├── scop40c_with_scopids-2026-10-16.cal
+   └── scop40c_with_scopids-2026-10-16.bcb
 </pre>
+
+File formats are lookup (see below), .cal (Reseek C-alpha text format) and .bcb (Reseek v3 compressed database format). Labels are domain ids e.g. `d1wb8a1` or `d1wb8a1/a.2.11.1` (with scopids).
 
 ### Documentation
 The subset is defined in a lookup file:
